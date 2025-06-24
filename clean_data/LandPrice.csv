@@ -1,4 +1,4 @@
-County,Acres,Class,LandPrice,assess,per_acre,Year,PIN
+Location,Acres,Class,LandPrice,assess,per_acre,year,PIN
 Accomack,20.5,5,69000,77900,3365.853659,2010,NA
 Accomack,24.34,5,250000,186800,10271.15859,2010,NA
 Accomack,24.61,5,75000,122300,3047.54165,2010,NA
