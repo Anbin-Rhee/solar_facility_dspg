@@ -1,0 +1,1867 @@
+"GEOID","NAME","totalE","totalM","occupiedE","occupiedM","vacantE","vacantM","Year"
+"51001","Accomack County, Virginia",20928,87,14085,488,6843,477,2010
+"51003","Albemarle County, Virginia",41357,289,37459,568,3898,501,2010
+"51005","Alleghany County, Virginia",8074,114,6964,225,1110,178,2010
+"51007","Amelia County, Virginia",5289,74,4901,196,388,173,2010
+"51009","Amherst County, Virginia",13884,284,12706,365,1178,278,2010
+"51011","Appomattox County, Virginia",6745,66,5976,204,769,191,2010
+"51013","Arlington County, Virginia",102156,605,91892,1246,10264,995,2010
+"51015","Augusta County, Virginia",30768,252,27909,486,2859,423,2010
+"51017","Bath County, Virginia",3113,260,2025,192,1088,208,2010
+"51019","Bedford County, Virginia",31410,88,27150,410,4260,399,2010
+"51021","Bland County, Virginia",3222,255,2580,217,642,154,2010
+"51023","Botetourt County, Virginia",14392,181,12918,279,1474,252,2010
+"51025","Brunswick County, Virginia",8102,229,6086,377,2016,318,2010
+"51027","Buchanan County, Virginia",11678,105,9123,305,2555,302,2010
+"51029","Buckingham County, Virginia",6439,1442,4859,1425,1580,269,2010
+"51031","Campbell County, Virginia",24422,92,22005,373,2417,358,2010
+"51033","Caroline County, Virginia",11454,109,10270,270,1184,252,2010
+"51035","Carroll County, Virginia",16356,79,12818,428,3538,410,2010
+"51036","Charles City County, Virginia",3192,19,2713,112,479,108,2010
+"51037","Charlotte County, Virginia",6222,57,4415,276,1807,271,2010
+"51041","Chesterfield County, Virginia",119664,273,112404,743,7260,666,2010
+"51043","Clarke County, Virginia",6185,62,5535,181,650,164,2010
+"51045","Craig County, Virginia",2429,229,1989,172,440,143,2010
+"51047","Culpeper County, Virginia",17446,163,15834,394,1612,338,2010
+"51049","Cumberland County, Virginia",4553,23,3969,195,584,194,2010
+"51051","Dickenson County, Virginia",7648,62,6170,232,1478,227,2010
+"51053","Dinwiddie County, Virginia",11186,122,9800,254,1386,232,2010
+"51057","Essex County, Virginia",5662,60,4466,242,1196,238,2010
+"51059","Fairfax County, Virginia",404109,329,381768,1481,22341,1391,2010
+"51061","Fauquier County, Virginia",25408,95,22369,513,3039,513,2010
+"51063","Floyd County, Virginia",7634,30,6334,250,1300,241,2010
+"51065","Fluvanna County, Virginia",10215,64,9128,269,1087,264,2010
+"51067","Franklin County, Virginia",28475,202,23355,462,5120,426,2010
+"51069","Frederick County, Virginia",30472,313,28558,450,1914,299,2010
+"51071","Giles County, Virginia",8273,95,7100,255,1173,235,2010
+"51073","Gloucester County, Virginia",15706,133,14014,342,1692,301,2010
+"51075","Goochland County, Virginia",7546,995,6831,957,715,196,2010
+"51077","Grayson County, Virginia",9215,61,6858,243,2357,239,2010
+"51079","Greene County, Virginia",7342,143,6709,237,633,190,2010
+"51081","Greensville County, Virginia",4073,63,3385,176,688,168,2010
+"51083","Halifax County, Virginia",17883,82,14650,435,3233,410,2010
+"51085","Hanover County, Virginia",37779,324,36114,463,1665,307,2010
+"51087","Henrico County, Virginia",130674,388,121767,934,8907,809,2010
+"51089","Henry County, Virginia",26331,87,22909,479,3422,472,2010
+"51091","Highland County, Virginia",1940,127,1130,96,810,91,2010
+"51093","Isle of Wight County, Virginia",14411,88,13553,223,858,207,2010
+"51095","James City County, Virginia",28820,135,25851,415,2969,391,2010
+"51097","King and Queen County, Virginia",3352,12,2815,183,537,182,2010
+"51099","King George County, Virginia",9221,211,8194,360,1027,280,2010
+"51101","King William County, Virginia",6327,40,5909,167,418,164,2010
+"51103","Lancaster County, Virginia",7279,126,5421,224,1858,248,2010
+"51105","Lee County, Virginia",11686,66,9836,291,1850,283,2010
+"51107","Loudoun County, Virginia",104906,225,95330,902,9576,857,2010
+"51109","Louisa County, Virginia",15742,28,13253,368,2489,372,2010
+"51111","Lunenburg County, Virginia",5907,56,4515,234,1392,231,2010
+"51113","Madison County, Virginia",5898,38,5213,187,685,186,2010
+"51115","Mathews County, Virginia",5651,54,3773,282,1878,271,2010
+"51117","Mecklenburg County, Virginia",18513,136,12594,409,5919,419,2010
+"51119","Middlesex County, Virginia",7065,106,4303,277,2762,262,2010
+"51121","Montgomery County, Virginia",37455,502,34369,739,3086,460,2010
+"51125","Nelson County, Virginia",9784,54,6534,281,3250,284,2010
+"51127","New Kent County, Virginia",6984,155,6513,231,471,175,2010
+"51131","Northampton County, Virginia",7296,75,5088,275,2208,261,2010
+"51133","Northumberland County, Virginia",8944,27,5478,310,3466,308,2010
+"51135","Nottoway County, Virginia",6618,100,5607,253,1011,238,2010
+"51137","Orange County, Virginia",14364,133,12669,331,1695,330,2010
+"51139","Page County, Virginia",11500,96,9629,283,1871,272,2010
+"51141","Patrick County, Virginia",10110,76,7344,323,2766,324,2010
+"51143","Pittsylvania County, Virginia",30973,175,26563,500,4410,447,2010
+"51145","Powhatan County, Virginia",9026,991,8637,978,389,162,2010
+"51147","Prince Edward County, Virginia",8931,267,7314,435,1617,309,2010
+"51149","Prince George County, Virginia",11960,450,10474,508,1486,273,2010
+"51153","Prince William County, Virginia",133878,629,124879,1133,8999,848,2010
+"51155","Pulaski County, Virginia",17135,144,14898,392,2237,373,2010
+"51157","Rappahannock County, Virginia",3771,23,3163,171,608,169,2010
+"51159","Richmond County, Virginia",3803,355,3007,399,796,192,2010
+"51161","Roanoke County, Virginia",39661,272,37833,472,1828,358,2010
+"51163","Rockbridge County, Virginia",11003,44,9372,240,1631,240,2010
+"51165","Rockingham County, Virginia",32796,260,29701,445,3095,350,2010
+"51167","Russell County, Virginia",13511,36,11529,299,1982,299,2010
+"51169","Scott County, Virginia",11885,83,9610,316,2275,306,2010
+"51171","Shenandoah County, Virginia",20416,78,17316,397,3100,385,2010
+"51173","Smyth County, Virginia",15439,148,12992,371,2447,307,2010
+"51175","Southampton County, Virginia",7429,131,6571,213,858,176,2010
+"51177","Spotsylvania County, Virginia",44644,348,41009,569,3635,473,2010
+"51179","Stafford County, Virginia",43093,575,40183,754,2910,422,2010
+"51181","Surry County, Virginia",3449,23,2481,197,968,200,2010
+"51183","Sussex County, Virginia",4671,119,3796,210,875,151,2010
+"51185","Tazewell County, Virginia",20876,133,18015,367,2861,349,2010
+"51187","Warren County, Virginia",15755,108,14160,328,1595,296,2010
+"51191","Washington County, Virginia",25337,243,22711,468,2626,404,2010
+"51193","Westmoreland County, Virginia",10430,21,7135,316,3295,320,2010
+"51195","Wise County, Virginia",18009,166,15750,394,2259,332,2010
+"51197","Wythe County, Virginia",13886,90,11665,403,2221,389,2010
+"51199","York County, Virginia",26053,624,24002,799,2051,373,2010
+"51510","Alexandria city, Virginia",71537,378,63738,831,7799,694,2010
+"51515","Bedford city, Virginia",3056,184,2782,166,274,144,2010
+"51520","Bristol city, Virginia",8817,139,7948,275,869,258,2010
+"51530","Buena Vista city, Virginia",2906,63,2693,144,213,125,2010
+"51540","Charlottesville city, Virginia",18943,907,17290,974,1653,288,2010
+"51550","Chesapeake city, Virginia",82132,236,78778,564,3354,527,2010
+"51570","Colonial Heights city, Virginia",7801,50,7075,226,726,208,2010
+"51580","Covington city, Virginia",3098,19,2641,139,457,141,2010
+"51590","Danville city, Virginia",22587,315,19448,511,3139,351,2010
+"51595","Emporia city, Virginia",2649,173,2406,172,243,100,2010
+"51600","Fairfax city, Virginia",8670,95,8524,130,146,87,2010
+"51610","Falls Church city, Virginia",5342,20,4706,165,636,164,2010
+"51620","Franklin city, Virginia",3908,55,3524,166,384,149,2010
+"51630","Fredericksburg city, Virginia",10167,291,9206,389,961,241,2010
+"51640","Galax city, Virginia",3639,483,3326,472,313,138,2010
+"51650","Hampton city, Virginia",59233,286,53283,659,5950,609,2010
+"51660","Harrisonburg city, Virginia",16502,506,14965,589,1537,330,2010
+"51670","Hopewell city, Virginia",9986,60,8914,250,1072,238,2010
+"51678","Lexington city, Virginia",2302,384,2108,387,194,105,2010
+"51680","Lynchburg city, Virginia",31334,338,27875,617,3459,484,2010
+"51683","Manassas city, Virginia",13024,92,11732,326,1292,302,2010
+"51685","Manassas Park city, Virginia",4806,23,4206,168,600,173,2010
+"51690","Martinsville city, Virginia",7226,101,5922,237,1304,205,2010
+"51700","Newport News city, Virginia",76219,677,70653,994,5566,730,2010
+"51710","Norfolk city, Virginia",94995,1070,85061,1295,9934,671,2010
+"51720","Norton city, Virginia",1940,178,1764,168,176,117,2010
+"51730","Petersburg city, Virginia",16149,157,12305,365,3844,359,2010
+"51735","Poquoson city, Virginia",4685,18,4524,88,161,88,2010
+"51740","Portsmouth city, Virginia",41015,778,37325,869,3690,454,2010
+"51750","Radford city, Virginia",6424,282,5667,358,757,232,2010
+"51760","Richmond city, Virginia",97325,615,83498,1080,13827,924,2010
+"51770","Roanoke city, Virginia",47260,269,42833,618,4427,527,2010
+"51775","Salem city, Virginia",10795,237,9890,343,905,237,2010
+"51790","Staunton city, Virginia",11530,389,10408,442,1122,222,2010
+"51800","Suffolk city, Virginia",32404,92,30126,431,2278,415,2010
+"51810","Virginia Beach city, Virginia",176199,1114,163944,1354,12255,766,2010
+"51820","Waynesboro city, Virginia",9631,155,8546,340,1085,292,2010
+"51830","Williamsburg city, Virginia",5007,327,4069,370,938,238,2010
+"51840","Winchester city, Virginia",11792,654,10221,787,1571,328,2010
+"51095","James City County, Virginia",29434,85,26356,452,3078,457,2011
+"51167","Russell County, Virginia",13499,34,11302,373,2197,374,2011
+"51173","Smyth County, Virginia",15438,127,12681,311,2757,296,2011
+"51515","Bedford city, Virginia",3013,223,2776,192,237,138,2011
+"51678","Lexington city, Virginia",1945,836,1727,838,218,106,2011
+"51031","Campbell County, Virginia",24619,77,21610,422,3009,416,2011
+"51089","Henry County, Virginia",26285,97,22871,461,3414,452,2011
+"51099","King George County, Virginia",9382,94,8200,303,1182,310,2011
+"51103","Lancaster County, Virginia",7353,56,5570,217,1783,219,2011
+"51105","Lee County, Virginia",11724,285,10001,370,1723,259,2011
+"51115","Mathews County, Virginia",5657,33,3788,276,1869,275,2011
+"51147","Prince Edward County, Virginia",9065,404,7334,493,1731,310,2011
+"51149","Prince George County, Virginia",12015,568,10725,623,1290,285,2011
+"51165","Rockingham County, Virginia",33306,140,29711,435,3595,402,2011
+"51169","Scott County, Virginia",11907,91,9701,282,2206,278,2011
+"51181","Surry County, Virginia",3443,18,2547,169,896,171,2011
+"51011","Appomattox County, Virginia",6841,28,5857,187,984,186,2011
+"51067","Franklin County, Virginia",28973,228,23581,512,5392,431,2011
+"51117","Mecklenburg County, Virginia",18564,159,12547,403,6017,375,2011
+"51121","Montgomery County, Virginia",38057,544,34591,804,3466,498,2011
+"51015","Augusta County, Virginia",31010,376,28021,552,2989,455,2011
+"51049","Cumberland County, Virginia",4595,22,3976,204,619,203,2011
+"51075","Goochland County, Virginia",8541,202,7822,251,719,173,2011
+"51083","Halifax County, Virginia",17959,137,14533,390,3426,380,2011
+"51113","Madison County, Virginia",5915,30,5185,189,730,188,2011
+"51153","Prince William County, Virginia",135777,272,127170,872,8607,741,2011
+"51175","Southampton County, Virginia",7452,286,6618,364,834,202,2011
+"51025","Brunswick County, Virginia",8144,425,6126,550,2018,328,2011
+"51033","Caroline County, Virginia",11627,115,10476,264,1151,242,2011
+"51131","Northampton County, Virginia",7298,62,5195,295,2103,281,2011
+"51141","Patrick County, Virginia",10088,39,7191,369,2897,364,2011
+"51163","Rockbridge County, Virginia",11072,81,9291,264,1781,276,2011
+"51171","Shenandoah County, Virginia",20710,65,17152,379,3558,389,2011
+"51720","Norton city, Virginia",1929,180,1750,167,179,100,2011
+"51790","Staunton city, Virginia",11636,157,10517,299,1119,252,2011
+"51065","Fluvanna County, Virginia",10312,202,9315,335,997,262,2011
+"51007","Amelia County, Virginia",5338,39,5001,190,337,182,2011
+"51750","Radford city, Virginia",6422,231,5644,304,778,215,2011
+"51840","Winchester city, Virginia",11845,161,10147,338,1698,307,2011
+"51001","Accomack County, Virginia",20965,207,13757,506,7208,465,2011
+"51045","Craig County, Virginia",2497,223,1976,181,521,182,2011
+"51063","Floyd County, Virginia",7725,41,6148,282,1577,273,2011
+"51071","Giles County, Virginia",8297,52,7054,208,1243,205,2011
+"51077","Grayson County, Virginia",9172,45,6760,357,2412,347,2011
+"51135","Nottoway County, Virginia",6631,88,5571,229,1060,225,2011
+"51157","Rappahannock County, Virginia",3836,16,3310,158,526,161,2011
+"51036","Charles City County, Virginia",3209,24,2747,111,462,104,2011
+"51047","Culpeper County, Virginia",17646,226,15750,373,1896,341,2011
+"51053","Dinwiddie County, Virginia",11327,95,9598,246,1729,234,2011
+"51079","Greene County, Virginia",7439,51,6802,230,637,215,2011
+"51085","Hanover County, Virginia",38118,146,36489,268,1629,241,2011
+"51111","Lunenburg County, Virginia",5921,245,4471,335,1450,199,2011
+"51137","Orange County, Virginia",14520,71,12614,374,1906,366,2011
+"51595","Emporia city, Virginia",2728,180,2525,170,203,95,2011
+"51197","Wythe County, Virginia",13999,56,11610,393,2389,388,2011
+"51570","Colonial Heights city, Virginia",7821,43,7136,205,685,204,2011
+"51660","Harrisonburg city, Virginia",16984,366,15179,454,1805,340,2011
+"51021","Bland County, Virginia",3405,250,2663,237,742,133,2011
+"51023","Botetourt County, Virginia",14494,66,12789,294,1705,288,2011
+"51029","Buckingham County, Virginia",7181,479,5699,605,1482,307,2011
+"51520","Bristol city, Virginia",8823,75,7873,235,950,241,2011
+"51580","Covington city, Virginia",3081,21,2546,139,535,139,2011
+"51830","Williamsburg city, Virginia",5096,272,4206,378,890,225,2011
+"51810","Virginia Beach city, Virginia",177278,514,164041,1000,13237,873,2011
+"51035","Carroll County, Virginia",16483,141,12556,491,3927,459,2011
+"51191","Washington County, Virginia",25480,171,23064,461,2416,400,2011
+"51193","Westmoreland County, Virginia",10553,68,7077,399,3476,393,2011
+"51139","Page County, Virginia",11552,50,9538,280,2014,274,2011
+"51155","Pulaski County, Virginia",17205,140,14884,447,2321,420,2011
+"51510","Alexandria city, Virginia",72059,231,64217,773,7842,750,2011
+"51590","Danville city, Virginia",22493,182,18938,470,3555,425,2011
+"51650","Hampton city, Virginia",59479,228,52667,759,6812,704,2011
+"51009","Amherst County, Virginia",13935,127,12693,285,1242,245,2011
+"51017","Bath County, Virginia",3014,314,1926,206,1088,241,2011
+"51027","Buchanan County, Virginia",11627,178,9135,341,2492,282,2011
+"51700","Newport News city, Virginia",76235,499,69977,796,6258,631,2011
+"51179","Stafford County, Virginia",43627,219,40691,519,2936,453,2011
+"51680","Lynchburg city, Virginia",31706,307,28513,483,3193,426,2011
+"51760","Richmond city, Virginia",97929,721,83615,1175,14314,965,2011
+"51690","Martinsville city, Virginia",7221,95,5958,251,1263,216,2011
+"51057","Essex County, Virginia",5717,34,4420,232,1297,228,2011
+"51185","Tazewell County, Virginia",20842,112,18019,413,2823,401,2011
+"51530","Buena Vista city, Virginia",2925,58,2681,130,244,116,2011
+"51685","Manassas Park city, Virginia",4872,35,4238,200,634,202,2011
+"51730","Petersburg city, Virginia",16267,80,12179,381,4088,373,2011
+"51183","Sussex County, Virginia",4686,283,3600,356,1086,177,2011
+"51600","Fairfax city, Virginia",8677,61,8470,131,207,102,2011
+"51683","Manassas city, Virginia",13087,33,11872,301,1215,303,2011
+"51770","Roanoke city, Virginia",47358,173,42892,551,4466,503,2011
+"51800","Suffolk city, Virginia",32806,83,30305,497,2501,493,2011
+"51037","Charlotte County, Virginia",6263,41,4534,287,1729,283,2011
+"51041","Chesterfield County, Virginia",121264,318,112895,739,8369,733,2011
+"51081","Greensville County, Virginia",4086,473,3264,459,822,182,2011
+"51093","Isle of Wight County, Virginia",14558,47,13528,234,1030,229,2011
+"51620","Franklin city, Virginia",3910,51,3472,173,438,172,2011
+"51540","Charlottesville city, Virginia",19088,288,17387,419,1701,287,2011
+"51087","Henrico County, Virginia",131897,279,122919,848,8978,772,2011
+"51101","King William County, Virginia",6448,36,5985,154,463,169,2011
+"51109","Louisa County, Virginia",16075,50,13213,350,2862,344,2011
+"51119","Middlesex County, Virginia",7103,98,4339,274,2764,258,2011
+"51159","Richmond County, Virginia",3828,203,2909,273,919,171,2011
+"51177","Spotsylvania County, Virginia",45044,70,41282,441,3762,440,2011
+"51043","Clarke County, Virginia",6220,66,5564,169,656,172,2011
+"51097","King and Queen County, Virginia",3384,14,2891,155,493,157,2011
+"51127","New Kent County, Virginia",7161,76,6552,208,609,208,2011
+"51051","Dickenson County, Virginia",7608,57,6183,258,1425,243,2011
+"51107","Loudoun County, Virginia",107556,109,99761,874,7795,868,2011
+"51161","Roanoke County, Virginia",39840,232,37975,400,1865,341,2011
+"51091","Highland County, Virginia",1880,88,1110,83,770,79,2011
+"51073","Gloucester County, Virginia",15789,53,13892,363,1897,364,2011
+"51145","Powhatan County, Virginia",9944,268,9468,303,476,190,2011
+"51061","Fauquier County, Virginia",25592,116,22888,404,2704,423,2011
+"51550","Chesapeake city, Virginia",82763,333,78898,523,3865,479,2011
+"51003","Albemarle County, Virginia",41824,384,37398,579,4426,442,2011
+"51019","Bedford County, Virginia",31736,59,26979,422,4757,418,2011
+"51195","Wise County, Virginia",17972,337,15477,488,2495,377,2011
+"51740","Portsmouth city, Virginia",40862,733,36899,840,3963,487,2011
+"51005","Alleghany County, Virginia",8066,66,6935,220,1131,206,2011
+"51640","Galax city, Virginia",3940,294,3525,272,415,193,2011
+"51133","Northumberland County, Virginia",8973,23,5569,357,3404,358,2011
+"51187","Warren County, Virginia",15898,70,14203,331,1695,316,2011
+"51630","Fredericksburg city, Virginia",10360,241,9341,416,1019,290,2011
+"51013","Arlington County, Virginia",104100,218,92436,1020,11664,990,2011
+"51670","Hopewell city, Virginia",10066,59,8859,307,1207,300,2011
+"51069","Frederick County, Virginia",31036,176,28655,435,2381,438,2011
+"51199","York County, Virginia",26490,152,24259,396,2231,356,2011
+"51125","Nelson County, Virginia",9859,55,6539,349,3320,342,2011
+"51143","Pittsylvania County, Virginia",31170,94,26325,481,4845,468,2011
+"51610","Falls Church city, Virginia",5421,30,4807,182,614,175,2011
+"51735","Poquoson city, Virginia",4707,35,4525,97,182,94,2011
+"51820","Waynesboro city, Virginia",9690,48,8750,220,940,223,2011
+"51775","Salem city, Virginia",10814,166,9944,260,870,256,2011
+"51710","Norfolk city, Virginia",95001,688,85076,976,9925,723,2011
+"51059","Fairfax County, Virginia",406394,367,385570,1449,20824,1432,2011
+"51095","James City County, Virginia",29881,76,26579,507,3302,504,2012
+"51167","Russell County, Virginia",13493,34,11140,384,2353,381,2012
+"51173","Smyth County, Virginia",15432,88,12567,365,2865,358,2012
+"51515","Bedford city, Virginia",3057,214,2723,164,334,191,2012
+"51678","Lexington city, Virginia",1982,860,1801,856,181,98,2012
+"51031","Campbell County, Virginia",24761,75,21581,497,3180,496,2012
+"51089","Henry County, Virginia",26282,93,22734,493,3548,479,2012
+"51099","King George County, Virginia",9465,89,8166,306,1299,276,2012
+"51103","Lancaster County, Virginia",7418,47,5395,272,2023,269,2012
+"51105","Lee County, Virginia",11732,228,9841,354,1891,292,2012
+"51115","Mathews County, Virginia",5675,27,3815,269,1860,269,2012
+"51147","Prince Edward County, Virginia",9127,317,7227,452,1900,284,2012
+"51149","Prince George County, Virginia",12059,205,10811,340,1248,282,2012
+"51165","Rockingham County, Virginia",33578,128,29616,408,3962,377,2012
+"51169","Scott County, Virginia",11908,80,9610,263,2298,256,2012
+"51181","Surry County, Virginia",3466,21,2572,156,894,156,2012
+"51011","Appomattox County, Virginia",6903,25,5902,197,1001,192,2012
+"51067","Franklin County, Virginia",29171,178,23552,452,5619,436,2012
+"51117","Mecklenburg County, Virginia",18606,124,12642,410,5964,380,2012
+"51121","Montgomery County, Virginia",38396,387,34739,723,3657,608,2012
+"51015","Augusta County, Virginia",31249,224,28297,396,2952,365,2012
+"51049","Cumberland County, Virginia",4621,18,4016,177,605,176,2012
+"51075","Goochland County, Virginia",8600,172,7909,258,691,212,2012
+"51083","Halifax County, Virginia",18006,93,14685,408,3321,415,2012
+"51113","Madison County, Virginia",5943,42,5069,192,874,198,2012
+"51153","Prince William County, Virginia",137592,268,129643,853,7949,810,2012
+"51175","Southampton County, Virginia",7479,159,6532,263,947,212,2012
+"51025","Brunswick County, Virginia",8151,207,6029,390,2122,341,2012
+"51033","Caroline County, Virginia",11734,114,10649,277,1085,278,2012
+"51131","Northampton County, Virginia",7307,49,5025,286,2282,292,2012
+"51141","Patrick County, Virginia",10094,59,7519,328,2575,314,2012
+"51163","Rockbridge County, Virginia",11137,43,9093,307,2044,304,2012
+"51171","Shenandoah County, Virginia",20817,42,17261,437,3556,434,2012
+"51720","Norton city, Virginia",1860,184,1701,165,159,88,2012
+"51550","Chesapeake city, Virginia",83541,324,79380,614,4161,559,2012
+"51003","Albemarle County, Virginia",42332,515,37549,765,4783,516,2012
+"51019","Bedford County, Virginia",31991,61,27017,484,4974,476,2012
+"51195","Wise County, Virginia",17935,138,15673,315,2262,292,2012
+"51740","Portsmouth city, Virginia",40888,579,36788,731,4100,509,2012
+"51005","Alleghany County, Virginia",8064,50,6851,211,1213,203,2012
+"51640","Galax city, Virginia",3836,279,3354,260,482,159,2012
+"51790","Staunton city, Virginia",11704,118,10613,277,1091,262,2012
+"51065","Fluvanna County, Virginia",10406,104,9419,258,987,240,2012
+"51007","Amelia County, Virginia",5369,40,4777,233,592,226,2012
+"51750","Radford city, Virginia",6443,209,5624,326,819,247,2012
+"51840","Winchester city, Virginia",11866,157,10454,327,1412,299,2012
+"51001","Accomack County, Virginia",21017,231,14286,556,6731,498,2012
+"51045","Craig County, Virginia",2730,243,2073,174,657,193,2012
+"51063","Floyd County, Virginia",7783,51,6076,313,1707,319,2012
+"51071","Giles County, Virginia",8301,54,7126,247,1175,236,2012
+"51077","Grayson County, Virginia",9183,49,6807,318,2376,313,2012
+"51135","Nottoway County, Virginia",6661,83,5504,230,1157,213,2012
+"51157","Rappahannock County, Virginia",3872,23,3276,185,596,187,2012
+"51036","Charles City County, Virginia",3243,26,2777,106,466,108,2012
+"51047","Culpeper County, Virginia",17762,130,15826,421,1936,402,2012
+"51053","Dinwiddie County, Virginia",11396,78,9788,266,1608,244,2012
+"51079","Greene County, Virginia",7585,38,6884,233,701,232,2012
+"51085","Hanover County, Virginia",38441,164,36444,451,1997,414,2012
+"51111","Lunenburg County, Virginia",5939,229,4601,360,1338,226,2012
+"51137","Orange County, Virginia",14614,63,12617,348,1997,339,2012
+"51595","Emporia city, Virginia",2754,195,2486,193,268,100,2012
+"51133","Northumberland County, Virginia",9011,33,5557,343,3454,343,2012
+"51187","Warren County, Virginia",15955,148,14349,301,1606,367,2012
+"51630","Fredericksburg city, Virginia",10603,299,9705,376,898,252,2012
+"51013","Arlington County, Virginia",105395,204,92992,935,12403,952,2012
+"51670","Hopewell city, Virginia",10116,33,8686,325,1430,325,2012
+"51069","Frederick County, Virginia",31341,141,29146,362,2195,330,2012
+"51199","York County, Virginia",26625,140,24008,365,2617,354,2012
+"51125","Nelson County, Virginia",9934,53,6415,347,3519,347,2012
+"51143","Pittsylvania County, Virginia",31227,85,26249,506,4978,503,2012
+"51610","Falls Church city, Virginia",5449,20,4857,186,592,186,2012
+"51735","Poquoson city, Virginia",4731,27,4592,104,139,92,2012
+"51820","Waynesboro city, Virginia",9710,47,8734,276,976,265,2012
+"51775","Salem city, Virginia",10820,132,9953,273,867,261,2012
+"51710","Norfolk city, Virginia",95093,888,85247,1296,9846,792,2012
+"51059","Fairfax County, Virginia",407349,465,388452,1334,18897,1370,2012
+"51197","Wythe County, Virginia",14043,71,11610,433,2433,430,2012
+"51570","Colonial Heights city, Virginia",7815,35,7004,198,811,190,2012
+"51660","Harrisonburg city, Virginia",17313,233,15334,400,1979,327,2012
+"51021","Bland County, Virginia",3267,134,2464,184,803,142,2012
+"51023","Botetourt County, Virginia",14555,71,12822,297,1733,287,2012
+"51029","Buckingham County, Virginia",7220,395,5728,520,1492,316,2012
+"51520","Bristol city, Virginia",8821,80,7757,277,1064,268,2012
+"51580","Covington city, Virginia",3066,27,2584,118,482,111,2012
+"51830","Williamsburg city, Virginia",5161,250,4281,335,880,223,2012
+"51810","Virginia Beach city, Virginia",177945,509,164226,1149,13719,975,2012
+"51035","Carroll County, Virginia",16539,89,12622,389,3917,374,2012
+"51191","Washington County, Virginia",25574,111,22913,469,2661,440,2012
+"51193","Westmoreland County, Virginia",10625,32,7077,393,3548,396,2012
+"51139","Page County, Virginia",11577,55,9469,293,2108,290,2012
+"51155","Pulaski County, Virginia",17225,201,14874,453,2351,376,2012
+"51510","Alexandria city, Virginia",72460,159,64729,743,7731,715,2012
+"51590","Danville city, Virginia",22488,208,18986,480,3502,427,2012
+"51650","Hampton city, Virginia",59601,176,52547,689,7054,639,2012
+"51009","Amherst County, Virginia",13972,163,12683,333,1289,281,2012
+"51017","Bath County, Virginia",3056,298,2008,213,1048,220,2012
+"51027","Buchanan County, Virginia",11605,94,9384,319,2221,308,2012
+"51700","Newport News city, Virginia",76479,505,69467,753,7012,586,2012
+"51179","Stafford County, Virginia",44124,293,41204,515,2920,408,2012
+"51680","Lynchburg city, Virginia",31900,257,28466,494,3434,438,2012
+"51760","Richmond city, Virginia",98318,602,83775,886,14543,714,2012
+"51690","Martinsville city, Virginia",7210,63,6005,254,1205,246,2012
+"51057","Essex County, Virginia",5763,39,4351,197,1412,198,2012
+"51185","Tazewell County, Virginia",20802,101,18136,349,2666,325,2012
+"51530","Buena Vista city, Virginia",2931,46,2732,114,199,106,2012
+"51685","Manassas Park city, Virginia",4873,15,4277,191,596,193,2012
+"51730","Petersburg city, Virginia",16325,69,12236,415,4089,411,2012
+"51183","Sussex County, Virginia",4701,259,3639,296,1062,140,2012
+"51600","Fairfax city, Virginia",8690,50,8519,112,171,101,2012
+"51683","Manassas city, Virginia",13128,35,12011,288,1117,275,2012
+"51770","Roanoke city, Virginia",47320,156,42644,589,4676,595,2012
+"51800","Suffolk city, Virginia",33080,83,30502,400,2578,389,2012
+"51037","Charlotte County, Virginia",6264,52,4803,231,1461,228,2012
+"51041","Chesterfield County, Virginia",122413,219,113090,845,9323,815,2012
+"51081","Greensville County, Virginia",4098,514,3310,576,788,168,2012
+"51093","Isle of Wight County, Virginia",14709,44,13585,249,1124,246,2012
+"51620","Franklin city, Virginia",3911,37,3532,152,379,148,2012
+"51540","Charlottesville city, Virginia",19211,210,17319,387,1892,305,2012
+"51087","Henrico County, Virginia",132613,169,123392,803,9221,780,2012
+"51101","King William County, Virginia",6507,29,6035,173,472,170,2012
+"51109","Louisa County, Virginia",16293,53,13023,391,3270,390,2012
+"51119","Middlesex County, Virginia",7146,51,4393,250,2753,244,2012
+"51159","Richmond County, Virginia",3843,172,2754,252,1089,183,2012
+"51177","Spotsylvania County, Virginia",45276,84,41380,545,3896,552,2012
+"51043","Clarke County, Virginia",6226,43,5580,189,646,185,2012
+"51097","King and Queen County, Virginia",3415,16,2924,184,491,183,2012
+"51127","New Kent County, Virginia",7318,63,6719,221,599,206,2012
+"51051","Dickenson County, Virginia",7590,51,6404,168,1186,165,2012
+"51107","Loudoun County, Virginia",109928,112,104195,591,5733,578,2012
+"51161","Roanoke County, Virginia",40047,178,37876,406,2171,408,2012
+"51091","Highland County, Virginia",1866,118,1052,89,814,94,2012
+"51073","Gloucester County, Virginia",15900,44,13874,383,2026,387,2012
+"51145","Powhatan County, Virginia",10040,167,9429,247,611,193,2012
+"51061","Fauquier County, Virginia",25672,65,23031,380,2641,377,2012
+"51095","James City County, Virginia",30253,84,26883,478,3370,472,2013
+"51167","Russell County, Virginia",13440,48,11191,314,2249,309,2013
+"51173","Smyth County, Virginia",15374,101,12650,404,2724,385,2013
+"51515","Bedford city, Virginia",3141,276,2800,244,341,162,2013
+"51678","Lexington city, Virginia",1950,880,1709,851,241,156,2013
+"51031","Campbell County, Virginia",24802,99,21774,407,3028,407,2013
+"51089","Henry County, Virginia",26166,90,22690,497,3476,483,2013
+"51099","King George County, Virginia",9533,87,8314,248,1219,232,2013
+"51103","Lancaster County, Virginia",7469,43,5182,270,2287,270,2013
+"51105","Lee County, Virginia",11703,261,9653,393,2050,300,2013
+"51115","Mathews County, Virginia",5674,22,3856,275,1818,278,2013
+"51147","Prince Edward County, Virginia",9170,241,7453,365,1717,299,2013
+"51149","Prince George County, Virginia",12082,235,10848,328,1234,261,2013
+"51165","Rockingham County, Virginia",33796,110,29440,411,4356,414,2013
+"51169","Scott County, Virginia",11858,83,9692,286,2166,264,2013
+"51181","Surry County, Virginia",3460,17,2602,161,858,158,2013
+"51011","Appomattox County, Virginia",6947,23,5803,236,1144,237,2013
+"51067","Franklin County, Virginia",29246,206,23358,477,5888,428,2013
+"51117","Mecklenburg County, Virginia",18580,146,12650,412,5930,406,2013
+"51121","Montgomery County, Virginia",38625,307,34789,539,3836,436,2013
+"51015","Augusta County, Virginia",31362,207,27999,490,3363,459,2013
+"51049","Cumberland County, Virginia",4627,19,4049,175,578,173,2013
+"51075","Goochland County, Virginia",8659,175,8058,240,601,171,2013
+"51083","Halifax County, Virginia",17990,76,14770,447,3220,433,2013
+"51113","Madison County, Virginia",5949,32,5024,216,925,208,2013
+"51153","Prince William County, Virginia",139258,254,132442,803,6816,751,2013
+"51175","Southampton County, Virginia",7492,120,6708,205,784,186,2013
+"51025","Brunswick County, Virginia",8140,240,5826,381,2314,329,2013
+"51033","Caroline County, Virginia",11784,150,10680,281,1104,251,2013
+"51131","Northampton County, Virginia",7294,47,5149,255,2145,245,2013
+"51141","Patrick County, Virginia",10078,59,7846,327,2232,324,2013
+"51163","Rockbridge County, Virginia",11155,41,9234,305,1921,305,2013
+"51171","Shenandoah County, Virginia",20914,75,17397,386,3517,381,2013
+"51720","Norton city, Virginia",1884,181,1706,166,178,101,2013
+"51790","Staunton city, Virginia",11739,142,10495,254,1244,215,2013
+"51065","Fluvanna County, Virginia",10462,107,9462,272,1000,266,2013
+"51007","Amelia County, Virginia",5370,45,4808,210,562,209,2013
+"51750","Radford city, Virginia",6449,140,5516,287,933,241,2013
+"51840","Winchester city, Virginia",11879,100,10393,330,1486,302,2013
+"51001","Accomack County, Virginia",20952,262,14333,620,6619,552,2013
+"51045","Craig County, Virginia",2764,242,2122,187,642,177,2013
+"51063","Floyd County, Virginia",7795,312,6086,461,1709,319,2013
+"51071","Giles County, Virginia",8305,46,7167,222,1138,233,2013
+"51077","Grayson County, Virginia",9140,46,6618,252,2522,248,2013
+"51135","Nottoway County, Virginia",6670,93,5673,255,997,244,2013
+"51157","Rappahannock County, Virginia",3884,29,3261,151,623,148,2013
+"51036","Charles City County, Virginia",3258,27,2850,79,408,77,2013
+"51047","Culpeper County, Virginia",17773,110,16039,352,1734,351,2013
+"51053","Dinwiddie County, Virginia",11452,108,9932,276,1520,264,2013
+"51079","Greene County, Virginia",7676,614,6897,663,779,202,2013
+"51085","Hanover County, Virginia",38679,116,36927,359,1752,353,2013
+"51111","Lunenburg County, Virginia",5922,242,4572,305,1350,187,2013
+"51137","Orange County, Virginia",14662,64,12621,349,2041,351,2013
+"51595","Emporia city, Virginia",2788,203,2488,199,300,116,2013
+"51197","Wythe County, Virginia",14071,68,11656,409,2415,407,2013
+"51570","Colonial Heights city, Virginia",7809,49,7017,189,792,174,2013
+"51660","Harrisonburg city, Virginia",17601,236,15701,450,1900,371,2013
+"51021","Bland County, Virginia",3259,105,2480,186,779,153,2013
+"51023","Botetourt County, Virginia",14588,73,12825,305,1763,306,2013
+"51029","Buckingham County, Virginia",7224,312,5817,426,1407,255,2013
+"51520","Bristol city, Virginia",8823,66,7674,258,1149,261,2013
+"51580","Covington city, Virginia",3056,20,2545,141,511,141,2013
+"51830","Williamsburg city, Virginia",5192,213,4391,281,801,206,2013
+"51810","Virginia Beach city, Virginia",178753,558,164944,1049,13809,884,2013
+"51035","Carroll County, Virginia",16542,58,12572,431,3970,426,2013
+"51191","Washington County, Virginia",25591,76,22755,379,2836,383,2013
+"51193","Westmoreland County, Virginia",10649,29,7130,334,3519,333,2013
+"51139","Page County, Virginia",11591,36,9623,272,1968,276,2013
+"51155","Pulaski County, Virginia",17202,84,14875,354,2327,339,2013
+"51510","Alexandria city, Virginia",72799,157,65369,920,7430,904,2013
+"51590","Danville city, Virginia",22406,194,18659,488,3747,474,2013
+"51650","Hampton city, Virginia",59746,194,52511,729,7235,734,2013
+"51009","Amherst County, Virginia",13979,142,12680,259,1299,253,2013
+"51017","Bath County, Virginia",3242,286,2101,196,1141,212,2013
+"51027","Buchanan County, Virginia",11502,84,9485,287,2017,293,2013
+"51700","Newport News city, Virginia",76637,504,69211,958,7426,766,2013
+"51179","Stafford County, Virginia",44550,286,42178,415,2372,362,2013
+"51680","Lynchburg city, Virginia",32015,297,28556,529,3459,408,2013
+"51760","Richmond city, Virginia",98579,468,84833,1004,13746,886,2013
+"51690","Martinsville city, Virginia",7190,75,5995,252,1195,240,2013
+"51057","Essex County, Virginia",5759,22,4286,181,1473,181,2013
+"51185","Tazewell County, Virginia",20718,85,18294,316,2424,315,2013
+"51530","Buena Vista city, Virginia",2931,64,2738,117,193,97,2013
+"51685","Manassas Park city, Virginia",4884,25,4435,200,449,197,2013
+"51730","Petersburg city, Virginia",16381,68,12456,410,3925,397,2013
+"51183","Sussex County, Virginia",4688,225,3704,307,984,167,2013
+"51600","Fairfax city, Virginia",8714,78,8492,134,222,112,2013
+"51683","Manassas city, Virginia",13177,45,12072,267,1105,264,2013
+"51770","Roanoke city, Virginia",47292,186,42494,523,4798,509,2013
+"51800","Suffolk city, Virginia",33372,73,30492,408,2880,405,2013
+"51037","Charlotte County, Virginia",6265,37,4751,255,1514,253,2013
+"51041","Chesterfield County, Virginia",123351,166,113637,862,9714,820,2013
+"51081","Greensville County, Virginia",4093,540,3389,570,704,161,2013
+"51093","Isle of Wight County, Virginia",14781,55,13560,247,1221,234,2013
+"51620","Franklin city, Virginia",3895,33,3551,179,344,176,2013
+"51540","Charlottesville city, Virginia",19373,181,17443,372,1930,309,2013
+"51087","Henrico County, Virginia",133174,159,123683,897,9491,885,2013
+"51101","King William County, Virginia",6555,21,5998,176,557,172,2013
+"51109","Louisa County, Virginia",16428,49,13046,386,3382,382,2013
+"51119","Middlesex County, Virginia",7163,45,4400,262,2763,255,2013
+"51159","Richmond County, Virginia",3862,241,2853,303,1009,172,2013
+"51177","Spotsylvania County, Virginia",45369,102,41709,543,3660,506,2013
+"51043","Clarke County, Virginia",6246,45,5580,172,666,166,2013
+"51097","King and Queen County, Virginia",3420,13,2863,155,557,156,2013
+"51127","New Kent County, Virginia",7448,80,6886,208,562,191,2013
+"51051","Dickenson County, Virginia",7552,51,6352,201,1200,205,2013
+"51107","Loudoun County, Virginia",112504,139,106997,728,5507,671,2013
+"51161","Roanoke County, Virginia",40170,149,37928,434,2242,411,2013
+"51091","Highland County, Virginia",1840,105,1006,82,834,77,2013
+"51073","Gloucester County, Virginia",15916,49,13889,377,2027,384,2013
+"51145","Powhatan County, Virginia",10108,165,9544,261,564,207,2013
+"51061","Fauquier County, Virginia",25738,66,23130,305,2608,305,2013
+"51550","Chesapeake city, Virginia",84403,348,79421,735,4982,703,2013
+"51003","Albemarle County, Virginia",42713,507,37964,700,4749,542,2013
+"51019","Bedford County, Virginia",32123,67,27233,463,4890,449,2013
+"51195","Wise County, Virginia",17854,131,15406,427,2448,399,2013
+"51740","Portsmouth city, Virginia",40833,370,36690,610,4143,479,2013
+"51005","Alleghany County, Virginia",8050,53,6773,195,1277,190,2013
+"51640","Galax city, Virginia",3560,242,3018,224,542,152,2013
+"51133","Northumberland County, Virginia",9019,23,5691,340,3328,343,2013
+"51187","Warren County, Virginia",16002,103,14387,283,1615,321,2013
+"51630","Fredericksburg city, Virginia",10888,204,9779,303,1109,255,2013
+"51013","Arlington County, Virginia",106740,191,94454,1031,12286,1020,2013
+"51670","Hopewell city, Virginia",10141,37,8766,276,1375,277,2013
+"51069","Frederick County, Virginia",31587,126,29172,402,2415,392,2013
+"51199","York County, Virginia",26797,171,24071,432,2726,408,2013
+"51125","Nelson County, Virginia",9957,56,6404,312,3553,311,2013
+"51143","Pittsylvania County, Virginia",31221,105,26092,512,5129,491,2013
+"51610","Falls Church city, Virginia",5473,28,5020,157,453,158,2013
+"51735","Poquoson city, Virginia",4736,30,4591,78,145,73,2013
+"51820","Waynesboro city, Virginia",9735,38,8708,270,1027,269,2013
+"51775","Salem city, Virginia",10812,139,9908,265,904,251,2013
+"51710","Norfolk city, Virginia",95271,728,85557,1033,9714,636,2013
+"51059","Fairfax County, Virginia",408180,306,389908,1205,18272,1172,2013
+"51095","James City County, Virginia",30943,110,27665,538,3278,541,2014
+"51167","Russell County, Virginia",13439,52,11037,362,2402,347,2014
+"51173","Smyth County, Virginia",15401,110,12852,300,2549,293,2014
+"51540","Charlottesville city, Virginia",19603,162,17604,362,1999,336,2014
+"51031","Campbell County, Virginia",24953,73,21728,381,3225,380,2014
+"51087","Henrico County, Virginia",133795,268,123821,1010,9974,966,2014
+"51099","King George County, Virginia",9627,64,8315,282,1312,274,2014
+"51103","Lancaster County, Virginia",7517,37,5283,290,2234,286,2014
+"51105","Lee County, Virginia",11752,325,9597,424,2155,276,2014
+"51115","Mathews County, Virginia",5694,46,3792,322,1902,302,2014
+"51119","Middlesex County, Virginia",7188,55,4432,234,2756,222,2014
+"51149","Prince George County, Virginia",12136,217,10906,364,1230,272,2014
+"51159","Richmond County, Virginia",3878,371,2800,400,1078,161,2014
+"51169","Scott County, Virginia",11880,92,9363,287,2517,264,2014
+"51177","Spotsylvania County, Virginia",45747,76,42280,531,3467,526,2014
+"51011","Appomattox County, Virginia",7006,35,5964,217,1042,217,2014
+"51067","Franklin County, Virginia",29386,124,23248,512,6138,488,2014
+"51049","Cumberland County, Virginia",4641,24,4038,178,603,182,2014
+"51097","King and Queen County, Virginia",3440,24,2832,157,608,156,2014
+"51121","Montgomery County, Virginia",38875,625,34803,870,4072,526,2014
+"51127","New Kent County, Virginia",7612,86,7106,218,506,191,2014
+"51051","Dickenson County, Virginia",7548,41,6200,253,1348,247,2014
+"51083","Halifax County, Virginia",18041,96,14472,375,3569,358,2014
+"51107","Loudoun County, Virginia",115599,140,110047,624,5552,586,2014
+"51153","Prince William County, Virginia",141002,370,134737,810,6265,660,2014
+"51175","Southampton County, Virginia",7531,156,6654,261,877,200,2014
+"51091","Highland County, Virginia",1942,137,1067,93,875,95,2014
+"51033","Caroline County, Virginia",11857,208,10728,315,1129,234,2014
+"51073","Gloucester County, Virginia",15993,61,14074,340,1919,328,2014
+"51141","Patrick County, Virginia",10095,48,7678,354,2417,363,2014
+"51145","Powhatan County, Virginia",10195,149,9590,247,605,185,2014
+"51171","Shenandoah County, Virginia",20987,67,17246,293,3741,297,2014
+"51061","Fauquier County, Virginia",25905,71,23162,443,2743,432,2014
+"51790","Staunton city, Virginia",11740,149,10503,297,1237,241,2014
+"51065","Fluvanna County, Virginia",10541,147,9787,287,754,237,2014
+"51007","Amelia County, Virginia",5400,44,4761,203,639,193,2014
+"51750","Radford city, Virginia",6472,199,5333,342,1139,279,2014
+"51840","Winchester city, Virginia",11913,122,10692,336,1221,301,2014
+"51001","Accomack County, Virginia",21054,302,14289,610,6765,500,2014
+"51045","Craig County, Virginia",2868,190,2151,167,717,161,2014
+"51063","Floyd County, Virginia",7868,45,6086,305,1782,306,2014
+"51071","Giles County, Virginia",8324,54,7253,250,1071,240,2014
+"51077","Grayson County, Virginia",9155,49,6686,263,2469,249,2014
+"51135","Nottoway County, Virginia",6685,80,5640,220,1045,216,2014
+"51157","Rappahannock County, Virginia",3919,28,3281,144,638,144,2014
+"51036","Charles City County, Virginia",3263,50,2832,106,431,91,2014
+"51047","Culpeper County, Virginia",17869,151,16436,352,1433,310,2014
+"51053","Dinwiddie County, Virginia",11504,100,9956,281,1548,248,2014
+"51079","Greene County, Virginia",7790,40,6965,239,825,239,2014
+"51085","Hanover County, Virginia",39026,103,37041,383,1985,363,2014
+"51111","Lunenburg County, Virginia",5934,287,4634,337,1300,187,2014
+"51137","Orange County, Virginia",14716,54,12433,361,2283,359,2014
+"51595","Emporia city, Virginia",2722,196,2420,168,302,123,2014
+"51197","Wythe County, Virginia",14139,57,11984,368,2155,373,2014
+"51550","Chesapeake city, Virginia",85540,439,80388,786,5152,630,2014
+"51660","Harrisonburg city, Virginia",17798,274,15881,356,1917,270,2014
+"51003","Albemarle County, Virginia",43128,512,38537,669,4591,525,2014
+"51019","Bedford County, Virginia",35308,67,30122,535,5186,532,2014
+"51029","Buckingham County, Virginia",7255,201,5802,317,1453,223,2014
+"51195","Wise County, Virginia",17906,213,15517,343,2389,302,2014
+"51580","Covington city, Virginia",3051,21,2468,121,583,123,2014
+"51740","Portsmouth city, Virginia",40876,468,36764,677,4112,425,2014
+"51810","Virginia Beach city, Virginia",179842,524,165296,936,14546,831,2014
+"51005","Alleghany County, Virginia",8066,76,6714,216,1352,188,2014
+"51640","Galax city, Virginia",3559,218,2968,187,591,160,2014
+"51193","Westmoreland County, Virginia",10717,54,6981,362,3736,370,2014
+"51133","Northumberland County, Virginia",9058,22,5669,306,3389,303,2014
+"51155","Pulaski County, Virginia",17245,73,15125,331,2120,329,2014
+"51187","Warren County, Virginia",16037,64,14324,341,1713,332,2014
+"51017","Bath County, Virginia",3403,225,2225,158,1178,216,2014
+"51590","Danville city, Virginia",22402,191,18520,411,3882,395,2014
+"51630","Fredericksburg city, Virginia",11037,175,9849,380,1188,308,2014
+"51009","Amherst County, Virginia",14044,127,12577,281,1467,254,2014
+"51670","Hopewell city, Virginia",10185,67,8774,277,1411,269,2014
+"51700","Newport News city, Virginia",76903,461,68987,901,7916,793,2014
+"51069","Frederick County, Virginia",31877,148,29184,468,2693,425,2014
+"51680","Lynchburg city, Virginia",32153,389,28424,556,3729,433,2014
+"51199","York County, Virginia",26953,122,23970,372,2983,350,2014
+"51690","Martinsville city, Virginia",7182,114,5974,231,1208,202,2014
+"51125","Nelson County, Virginia",9990,41,6381,310,3609,298,2014
+"51143","Pittsylvania County, Virginia",31332,157,26029,528,5303,507,2014
+"51530","Buena Vista city, Virginia",2929,65,2741,121,188,101,2014
+"51610","Falls Church city, Virginia",5492,23,4966,180,526,181,2014
+"51730","Petersburg city, Virginia",16475,91,12515,300,3960,312,2014
+"51735","Poquoson city, Virginia",4738,34,4627,76,111,70,2014
+"51600","Fairfax city, Virginia",8745,80,8480,141,265,133,2014
+"51820","Waynesboro city, Virginia",9811,38,8878,264,933,257,2014
+"51770","Roanoke city, Virginia",47330,157,42549,604,4781,607,2014
+"51800","Suffolk city, Virginia",33862,103,30798,392,3064,364,2014
+"51710","Norfolk city, Virginia",95699,802,86397,1112,9302,721,2014
+"51041","Chesterfield County, Virginia",124384,239,115005,782,9379,802,2014
+"51059","Fairfax County, Virginia",409108,339,391794,1231,17314,1268,2014
+"51093","Isle of Wight County, Virginia",14912,71,13519,301,1393,289,2014
+"51620","Franklin city, Virginia",3878,43,3580,153,298,154,2014
+"51678","Lexington city, Virginia",1944,884,1727,847,217,151,2014
+"51089","Henry County, Virginia",26188,99,22472,470,3716,455,2014
+"51101","King William County, Virginia",6597,26,6147,150,450,153,2014
+"51109","Louisa County, Virginia",16590,50,12811,350,3779,337,2014
+"51147","Prince Edward County, Virginia",9234,258,7604,362,1630,294,2014
+"51165","Rockingham County, Virginia",34087,132,29483,480,4604,487,2014
+"51181","Surry County, Virginia",3478,23,2652,142,826,141,2014
+"51043","Clarke County, Virginia",6259,48,5619,167,640,163,2014
+"51117","Mecklenburg County, Virginia",18642,181,12857,465,5785,439,2014
+"51015","Augusta County, Virginia",31550,172,28124,502,3426,450,2014
+"51075","Goochland County, Virginia",8726,158,8212,247,514,165,2014
+"51113","Madison County, Virginia",5974,41,5093,163,881,165,2014
+"51161","Roanoke County, Virginia",40319,191,38197,401,2122,392,2014
+"51025","Brunswick County, Virginia",8164,140,5865,347,2299,291,2014
+"51131","Northampton County, Virginia",7322,49,5237,244,2085,240,2014
+"51163","Rockbridge County, Virginia",11199,49,9226,313,1973,299,2014
+"51720","Norton city, Virginia",1850,155,1655,136,195,81,2014
+"51570","Colonial Heights city, Virginia",7817,58,7025,156,792,153,2014
+"51021","Bland County, Virginia",3265,137,2591,198,674,125,2014
+"51023","Botetourt County, Virginia",14628,73,12867,233,1761,226,2014
+"51520","Bristol city, Virginia",8829,57,7764,254,1065,252,2014
+"51830","Williamsburg city, Virginia",4951,244,4365,260,586,152,2014
+"51035","Carroll County, Virginia",16599,49,12508,376,4091,373,2014
+"51191","Washington County, Virginia",25694,104,22842,359,2852,347,2014
+"51139","Page County, Virginia",11620,46,9526,306,2094,304,2014
+"51510","Alexandria city, Virginia",73502,142,65916,754,7586,718,2014
+"51650","Hampton city, Virginia",60036,222,52700,724,7336,656,2014
+"51013","Arlington County, Virginia",108021,204,96264,1133,11757,1153,2014
+"51027","Buchanan County, Virginia",11508,132,9406,302,2102,263,2014
+"51179","Stafford County, Virginia",45107,326,42763,544,2344,373,2014
+"51760","Richmond city, Virginia",99123,791,85913,1272,13210,957,2014
+"51057","Essex County, Virginia",5779,34,4288,168,1491,172,2014
+"51185","Tazewell County, Virginia",20737,110,18306,380,2431,379,2014
+"51685","Manassas Park city, Virginia",4895,17,4526,176,369,177,2014
+"51183","Sussex County, Virginia",4201,528,3261,517,940,155,2014
+"51683","Manassas city, Virginia",13232,31,12274,286,958,283,2014
+"51775","Salem city, Virginia",10848,144,9953,256,895,213,2014
+"51037","Charlotte County, Virginia",6288,42,4691,245,1597,237,2014
+"51081","Greensville County, Virginia",4118,565,3397,620,721,181,2014
+"51095","James City County, Virginia",31392,107,28000,480,3392,487,2015
+"51167","Russell County, Virginia",13428,40,11045,268,2383,273,2015
+"51173","Smyth County, Virginia",15356,95,12795,296,2561,282,2015
+"51540","Charlottesville city, Virginia",19886,137,17752,370,2134,358,2015
+"51031","Campbell County, Virginia",25100,67,21791,460,3309,454,2015
+"51087","Henrico County, Virginia",134346,206,124589,874,9757,832,2015
+"51099","King George County, Virginia",9706,55,8379,245,1327,249,2015
+"51103","Lancaster County, Virginia",7544,41,5164,301,2380,292,2015
+"51105","Lee County, Virginia",11728,330,9445,411,2283,273,2015
+"51115","Mathews County, Virginia",5702,34,3806,299,1896,296,2015
+"51119","Middlesex County, Virginia",7211,56,4342,283,2869,274,2015
+"51149","Prince George County, Virginia",12192,173,11102,343,1090,277,2015
+"51159","Richmond County, Virginia",3886,87,2875,204,1011,175,2015
+"51169","Scott County, Virginia",11876,88,9379,303,2497,300,2015
+"51177","Spotsylvania County, Virginia",45979,99,42823,449,3156,426,2015
+"51011","Appomattox County, Virginia",7051,41,5931,220,1120,213,2015
+"51067","Franklin County, Virginia",29419,120,23189,459,6230,446,2015
+"51097","King and Queen County, Virginia",3446,21,2894,126,552,127,2015
+"51121","Montgomery County, Virginia",39038,340,35199,687,3839,576,2015
+"51127","New Kent County, Virginia",7736,47,7299,190,437,184,2015
+"51083","Halifax County, Virginia",18057,70,14300,398,3757,389,2015
+"51107","Loudoun County, Virginia",118919,132,113432,710,5487,693,2015
+"51153","Prince William County, Virginia",142786,338,136794,649,5992,631,2015
+"51175","Southampton County, Virginia",7529,125,6682,240,847,194,2015
+"51091","Highland County, Virginia",1918,126,1071,88,847,91,2015
+"51033","Caroline County, Virginia",11927,346,10970,431,957,245,2015
+"51073","Gloucester County, Virginia",16066,60,14280,352,1786,351,2015
+"51141","Patrick County, Virginia",10085,69,7790,306,2295,292,2015
+"51145","Powhatan County, Virginia",10272,136,9730,206,542,155,2015
+"51171","Shenandoah County, Virginia",21026,52,17096,372,3930,373,2015
+"51061","Fauquier County, Virginia",26052,56,23595,381,2457,380,2015
+"51790","Staunton city, Virginia",11782,146,10387,265,1395,246,2015
+"51065","Fluvanna County, Virginia",10596,125,9891,243,705,219,2015
+"51007","Amelia County, Virginia",5414,41,4704,223,710,226,2015
+"51750","Radford city, Virginia",6507,279,5477,400,1030,218,2015
+"51840","Winchester city, Virginia",11903,81,10608,278,1295,282,2015
+"51001","Accomack County, Virginia",21031,218,13961,570,7070,503,2015
+"51045","Craig County, Virginia",2955,196,2214,185,741,184,2015
+"51063","Floyd County, Virginia",7889,40,6271,276,1618,277,2015
+"51071","Giles County, Virginia",8327,43,7230,213,1097,210,2015
+"51077","Grayson County, Virginia",9166,144,6795,318,2371,259,2015
+"51135","Nottoway County, Virginia",6699,78,5589,259,1110,238,2015
+"51157","Rappahannock County, Virginia",3936,24,3273,158,663,154,2015
+"51036","Charles City County, Virginia",3303,39,2883,82,420,77,2015
+"51047","Culpeper County, Virginia",17989,128,16515,357,1474,326,2015
+"51053","Dinwiddie County, Virginia",11542,88,9939,264,1603,247,2015
+"51079","Greene County, Virginia",7905,38,7111,228,794,225,2015
+"51085","Hanover County, Virginia",39391,131,37463,343,1928,336,2015
+"51111","Lunenburg County, Virginia",5933,394,4516,482,1417,213,2015
+"51137","Orange County, Virginia",14789,67,12810,319,1979,321,2015
+"51595","Emporia city, Virginia",2686,187,2459,193,227,112,2015
+"51197","Wythe County, Virginia",14159,52,11863,357,2296,351,2015
+"51550","Chesapeake city, Virginia",86657,401,81518,695,5139,595,2015
+"51660","Harrisonburg city, Virginia",17942,198,16409,296,1533,266,2015
+"51003","Albemarle County, Virginia",43579,626,38853,835,4726,508,2015
+"51019","Bedford County, Virginia",35546,66,30591,493,4955,480,2015
+"51029","Buckingham County, Virginia",7263,105,5603,251,1660,211,2015
+"51195","Wise County, Virginia",17851,170,15254,319,2597,317,2015
+"51580","Covington city, Virginia",3035,43,2476,152,559,141,2015
+"51049","Cumberland County, Virginia",4650,26,4012,191,638,185,2015
+"51051","Dickenson County, Virginia",7525,58,6205,199,1320,204,2015
+"51740","Portsmouth city, Virginia",40987,249,36757,559,4230,501,2015
+"51810","Virginia Beach city, Virginia",180824,508,166242,1143,14582,968,2015
+"51005","Alleghany County, Virginia",8063,61,6781,192,1282,180,2015
+"51640","Galax city, Virginia",3514,206,2961,180,553,182,2015
+"51193","Westmoreland County, Virginia",10752,43,6944,383,3808,383,2015
+"51133","Northumberland County, Virginia",9096,38,5861,334,3235,338,2015
+"51155","Pulaski County, Virginia",17256,76,14619,370,2637,358,2015
+"51187","Warren County, Virginia",16099,107,14364,341,1735,329,2015
+"51590","Danville city, Virginia",22376,194,18559,440,3817,389,2015
+"51630","Fredericksburg city, Virginia",11252,158,10080,338,1172,296,2015
+"51009","Amherst County, Virginia",14058,94,12502,288,1556,279,2015
+"51017","Bath County, Virginia",3394,208,2146,171,1248,202,2015
+"51670","Hopewell city, Virginia",10223,56,8706,283,1517,267,2015
+"51700","Newport News city, Virginia",77175,443,69073,815,8102,718,2015
+"51069","Frederick County, Virginia",32152,141,29455,397,2697,371,2015
+"51680","Lynchburg city, Virginia",32252,310,28528,537,3724,444,2015
+"51199","York County, Virginia",27150,127,23997,330,3153,324,2015
+"51690","Martinsville city, Virginia",7176,43,5857,207,1319,197,2015
+"51143","Pittsylvania County, Virginia",31366,94,26204,484,5162,476,2015
+"51530","Buena Vista city, Virginia",2920,74,2737,134,183,102,2015
+"51610","Falls Church city, Virginia",5601,18,5166,150,435,152,2015
+"51730","Petersburg city, Virginia",16464,96,12803,382,3661,365,2015
+"51735","Poquoson city, Virginia",4751,31,4642,72,109,58,2015
+"51600","Fairfax city, Virginia",8780,84,8467,146,313,121,2015
+"51820","Waynesboro city, Virginia",9868,39,9031,249,837,244,2015
+"51770","Roanoke city, Virginia",47321,156,42239,588,5082,535,2015
+"51800","Suffolk city, Virginia",34368,100,30990,381,3378,389,2015
+"51710","Norfolk city, Virginia",96121,997,87045,1126,9076,592,2015
+"51041","Chesterfield County, Virginia",125393,192,116797,806,8596,799,2015
+"51059","Fairfax County, Virginia",409963,439,392355,1164,17608,1246,2015
+"51125","Nelson County, Virginia",10017,38,6339,291,3678,296,2015
+"51093","Isle of Wight County, Virginia",15001,58,13769,288,1232,282,2015
+"51620","Franklin city, Virginia",3888,37,3453,197,435,193,2015
+"51678","Lexington city, Virginia",1911,1079,1638,1071,273,147,2015
+"51089","Henry County, Virginia",26144,90,22415,375,3729,368,2015
+"51101","King William County, Virginia",6632,34,6036,195,596,192,2015
+"51109","Louisa County, Virginia",16692,68,12829,394,3863,382,2015
+"51147","Prince Edward County, Virginia",9269,227,7409,383,1860,281,2015
+"51165","Rockingham County, Virginia",34269,118,29625,334,4644,340,2015
+"51181","Surry County, Virginia",3497,18,2668,126,829,128,2015
+"51043","Clarke County, Virginia",6261,48,5526,160,735,157,2015
+"51117","Mecklenburg County, Virginia",18661,123,12482,363,6179,321,2015
+"51015","Augusta County, Virginia",31724,201,28150,481,3574,424,2015
+"51075","Goochland County, Virginia",8807,89,8148,215,659,188,2015
+"51113","Madison County, Virginia",5983,45,5003,223,980,220,2015
+"51161","Roanoke County, Virginia",40439,95,38164,371,2275,354,2015
+"51025","Brunswick County, Virginia",8158,142,5916,291,2242,282,2015
+"51131","Northampton County, Virginia",7323,41,5248,250,2075,246,2015
+"51163","Rockbridge County, Virginia",11231,35,9319,285,1912,276,2015
+"51720","Norton city, Virginia",1917,150,1783,137,134,74,2015
+"51570","Colonial Heights city, Virginia",7808,52,7106,178,702,168,2015
+"51021","Bland County, Virginia",3274,220,2614,235,660,137,2015
+"51023","Botetourt County, Virginia",14664,53,12913,263,1751,255,2015
+"51520","Bristol city, Virginia",8841,81,7718,254,1123,255,2015
+"51830","Williamsburg city, Virginia",5020,171,4538,248,482,140,2015
+"51035","Carroll County, Virginia",16621,49,12548,434,4073,425,2015
+"51191","Washington County, Virginia",25704,110,22673,409,3031,374,2015
+"51139","Page County, Virginia",11636,40,9372,284,2264,288,2015
+"51510","Alexandria city, Virginia",74317,141,66879,816,7438,793,2015
+"51650","Hampton city, Virginia",60168,210,52940,835,7228,795,2015
+"51013","Arlington County, Virginia",109443,279,98441,1023,11002,1021,2015
+"51027","Buchanan County, Virginia",11489,103,9442,262,2047,239,2015
+"51179","Stafford County, Virginia",45759,314,43405,515,2354,405,2015
+"51760","Richmond city, Virginia",99449,577,87224,947,12225,774,2015
+"51057","Essex County, Virginia",5777,49,4332,201,1445,197,2015
+"51185","Tazewell County, Virginia",20716,81,17832,331,2884,336,2015
+"51685","Manassas Park city, Virginia",4895,17,4723,98,172,100,2015
+"51183","Sussex County, Virginia",4007,518,3149,533,858,155,2015
+"51683","Manassas city, Virginia",13284,78,12433,264,851,244,2015
+"51775","Salem city, Virginia",10851,153,10045,261,806,231,2015
+"51037","Charlotte County, Virginia",6298,47,4723,242,1575,236,2015
+"51081","Greensville County, Virginia",4122,627,3486,633,636,144,2015
+"51810","Virginia Beach city, Virginia",182016,469,167509,1094,14507,990,2016
+"51005","Alleghany County, Virginia",8043,62,6845,221,1198,202,2016
+"51640","Galax city, Virginia",3404,248,2767,209,637,153,2016
+"51193","Westmoreland County, Virginia",10794,43,7124,345,3670,339,2016
+"51133","Northumberland County, Virginia",9113,28,5776,327,3337,328,2016
+"51155","Pulaski County, Virginia",17266,89,14553,388,2713,379,2016
+"51187","Warren County, Virginia",16146,74,14174,283,1972,277,2016
+"51590","Danville city, Virginia",22337,121,18653,402,3684,389,2016
+"51630","Fredericksburg city, Virginia",11387,239,10271,359,1116,267,2016
+"51009","Amherst County, Virginia",14067,83,12306,349,1761,323,2016
+"51017","Bath County, Virginia",3421,266,2104,194,1317,248,2016
+"51670","Hopewell city, Virginia",10279,61,8866,285,1413,282,2016
+"51700","Newport News city, Virginia",77494,334,69247,810,8247,739,2016
+"51069","Frederick County, Virginia",32502,118,29914,485,2588,462,2016
+"51680","Lynchburg city, Virginia",32324,266,28282,520,4042,442,2016
+"51199","York County, Virginia",27331,168,23872,411,3459,407,2016
+"51690","Martinsville city, Virginia",7159,47,5787,220,1372,217,2016
+"51125","Nelson County, Virginia",10043,40,6378,318,3665,314,2016
+"51143","Pittsylvania County, Virginia",31334,147,26327,499,5007,462,2016
+"51530","Buena Vista city, Virginia",2923,68,2709,126,214,108,2016
+"51610","Falls Church city, Virginia",5709,20,5301,129,408,129,2016
+"51730","Petersburg city, Virginia",16484,102,13175,326,3309,301,2016
+"51735","Poquoson city, Virginia",4758,33,4610,110,148,100,2016
+"51600","Fairfax city, Virginia",8801,67,8476,134,325,109,2016
+"51820","Waynesboro city, Virginia",9946,39,9044,252,902,252,2016
+"51770","Roanoke city, Virginia",47331,164,42541,579,4790,542,2016
+"51800","Suffolk city, Virginia",34897,114,31741,396,3156,356,2016
+"51710","Norfolk city, Virginia",96631,838,87367,988,9264,646,2016
+"51041","Chesterfield County, Virginia",126532,209,118908,746,7624,728,2016
+"51059","Fairfax County, Virginia",411072,346,393358,1141,17714,1119,2016
+"51023","Botetourt County, Virginia",14724,76,13305,264,1419,249,2016
+"51520","Bristol city, Virginia",8818,62,7671,249,1147,244,2016
+"51830","Williamsburg city, Virginia",5078,149,4627,205,451,152,2016
+"51035","Carroll County, Virginia",16599,98,12642,398,3957,385,2016
+"51191","Washington County, Virginia",25723,102,22512,368,3211,365,2016
+"51139","Page County, Virginia",11647,41,9523,269,2124,267,2016
+"51510","Alexandria city, Virginia",75087,172,68063,685,7024,675,2016
+"51650","Hampton city, Virginia",60271,246,53656,713,6615,684,2016
+"51013","Arlington County, Virginia",110763,227,100707,913,10056,919,2016
+"51027","Buchanan County, Virginia",11443,63,9124,296,2319,282,2016
+"51179","Stafford County, Virginia",46427,389,44311,498,2116,357,2016
+"51760","Richmond city, Virginia",99883,289,88958,800,10925,709,2016
+"51057","Essex County, Virginia",5794,36,4447,213,1347,210,2016
+"51185","Tazewell County, Virginia",20656,93,17595,390,3061,372,2016
+"51685","Manassas Park city, Virginia",4892,28,4730,114,162,107,2016
+"51183","Sussex County, Virginia",4588,541,3793,576,795,134,2016
+"51683","Manassas city, Virginia",13385,42,12430,232,955,229,2016
+"51775","Salem city, Virginia",10871,144,10060,239,811,232,2016
+"51037","Charlotte County, Virginia",6288,44,4594,245,1694,236,2016
+"51081","Greensville County, Virginia",4117,98,3705,157,412,136,2016
+"51095","James City County, Virginia",31835,119,28352,517,3483,507,2016
+"51167","Russell County, Virginia",13409,53,10937,369,2472,370,2016
+"51173","Smyth County, Virginia",15346,107,12930,305,2416,291,2016
+"51540","Charlottesville city, Virginia",20134,102,17980,313,2154,310,2016
+"51093","Isle of Wight County, Virginia",15104,71,13902,282,1202,277,2016
+"51620","Franklin city, Virginia",3879,41,3424,154,455,144,2016
+"51678","Lexington city, Virginia",2138,240,1856,232,282,157,2016
+"51089","Henry County, Virginia",26117,167,22136,369,3981,423,2016
+"51101","King William County, Virginia",6695,31,6066,166,629,163,2016
+"51109","Louisa County, Virginia",16823,45,13146,415,3677,408,2016
+"51147","Prince Edward County, Virginia",9288,276,7294,406,1994,284,2016
+"51165","Rockingham County, Virginia",34479,104,29883,374,4596,361,2016
+"51181","Surry County, Virginia",3502,20,2707,126,795,126,2016
+"51043","Clarke County, Virginia",6283,48,5591,180,692,171,2016
+"51117","Mecklenburg County, Virginia",18693,135,12066,426,6627,402,2016
+"51015","Augusta County, Virginia",31899,131,28425,471,3474,458,2016
+"51075","Goochland County, Virginia",8898,63,8177,240,721,221,2016
+"51113","Madison County, Virginia",6007,28,5042,211,965,215,2016
+"51161","Roanoke County, Virginia",40616,127,38322,387,2294,361,2016
+"51025","Brunswick County, Virginia",8146,83,6148,254,1998,242,2016
+"51131","Northampton County, Virginia",7342,38,5075,244,2267,241,2016
+"51163","Rockbridge County, Virginia",11265,38,9277,270,1988,265,2016
+"51720","Norton city, Virginia",1958,157,1858,148,100,63,2016
+"51570","Colonial Heights city, Virginia",7806,64,7206,186,600,179,2016
+"51021","Bland County, Virginia",3264,196,2561,243,703,146,2016
+"51031","Campbell County, Virginia",25249,63,22294,447,2955,437,2016
+"51087","Henrico County, Virginia",135137,209,125478,888,9659,884,2016
+"51099","King George County, Virginia",9791,49,8669,240,1122,236,2016
+"51103","Lancaster County, Virginia",7590,51,5097,279,2493,274,2016
+"51105","Lee County, Virginia",11718,170,9282,358,2436,309,2016
+"51115","Mathews County, Virginia",5714,33,3837,266,1877,261,2016
+"51119","Middlesex County, Virginia",7236,49,4474,266,2762,268,2016
+"51149","Prince George County, Virginia",12237,177,11191,315,1046,230,2016
+"51159","Richmond County, Virginia",3894,115,3084,213,810,175,2016
+"51169","Scott County, Virginia",11874,109,9104,265,2770,240,2016
+"51177","Spotsylvania County, Virginia",46263,76,43105,401,3158,398,2016
+"51011","Appomattox County, Virginia",7085,35,5972,192,1113,198,2016
+"51067","Franklin County, Virginia",29464,112,22976,488,6488,502,2016
+"51097","King and Queen County, Virginia",3449,17,2807,146,642,146,2016
+"51121","Montgomery County, Virginia",39209,259,35701,559,3508,516,2016
+"51127","New Kent County, Virginia",7897,51,7537,159,360,147,2016
+"51049","Cumberland County, Virginia",4665,21,4085,172,580,175,2016
+"51051","Dickenson County, Virginia",7517,64,6055,232,1462,229,2016
+"51083","Halifax County, Virginia",18084,68,14264,377,3820,368,2016
+"51107","Loudoun County, Virginia",122490,186,117073,667,5417,620,2016
+"51153","Prince William County, Virginia",144314,183,138102,709,6212,668,2016
+"51175","Southampton County, Virginia",7550,92,6727,186,823,167,2016
+"51091","Highland County, Virginia",2005,107,1121,91,884,73,2016
+"51033","Caroline County, Virginia",11987,357,10965,490,1022,284,2016
+"51073","Gloucester County, Virginia",16167,88,14511,293,1656,337,2016
+"51141","Patrick County, Virginia",10091,70,7805,324,2286,316,2016
+"51145","Powhatan County, Virginia",10416,104,9866,228,550,201,2016
+"51171","Shenandoah County, Virginia",21066,55,17222,389,3844,382,2016
+"51061","Fauquier County, Virginia",26241,72,23890,374,2351,356,2016
+"51790","Staunton city, Virginia",11793,123,10383,314,1410,298,2016
+"51065","Fluvanna County, Virginia",10683,73,9829,224,854,220,2016
+"51007","Amelia County, Virginia",5435,38,4540,247,895,253,2016
+"51750","Radford city, Virginia",6526,238,5604,328,922,219,2016
+"51840","Winchester city, Virginia",11908,91,10596,323,1312,316,2016
+"51001","Accomack County, Virginia",21040,250,13819,537,7221,472,2016
+"51045","Craig County, Virginia",2950,202,2314,171,636,194,2016
+"51063","Floyd County, Virginia",7902,50,6303,249,1599,242,2016
+"51071","Giles County, Virginia",8338,63,7290,232,1048,220,2016
+"51077","Grayson County, Virginia",9166,108,6710,224,2456,196,2016
+"51135","Nottoway County, Virginia",6712,151,5676,263,1036,211,2016
+"51157","Rappahannock County, Virginia",3950,21,3247,154,703,152,2016
+"51036","Charles City County, Virginia",3303,28,2854,81,449,77,2016
+"51047","Culpeper County, Virginia",18134,82,16904,287,1230,280,2016
+"51053","Dinwiddie County, Virginia",11580,87,10344,287,1236,270,2016
+"51079","Greene County, Virginia",7982,30,7107,210,875,219,2016
+"51085","Hanover County, Virginia",39841,131,37724,412,2117,372,2016
+"51111","Lunenburg County, Virginia",5935,46,4670,190,1265,185,2016
+"51137","Orange County, Virginia",14845,67,13245,298,1600,310,2016
+"51595","Emporia city, Virginia",2446,184,2210,156,236,108,2016
+"51197","Wythe County, Virginia",14177,53,12039,364,2138,372,2016
+"51550","Chesapeake city, Virginia",87807,260,82573,645,5234,564,2016
+"51660","Harrisonburg city, Virginia",18039,173,16626,277,1413,236,2016
+"51003","Albemarle County, Virginia",43951,459,39431,687,4520,532,2016
+"51019","Bedford County, Virginia",35819,70,30821,405,4998,386,2016
+"51029","Buckingham County, Virginia",7275,67,5689,243,1586,229,2016
+"51195","Wise County, Virginia",17815,97,15225,339,2590,332,2016
+"51580","Covington city, Virginia",3035,30,2472,149,563,140,2016
+"51740","Portsmouth city, Virginia",41046,188,36840,537,4206,495,2016
+"51093","Isle of Wight County, Virginia",15358,67,14157,266,1201,248,2017
+"51095","James City County, Virginia",32357,112,28410,540,3947,529,2017
+"51167","Russell County, Virginia",13543,65,11102,312,2441,300,2017
+"51620","Franklin city, Virginia",3860,43,3470,161,390,148,2017
+"51173","Smyth County, Virginia",15405,92,12829,325,2576,308,2017
+"51540","Charlottesville city, Virginia",20334,156,18408,349,1926,304,2017
+"51678","Lexington city, Virginia",2248,268,1935,244,313,149,2017
+"51031","Campbell County, Virginia",25570,70,22608,402,2962,392,2017
+"51087","Henrico County, Virginia",135397,150,126115,760,9282,791,2017
+"51089","Henry County, Virginia",26243,98,22161,444,4082,449,2017
+"51099","King George County, Virginia",9925,69,8972,213,953,204,2017
+"51101","King William County, Virginia",6760,37,6079,173,681,171,2017
+"51103","Lancaster County, Virginia",7581,54,5081,240,2500,234,2017
+"51105","Lee County, Virginia",11782,162,9278,359,2504,299,2017
+"51109","Louisa County, Virginia",17021,47,13451,457,3570,452,2017
+"51115","Mathews County, Virginia",5736,31,3766,309,1970,306,2017
+"51119","Middlesex County, Virginia",7285,36,4522,260,2763,254,2017
+"51147","Prince Edward County, Virginia",9383,362,7281,481,2102,321,2017
+"51149","Prince George County, Virginia",12336,202,11298,298,1038,205,2017
+"51159","Richmond County, Virginia",3916,110,3250,208,666,171,2017
+"51165","Rockingham County, Virginia",34891,132,30503,371,4388,358,2017
+"51169","Scott County, Virginia",11939,87,8976,311,2963,302,2017
+"51177","Spotsylvania County, Virginia",46594,100,43279,378,3315,379,2017
+"51181","Surry County, Virginia",3545,18,2773,150,772,152,2017
+"51011","Appomattox County, Virginia",7201,36,5948,179,1253,172,2017
+"51043","Clarke County, Virginia",6286,41,5568,193,718,188,2017
+"51067","Franklin County, Virginia",29767,110,23203,512,6564,503,2017
+"51097","King and Queen County, Virginia",3477,14,2811,164,666,166,2017
+"51117","Mecklenburg County, Virginia",18877,82,11785,339,7092,339,2017
+"51121","Montgomery County, Virginia",39571,319,35577,657,3994,552,2017
+"51127","New Kent County, Virginia",8071,69,7555,199,516,184,2017
+"51015","Augusta County, Virginia",32153,200,28790,557,3363,487,2017
+"51049","Cumberland County, Virginia",4694,16,3972,230,722,230,2017
+"51051","Dickenson County, Virginia",7587,71,6096,239,1491,222,2017
+"51075","Goochland County, Virginia",9040,72,8257,258,783,251,2017
+"51083","Halifax County, Virginia",18168,92,14084,411,4084,401,2017
+"51107","Loudoun County, Virginia",126162,160,121299,538,4863,503,2017
+"51113","Madison County, Virginia",6027,39,5107,221,920,214,2017
+"51153","Prince William County, Virginia",145961,195,139306,731,6655,721,2017
+"51161","Roanoke County, Virginia",40694,152,38434,402,2260,393,2017
+"51175","Southampton County, Virginia",7592,87,6664,181,928,168,2017
+"51091","Highland County, Virginia",2069,114,1163,75,906,75,2017
+"51025","Brunswick County, Virginia",8224,81,6048,229,2176,217,2017
+"51033","Caroline County, Virginia",12107,371,10815,463,1292,307,2017
+"51073","Gloucester County, Virginia",16334,58,14746,318,1588,316,2017
+"51131","Northampton County, Virginia",7384,61,5177,267,2207,261,2017
+"51141","Patrick County, Virginia",10176,67,7713,348,2463,352,2017
+"51145","Powhatan County, Virginia",10556,92,9974,221,582,189,2017
+"51163","Rockbridge County, Virginia",11352,48,9160,328,2192,319,2017
+"51171","Shenandoah County, Virginia",21130,75,17262,298,3868,298,2017
+"51061","Fauquier County, Virginia",26413,82,23981,359,2432,353,2017
+"51720","Norton city, Virginia",1922,167,1786,149,136,70,2017
+"51790","Staunton city, Virginia",11782,132,10477,264,1305,238,2017
+"51065","Fluvanna County, Virginia",10763,63,9794,220,969,207,2017
+"51007","Amelia County, Virginia",5505,31,4699,213,806,210,2017
+"51750","Radford city, Virginia",6507,214,5503,319,1004,218,2017
+"51840","Winchester city, Virginia",11855,107,10520,339,1335,318,2017
+"51001","Accomack County, Virginia",21243,245,13528,562,7715,540,2017
+"51045","Craig County, Virginia",2912,179,2344,164,568,163,2017
+"51063","Floyd County, Virginia",7981,42,6434,263,1547,260,2017
+"51071","Giles County, Virginia",8346,58,7088,254,1258,244,2017
+"51077","Grayson County, Virginia",9218,190,6653,263,2565,242,2017
+"51135","Nottoway County, Virginia",6749,154,5633,271,1116,249,2017
+"51157","Rappahannock County, Virginia",3945,23,3131,171,814,170,2017
+"51036","Charles City County, Virginia",3323,45,2899,90,424,77,2017
+"51047","Culpeper County, Virginia",18307,95,16837,287,1470,291,2017
+"51053","Dinwiddie County, Virginia",11655,106,10347,266,1308,254,2017
+"51079","Greene County, Virginia",8091,33,7260,206,831,199,2017
+"51085","Hanover County, Virginia",40325,111,38208,357,2117,344,2017
+"51111","Lunenburg County, Virginia",5981,58,4480,187,1501,175,2017
+"51137","Orange County, Virginia",14976,81,13470,439,1506,426,2017
+"51595","Emporia city, Virginia",2355,184,2119,178,236,95,2017
+"51197","Wythe County, Virginia",14318,78,11892,392,2426,400,2017
+"51550","Chesapeake city, Virginia",88856,300,83031,736,5825,622,2017
+"51570","Colonial Heights city, Virginia",7754,78,7092,207,662,183,2017
+"51660","Harrisonburg city, Virginia",18154,193,16848,325,1306,280,2017
+"51003","Albemarle County, Virginia",44391,443,40015,605,4376,490,2017
+"51021","Bland County, Virginia",3292,300,2561,345,731,156,2017
+"51019","Bedford County, Virginia",36313,74,30927,444,5386,437,2017
+"51023","Botetourt County, Virginia",14769,66,13238,242,1531,231,2017
+"51029","Buckingham County, Virginia",7365,70,5705,229,1660,215,2017
+"51195","Wise County, Virginia",17929,119,15104,319,2825,288,2017
+"51520","Bristol city, Virginia",8757,46,7418,278,1339,275,2017
+"51580","Covington city, Virginia",3018,31,2399,152,619,145,2017
+"51740","Portsmouth city, Virginia",40889,224,36616,426,4273,405,2017
+"51830","Williamsburg city, Virginia",5132,195,4649,230,483,140,2017
+"51810","Virginia Beach city, Virginia",182723,402,167731,1214,14992,1061,2017
+"51005","Alleghany County, Virginia",8047,83,6866,189,1181,198,2017
+"51035","Carroll County, Virginia",16745,56,12517,337,4228,337,2017
+"51640","Galax city, Virginia",3484,280,2837,201,647,169,2017
+"51191","Washington County, Virginia",25911,110,22388,389,3523,378,2017
+"51193","Westmoreland County, Virginia",10860,59,7412,329,3448,324,2017
+"51133","Northumberland County, Virginia",9203,30,5774,322,3429,324,2017
+"51139","Page County, Virginia",11702,57,9467,271,2235,274,2017
+"51155","Pulaski County, Virginia",17289,89,14577,410,2712,407,2017
+"51187","Warren County, Virginia",16188,73,14190,360,1998,359,2017
+"51510","Alexandria city, Virginia",75489,126,68663,662,6826,642,2017
+"51590","Danville city, Virginia",22206,101,18517,382,3689,385,2017
+"51630","Fredericksburg city, Virginia",11545,163,10419,319,1126,277,2017
+"51650","Hampton city, Virginia",60092,199,53555,722,6537,700,2017
+"51009","Amherst County, Virginia",14138,89,12110,333,2028,325,2017
+"51013","Arlington County, Virginia",111646,300,102310,945,9336,834,2017
+"51017","Bath County, Virginia",3353,239,1847,228,1506,216,2017
+"51670","Hopewell city, Virginia",10271,60,9123,299,1148,299,2017
+"51027","Buchanan County, Virginia",11579,76,9022,309,2557,304,2017
+"51700","Newport News city, Virginia",77442,304,68665,765,8777,645,2017
+"51069","Frederick County, Virginia",33091,152,30495,471,2596,479,2017
+"51179","Stafford County, Virginia",47345,174,45345,404,2000,364,2017
+"51680","Lynchburg city, Virginia",32309,280,28150,457,4159,415,2017
+"51199","York County, Virginia",27497,197,24333,392,3164,383,2017
+"51760","Richmond city, Virginia",99737,321,89238,771,10499,703,2017
+"51690","Martinsville city, Virginia",7105,86,5740,214,1365,204,2017
+"51125","Nelson County, Virginia",10087,38,6523,295,3564,296,2017
+"51057","Essex County, Virginia",5833,24,4470,181,1363,184,2017
+"51143","Pittsylvania County, Virginia",31622,102,26687,497,4935,490,2017
+"51185","Tazewell County, Virginia",20788,94,17330,411,3458,403,2017
+"51530","Buena Vista city, Virginia",2895,82,2606,154,289,130,2017
+"51610","Falls Church city, Virginia",5805,29,5308,161,497,160,2017
+"51685","Manassas Park city, Virginia",4895,18,4778,97,117,94,2017
+"51730","Petersburg city, Virginia",16385,94,13262,339,3123,328,2017
+"51735","Poquoson city, Virginia",4775,47,4583,113,192,102,2017
+"51183","Sussex County, Virginia",4145,613,3388,589,757,158,2017
+"51600","Fairfax city, Virginia",8843,68,8499,143,344,138,2017
+"51820","Waynesboro city, Virginia",9956,39,9128,246,828,246,2017
+"51683","Manassas city, Virginia",13451,49,12540,243,911,238,2017
+"51770","Roanoke city, Virginia",47083,173,42333,542,4750,522,2017
+"51775","Salem city, Virginia",10838,157,9997,297,841,229,2017
+"51800","Suffolk city, Virginia",35591,97,32331,369,3260,384,2017
+"51710","Norfolk city, Virginia",96700,616,87249,848,9451,621,2017
+"51037","Charlotte County, Virginia",6330,24,4493,214,1837,211,2017
+"51041","Chesterfield County, Virginia",127750,211,120907,692,6843,706,2017
+"51059","Fairfax County, Virginia",411223,318,393380,1346,17843,1276,2017
+"51081","Greensville County, Virginia",4169,98,3649,197,520,158,2017
+"51095","James City County, Virginia",32838,110,28766,522,4072,518,2018
+"51167","Russell County, Virginia",13537,62,10965,346,2572,341,2018
+"51173","Smyth County, Virginia",15410,115,12881,333,2529,288,2018
+"51540","Charlottesville city, Virginia",20499,134,18613,341,1886,322,2018
+"51031","Campbell County, Virginia",25754,71,22957,425,2797,419,2018
+"51087","Henrico County, Virginia",136199,157,127111,870,9088,834,2018
+"51099","King George County, Virginia",9997,44,9103,208,894,206,2018
+"51103","Lancaster County, Virginia",7611,33,5142,248,2469,248,2018
+"51105","Lee County, Virginia",11784,162,9149,346,2635,322,2018
+"51115","Mathews County, Virginia",5745,40,3908,279,1837,274,2018
+"51119","Middlesex County, Virginia",7311,44,4454,228,2857,222,2018
+"51149","Prince George County, Virginia",12415,150,11415,319,1000,290,2018
+"51159","Richmond County, Virginia",3943,109,3139,261,804,214,2018
+"51169","Scott County, Virginia",11940,86,8767,274,3173,254,2018
+"51177","Spotsylvania County, Virginia",47013,75,43677,434,3336,412,2018
+"51011","Appomattox County, Virginia",7264,41,6095,218,1169,211,2018
+"51067","Franklin County, Virginia",29847,105,23104,417,6743,426,2018
+"51097","King and Queen County, Virginia",3497,39,2826,159,671,159,2018
+"51121","Montgomery County, Virginia",39918,227,35483,638,4435,633,2018
+"51127","New Kent County, Virginia",8268,73,7754,235,514,220,2018
+"51049","Cumberland County, Virginia",4709,16,3963,201,746,201,2018
+"51051","Dickenson County, Virginia",7588,83,5841,254,1747,247,2018
+"51083","Halifax County, Virginia",18199,82,14025,380,4174,364,2018
+"51107","Loudoun County, Virginia",129728,143,125309,536,4419,491,2018
+"51153","Prince William County, Virginia",147480,227,140473,767,7007,710,2018
+"51175","Southampton County, Virginia",7592,132,6522,216,1070,177,2018
+"51091","Highland County, Virginia",2039,87,1123,64,916,65,2018
+"51033","Caroline County, Virginia",12176,385,10911,437,1265,285,2018
+"51073","Gloucester County, Virginia",16465,49,14759,286,1706,292,2018
+"51141","Patrick County, Virginia",10205,73,7685,245,2520,242,2018
+"51145","Powhatan County, Virginia",10724,109,10178,257,546,200,2018
+"51171","Shenandoah County, Virginia",21158,57,17315,370,3843,363,2018
+"51061","Fauquier County, Virginia",26635,79,24333,361,2302,357,2018
+"51790","Staunton city, Virginia",11814,126,10520,260,1294,242,2018
+"51065","Fluvanna County, Virginia",10841,67,9842,242,999,237,2018
+"51007","Amelia County, Virginia",5543,36,4789,193,754,189,2018
+"51750","Radford city, Virginia",6525,198,5438,289,1087,254,2018
+"51840","Winchester city, Virginia",11896,103,10554,292,1342,293,2018
+"51001","Accomack County, Virginia",21251,192,13401,507,7850,457,2018
+"51045","Craig County, Virginia",2883,170,2266,179,617,159,2018
+"51063","Floyd County, Virginia",8009,44,6480,238,1529,231,2018
+"51071","Giles County, Virginia",8356,59,6987,237,1369,230,2018
+"51077","Grayson County, Virginia",9222,264,6542,382,2680,250,2018
+"51135","Nottoway County, Virginia",6762,153,5542,303,1220,262,2018
+"51157","Rappahannock County, Virginia",3955,35,2976,214,979,208,2018
+"51036","Charles City County, Virginia",3353,28,2856,87,497,88,2018
+"51047","Culpeper County, Virginia",18499,84,16903,303,1596,305,2018
+"51053","Dinwiddie County, Virginia",11715,97,10391,308,1324,279,2018
+"51079","Greene County, Virginia",8185,41,7357,230,828,217,2018
+"51085","Hanover County, Virginia",40846,100,38599,446,2247,406,2018
+"51111","Lunenburg County, Virginia",5984,56,4331,221,1653,210,2018
+"51137","Orange County, Virginia",15061,70,13453,367,1608,364,2018
+"51595","Emporia city, Virginia",2401,188,2119,182,282,131,2018
+"51197","Wythe County, Virginia",14317,67,11955,349,2362,343,2018
+"51550","Chesapeake city, Virginia",89882,298,84230,772,5652,717,2018
+"51660","Harrisonburg city, Virginia",18186,185,16768,338,1418,300,2018
+"51003","Albemarle County, Virginia",44886,476,40612,683,4274,563,2018
+"51019","Bedford County, Virginia",36565,73,31206,493,5359,478,2018
+"51029","Buckingham County, Virginia",7400,74,5827,233,1573,234,2018
+"51195","Wise County, Virginia",17957,126,15126,377,2831,353,2018
+"51580","Covington city, Virginia",3006,31,2409,123,597,124,2018
+"51740","Portsmouth city, Virginia",40895,257,36471,510,4424,451,2018
+"51810","Virginia Beach city, Virginia",183906,455,169290,882,14616,824,2018
+"51005","Alleghany County, Virginia",8034,76,6741,186,1293,187,2018
+"51640","Galax city, Virginia",3367,197,2742,164,625,143,2018
+"51193","Westmoreland County, Virginia",10895,51,7612,357,3283,349,2018
+"51133","Northumberland County, Virginia",9239,20,5686,319,3553,317,2018
+"51155","Pulaski County, Virginia",17297,100,14525,409,2772,388,2018
+"51187","Warren County, Virginia",16277,67,14379,314,1898,309,2018
+"51590","Danville city, Virginia",22151,114,18479,455,3672,448,2018
+"51630","Fredericksburg city, Virginia",11589,166,10582,314,1007,277,2018
+"51009","Amherst County, Virginia",14167,86,12044,313,2123,306,2018
+"51017","Bath County, Virginia",3302,276,1999,191,1303,208,2018
+"51670","Hopewell city, Virginia",10275,69,9193,286,1082,275,2018
+"51700","Newport News city, Virginia",77664,350,69324,840,8340,753,2018
+"51069","Frederick County, Virginia",33594,115,30973,452,2621,439,2018
+"51680","Lynchburg city, Virginia",32364,305,28069,633,4295,490,2018
+"51199","York County, Virginia",27646,194,24617,405,3029,372,2018
+"51690","Martinsville city, Virginia",7090,73,5630,217,1460,202,2018
+"51125","Nelson County, Virginia",10117,46,6445,341,3672,334,2018
+"51143","Pittsylvania County, Virginia",31664,99,26330,444,5334,438,2018
+"51530","Buena Vista city, Virginia",2878,74,2539,191,339,171,2018
+"51610","Falls Church city, Virginia",5901,21,5262,193,639,190,2018
+"51730","Petersburg city, Virginia",16377,80,13274,322,3103,307,2018
+"51735","Poquoson city, Virginia",4785,35,4615,86,170,85,2018
+"51600","Fairfax city, Virginia",8906,61,8553,170,353,164,2018
+"51820","Waynesboro city, Virginia",10013,52,9144,270,869,268,2018
+"51770","Roanoke city, Virginia",47056,143,42037,532,5019,528,2018
+"51800","Suffolk city, Virginia",36213,113,33198,360,3015,317,2018
+"51710","Norfolk city, Virginia",97257,560,88155,867,9102,701,2018
+"51041","Chesterfield County, Virginia",129208,226,123010,632,6198,618,2018
+"51059","Fairfax County, Virginia",412574,333,394447,1221,18127,1214,2018
+"51093","Isle of Wight County, Virginia",15511,61,14304,278,1207,281,2018
+"51620","Franklin city, Virginia",3852,43,3526,144,326,136,2018
+"51678","Lexington city, Virginia",2312,281,1984,236,328,177,2018
+"51089","Henry County, Virginia",26223,80,21598,518,4625,505,2018
+"51101","King William County, Virginia",6873,44,6170,212,703,208,2018
+"51109","Louisa County, Virginia",17218,56,13575,410,3643,412,2018
+"51147","Prince Edward County, Virginia",9415,255,7187,405,2228,304,2018
+"51165","Rockingham County, Virginia",35184,113,30946,408,4238,423,2018
+"51181","Surry County, Virginia",3561,18,2760,164,801,161,2018
+"51043","Clarke County, Virginia",6317,42,5639,184,678,178,2018
+"51117","Mecklenburg County, Virginia",18931,101,11815,385,7116,387,2018
+"51015","Augusta County, Virginia",32345,276,29297,491,3048,419,2018
+"51075","Goochland County, Virginia",9177,101,8426,219,751,205,2018
+"51113","Madison County, Virginia",6053,46,5078,236,975,230,2018
+"51161","Roanoke County, Virginia",40800,132,38343,407,2457,398,2018
+"51025","Brunswick County, Virginia",8221,72,6048,231,2173,218,2018
+"51131","Northampton County, Virginia",7397,41,5151,229,2246,218,2018
+"51163","Rockbridge County, Virginia",11403,45,8979,369,2424,367,2018
+"51720","Norton city, Virginia",2040,196,1819,145,221,105,2018
+"51570","Colonial Heights city, Virginia",7752,39,7054,159,698,161,2018
+"51021","Bland County, Virginia",3312,94,2523,138,789,120,2018
+"51023","Botetourt County, Virginia",14814,75,13161,260,1653,250,2018
+"51520","Bristol city, Virginia",8737,45,7402,251,1335,257,2018
+"51830","Williamsburg city, Virginia",5194,148,4670,206,524,163,2018
+"51035","Carroll County, Virginia",16741,52,12375,346,4366,357,2018
+"51191","Washington County, Virginia",25933,120,22331,391,3602,366,2018
+"51139","Page County, Virginia",11719,42,9338,327,2381,326,2018
+"51510","Alexandria city, Virginia",76105,129,69979,585,6126,567,2018
+"51650","Hampton city, Virginia",60124,206,53700,650,6424,657,2018
+"51013","Arlington County, Virginia",113084,316,104716,828,8368,760,2018
+"51027","Buchanan County, Virginia",11584,73,8871,315,2713,303,2018
+"51179","Stafford County, Virginia",48330,184,46328,398,2002,354,2018
+"51760","Richmond city, Virginia",100119,328,89846,793,10273,734,2018
+"51057","Essex County, Virginia",5847,27,4463,227,1384,222,2018
+"51185","Tazewell County, Virginia",20770,87,17042,460,3728,444,2018
+"51685","Manassas Park city, Virginia",4884,21,4706,118,178,115,2018
+"51183","Sussex County, Virginia",4768,435,3814,460,954,137,2018
+"51683","Manassas city, Virginia",13583,39,12749,210,834,208,2018
+"51775","Salem city, Virginia",10852,154,9881,256,971,206,2018
+"51037","Charlotte County, Virginia",6338,29,4543,274,1795,267,2018
+"51081","Greensville County, Virginia",4179,105,3688,205,491,140,2018
+"51181","Surry County, Virginia",3575,15,2730,146,845,145,2019
+"51043","Clarke County, Virginia",6345,53,5612,173,733,183,2019
+"51117","Mecklenburg County, Virginia",18983,96,12075,389,6908,383,2019
+"51015","Augusta County, Virginia",32541,246,29539,529,3002,469,2019
+"51075","Goochland County, Virginia",9290,91,8506,276,784,254,2019
+"51113","Madison County, Virginia",6079,49,4949,234,1130,233,2019
+"51161","Roanoke County, Virginia",40924,140,38222,465,2702,431,2019
+"51025","Brunswick County, Virginia",8231,95,6037,257,2194,244,2019
+"51131","Northampton County, Virginia",7396,67,5148,266,2248,268,2019
+"51163","Rockbridge County, Virginia",11441,54,9248,361,2193,349,2019
+"51720","Norton city, Virginia",1903,175,1628,155,275,101,2019
+"51570","Colonial Heights city, Virginia",7734,35,7036,183,698,181,2019
+"51021","Bland County, Virginia",3325,127,2367,191,958,150,2019
+"51023","Botetourt County, Virginia",14884,66,13264,283,1620,258,2019
+"51520","Bristol city, Virginia",8727,42,7334,291,1393,290,2019
+"51830","Williamsburg city, Virginia",5263,201,4706,268,557,173,2019
+"51035","Carroll County, Virginia",16749,53,12357,415,4392,413,2019
+"51191","Washington County, Virginia",25961,157,22321,379,3640,360,2019
+"51139","Page County, Virginia",11747,57,9286,308,2461,298,2019
+"51510","Alexandria city, Virginia",76357,138,70598,558,5759,538,2019
+"51650","Hampton city, Virginia",60140,204,54050,656,6090,646,2019
+"51013","Arlington County, Virginia",114779,284,107032,813,7747,762,2019
+"51027","Buchanan County, Virginia",11579,109,8569,372,3010,357,2019
+"51179","Stafford County, Virginia",49292,196,47075,466,2217,421,2019
+"51760","Richmond city, Virginia",100458,483,90301,863,10157,732,2019
+"51057","Essex County, Virginia",5855,22,4555,206,1300,198,2019
+"51185","Tazewell County, Virginia",20754,84,16531,426,4223,406,2019
+"51685","Manassas Park city, Virginia",4879,19,4641,143,238,139,2019
+"51183","Sussex County, Virginia",4797,103,3794,215,1003,188,2019
+"51683","Manassas city, Virginia",13693,42,12898,238,795,232,2019
+"51775","Salem city, Virginia",10840,129,9912,280,928,237,2019
+"51037","Charlotte County, Virginia",6345,34,4661,237,1684,242,2019
+"51081","Greensville County, Virginia",4190,105,3647,184,543,158,2019
+"51093","Isle of Wight County, Virginia",15678,54,14587,243,1091,223,2019
+"51620","Franklin city, Virginia",3847,30,3522,148,325,148,2019
+"51678","Lexington city, Virginia",2447,293,2158,278,289,134,2019
+"51089","Henry County, Virginia",26196,110,21218,589,4978,585,2019
+"51101","King William County, Virginia",6983,40,6078,227,905,223,2019
+"51109","Louisa County, Virginia",17438,52,13871,411,3567,403,2019
+"51147","Prince Edward County, Virginia",9435,310,7185,420,2250,330,2019
+"51165","Rockingham County, Virginia",35504,113,30994,386,4510,383,2019
+"51095","James City County, Virginia",33284,119,28920,510,4364,504,2019
+"51167","Russell County, Virginia",13547,56,10812,352,2735,354,2019
+"51173","Smyth County, Virginia",15398,125,12686,340,2712,295,2019
+"51540","Charlottesville city, Virginia",20642,114,18617,327,2025,333,2019
+"51031","Campbell County, Virginia",25872,73,23071,356,2801,359,2019
+"51087","Henrico County, Virginia",137141,178,128464,906,8677,904,2019
+"51099","King George County, Virginia",10078,61,9202,246,876,247,2019
+"51103","Lancaster County, Virginia",7625,51,5062,250,2563,243,2019
+"51105","Lee County, Virginia",11798,156,9149,357,2649,334,2019
+"51115","Mathews County, Virginia",5751,198,3920,343,1831,296,2019
+"51119","Middlesex County, Virginia",7320,70,4603,263,2717,237,2019
+"51149","Prince George County, Virginia",12475,159,11507,282,968,242,2019
+"51159","Richmond County, Virginia",3962,84,3069,188,893,170,2019
+"51169","Scott County, Virginia",11964,108,8773,288,3191,268,2019
+"51177","Spotsylvania County, Virginia",47655,94,44436,389,3219,358,2019
+"51011","Appomattox County, Virginia",7314,42,6091,218,1223,225,2019
+"51067","Franklin County, Virginia",29898,132,22997,552,6901,539,2019
+"51097","King and Queen County, Virginia",3489,15,2707,168,782,165,2019
+"51121","Montgomery County, Virginia",40264,221,35685,649,4579,616,2019
+"51127","New Kent County, Virginia",8480,50,7961,227,519,218,2019
+"51049","Cumberland County, Virginia",4723,30,3975,176,748,188,2019
+"51051","Dickenson County, Virginia",7577,66,5778,237,1799,238,2019
+"51083","Halifax County, Virginia",18212,82,14158,448,4054,436,2019
+"51107","Loudoun County, Virginia",133063,220,128637,607,4426,542,2019
+"51153","Prince William County, Virginia",148874,190,142000,667,6874,690,2019
+"51175","Southampton County, Virginia",7627,86,6562,221,1065,204,2019
+"51091","Highland County, Virginia",2006,105,1078,76,928,79,2019
+"51033","Caroline County, Virginia",12268,387,10946,475,1322,309,2019
+"51073","Gloucester County, Virginia",16571,46,14786,360,1785,356,2019
+"51141","Patrick County, Virginia",10224,63,7755,321,2469,310,2019
+"51145","Powhatan County, Virginia",10893,100,10265,261,628,233,2019
+"51171","Shenandoah County, Virginia",21221,57,17402,408,3819,403,2019
+"51061","Fauquier County, Virginia",26894,133,24562,339,2332,330,2019
+"51790","Staunton city, Virginia",11824,147,10597,319,1227,283,2019
+"51065","Fluvanna County, Virginia",10948,59,9923,215,1025,196,2019
+"51750","Radford city, Virginia",6518,235,5573,366,945,247,2019
+"51840","Winchester city, Virginia",11919,102,10490,354,1429,334,2019
+"51001","Accomack County, Virginia",21273,211,13438,530,7835,553,2019
+"51045","Craig County, Virginia",2909,191,2297,177,612,180,2019
+"51063","Floyd County, Virginia",8048,45,6493,248,1555,250,2019
+"51071","Giles County, Virginia",8357,57,6910,238,1447,228,2019
+"51077","Grayson County, Virginia",9239,353,6498,458,2741,243,2019
+"51135","Nottoway County, Virginia",6775,148,5446,280,1329,246,2019
+"51157","Rappahannock County, Virginia",3979,21,2913,156,1066,155,2019
+"51036","Charles City County, Virginia",3359,32,2896,93,463,81,2019
+"51047","Culpeper County, Virginia",18729,84,17071,328,1658,319,2019
+"51053","Dinwiddie County, Virginia",11758,106,10401,307,1357,303,2019
+"51079","Greene County, Virginia",8291,58,7548,206,743,200,2019
+"51085","Hanover County, Virginia",41357,158,38987,377,2370,408,2019
+"51111","Lunenburg County, Virginia",5995,52,4293,228,1702,219,2019
+"51137","Orange County, Virginia",15142,80,13679,352,1463,347,2019
+"51595","Emporia city, Virginia",2385,170,2086,174,299,113,2019
+"51197","Wythe County, Virginia",14375,45,11983,345,2392,337,2019
+"51550","Chesapeake city, Virginia",90802,285,84849,815,5953,841,2019
+"51660","Harrisonburg city, Virginia",18261,231,16723,380,1538,287,2019
+"51003","Albemarle County, Virginia",45520,402,41496,632,4024,486,2019
+"51019","Bedford County, Virginia",36743,145,31317,515,5426,481,2019
+"51029","Buckingham County, Virginia",7444,73,5826,249,1618,243,2019
+"51195","Wise County, Virginia",17958,116,14925,399,3033,389,2019
+"51580","Covington city, Virginia",2997,31,2384,150,613,149,2019
+"51740","Portsmouth city, Virginia",40907,252,36370,457,4537,382,2019
+"51810","Virginia Beach city, Virginia",184794,282,170798,1061,13996,1025,2019
+"51005","Alleghany County, Virginia",8027,72,6600,206,1427,200,2019
+"51640","Galax city, Virginia",3327,219,2663,191,664,163,2019
+"51193","Westmoreland County, Virginia",10951,49,7923,365,3028,354,2019
+"51133","Northumberland County, Virginia",9277,24,5584,312,3693,312,2019
+"51155","Pulaski County, Virginia",17304,104,14533,338,2771,344,2019
+"51187","Warren County, Virginia",16387,85,14651,303,1736,301,2019
+"51590","Danville city, Virginia",22072,79,18293,480,3779,465,2019
+"51630","Fredericksburg city, Virginia",11725,158,10762,284,963,246,2019
+"51009","Amherst County, Virginia",14190,85,12160,344,2030,332,2019
+"51017","Bath County, Virginia",3379,247,1801,236,1578,215,2019
+"51670","Hopewell city, Virginia",10323,57,9224,287,1099,276,2019
+"51700","Newport News city, Virginia",77759,348,69835,817,7924,774,2019
+"51069","Frederick County, Virginia",34161,114,31503,418,2658,396,2019
+"51680","Lynchburg city, Virginia",32410,272,28273,618,4137,549,2019
+"51199","York County, Virginia",27896,205,25103,399,2793,342,2019
+"51690","Martinsville city, Virginia",7067,81,5532,268,1535,255,2019
+"51125","Nelson County, Virginia",10175,41,6419,310,3756,305,2019
+"51143","Pittsylvania County, Virginia",31650,137,26267,513,5383,459,2019
+"51530","Buena Vista city, Virginia",2866,73,2517,155,349,140,2019
+"51610","Falls Church city, Virginia",6004,18,5493,165,511,164,2019
+"51730","Petersburg city, Virginia",16367,90,13165,351,3202,337,2019
+"51735","Poquoson city, Virginia",4801,23,4593,113,208,112,2019
+"51600","Fairfax city, Virginia",8959,53,8577,168,382,152,2019
+"51820","Waynesboro city, Virginia",10023,51,9193,273,830,269,2019
+"51770","Roanoke city, Virginia",47010,155,41740,659,5270,631,2019
+"51800","Suffolk city, Virginia",36769,88,33774,365,2995,372,2019
+"51710","Norfolk city, Virginia",97670,590,88353,959,9317,680,2019
+"51007","Amelia County, Virginia",5591,43,4954,198,637,196,2019
+"51041","Chesterfield County, Virginia",130707,179,124971,690,5736,691,2019
+"51059","Fairfax County, Virginia",413885,247,396501,1351,17384,1322,2019
+"51001","Accomack County, Virginia",21299,229,13641,569,7658,518,2020
+"51005","Alleghany County, Virginia",8036,65,6529,240,1507,244,2020
+"51007","Amelia County, Virginia",5626,24,5034,205,592,204,2020
+"51011","Appomattox County, Virginia",7362,32,6158,233,1204,230,2020
+"51013","Arlington County, Virginia",116248,252,108604,802,7644,821,2020
+"51017","Bath County, Virginia",3336,272,1831,196,1505,236,2020
+"51019","Bedford County, Virginia",36930,82,31424,498,5506,501,2020
+"51023","Botetourt County, Virginia",14959,54,13171,292,1788,290,2020
+"51025","Brunswick County, Virginia",8238,107,6138,268,2100,243,2020
+"51029","Buckingham County, Virginia",7456,83,5948,248,1508,226,2020
+"51031","Campbell County, Virginia",25997,100,23157,385,2840,383,2020
+"51035","Carroll County, Virginia",16738,61,12134,378,4604,379,2020
+"51036","Charles City County, Virginia",3382,37,2998,74,384,74,2020
+"51037","Charlotte County, Virginia",6351,34,4836,207,1515,203,2020
+"51043","Clarke County, Virginia",6394,39,5690,184,704,179,2020
+"51045","Craig County, Virginia",2856,219,2219,210,637,179,2020
+"51049","Cumberland County, Virginia",4747,26,4112,188,635,186,2020
+"51051","Dickenson County, Virginia",7579,69,5727,220,1852,217,2020
+"51057","Essex County, Virginia",5876,52,4551,229,1325,219,2020
+"51059","Fairfax County, Virginia",415149,238,398653,1053,16496,998,2020
+"51063","Floyd County, Virginia",8076,44,6657,214,1419,213,2020
+"51065","Fluvanna County, Virginia",11048,68,9967,280,1081,265,2020
+"51069","Frederick County, Virginia",34817,104,32094,439,2723,447,2020
+"51071","Giles County, Virginia",8360,59,6715,303,1645,309,2020
+"51075","Goochland County, Virginia",9511,123,8711,268,800,231,2020
+"51077","Grayson County, Virginia",9262,71,6388,268,2874,263,2020
+"51081","Greensville County, Virginia",4192,98,3441,225,751,190,2020
+"51083","Halifax County, Virginia",18215,92,14155,370,4060,388,2020
+"51087","Henrico County, Virginia",138225,163,130434,877,7791,888,2020
+"51089","Henry County, Virginia",26193,88,21012,508,5181,494,2020
+"51093","Isle of Wight County, Virginia",15866,35,14611,327,1255,316,2020
+"51095","James City County, Virginia",33699,120,29681,617,4018,622,2020
+"51097","King and Queen County, Virginia",3508,18,2816,150,692,151,2020
+"51099","King George County, Virginia",10162,65,9387,221,775,219,2020
+"51101","King William County, Virginia",7107,40,6393,195,714,188,2020
+"51103","Lancaster County, Virginia",7632,66,5287,281,2345,265,2020
+"51105","Lee County, Virginia",11800,573,8843,656,2957,327,2020
+"51107","Loudoun County, Virginia",136398,133,132565,526,3833,511,2020
+"51109","Louisa County, Virginia",17626,53,14383,403,3243,403,2020
+"51111","Lunenburg County, Virginia",5994,60,4472,238,1522,228,2020
+"51113","Madison County, Virginia",6112,36,5098,225,1014,236,2020
+"51115","Mathews County, Virginia",5758,47,3881,306,1877,302,2020
+"51117","Mecklenburg County, Virginia",19019,91,12371,377,6648,381,2020
+"51119","Middlesex County, Virginia",7352,74,4764,270,2588,263,2020
+"51121","Montgomery County, Virginia",40674,251,35388,662,5286,599,2020
+"51125","Nelson County, Virginia",10219,31,6398,440,3821,442,2020
+"51127","New Kent County, Virginia",8694,113,8117,242,577,211,2020
+"51131","Northampton County, Virginia",7434,66,5151,268,2283,258,2020
+"51133","Northumberland County, Virginia",9321,16,5686,407,3635,408,2020
+"51135","Nottoway County, Virginia",6813,179,5568,319,1245,277,2020
+"51137","Orange County, Virginia",15254,94,13926,308,1328,302,2020
+"51139","Page County, Virginia",11783,56,9413,346,2370,353,2020
+"51141","Patrick County, Virginia",10227,88,7830,325,2397,322,2020
+"51145","Powhatan County, Virginia",11091,110,10392,284,699,265,2020
+"51147","Prince Edward County, Virginia",9468,182,7394,368,2074,293,2020
+"51149","Prince George County, Virginia",12545,188,11763,258,782,202,2020
+"51155","Pulaski County, Virginia",17289,117,14666,432,2623,412,2020
+"51157","Rappahannock County, Virginia",3994,21,2827,202,1167,203,2020
+"51161","Roanoke County, Virginia",41036,128,38234,470,2802,475,2020
+"51163","Rockbridge County, Virginia",11508,49,9301,339,2207,335,2020
+"51167","Russell County, Virginia",13527,60,10975,313,2552,311,2020
+"51169","Scott County, Virginia",11960,94,8710,293,3250,272,2020
+"51173","Smyth County, Virginia",15366,115,12694,312,2672,326,2020
+"51175","Southampton County, Virginia",7648,143,6618,274,1030,218,2020
+"51179","Stafford County, Virginia",50272,283,48160,493,2112,449,2020
+"51181","Surry County, Virginia",3600,20,2794,183,806,184,2020
+"51185","Tazewell County, Virginia",20731,84,16371,570,4360,562,2020
+"51187","Warren County, Virginia",16481,78,14641,327,1840,330,2020
+"51193","Westmoreland County, Virginia",11013,48,7910,348,3103,343,2020
+"51195","Wise County, Virginia",17931,127,14916,366,3015,345,2020
+"51199","York County, Virginia",28114,173,25517,347,2597,294,2020
+"51510","Alexandria city, Virginia",76361,156,71289,687,5072,663,2020
+"51530","Buena Vista city, Virginia",2866,68,2509,175,357,160,2020
+"51540","Charlottesville city, Virginia",20736,92,18814,350,1922,331,2020
+"51570","Colonial Heights city, Virginia",7724,51,7094,189,630,187,2020
+"51580","Covington city, Virginia",2987,18,2382,147,605,147,2020
+"51590","Danville city, Virginia",22017,112,18266,437,3751,421,2020
+"51600","Fairfax city, Virginia",9019,75,8751,135,268,118,2020
+"51610","Falls Church city, Virginia",6080,32,5631,153,449,145,2020
+"51630","Fredericksburg city, Virginia",11887,192,11059,311,828,265,2020
+"51640","Galax city, Virginia",3222,212,2614,209,608,136,2020
+"51660","Harrisonburg city, Virginia",18317,187,16751,413,1566,353,2020
+"51670","Hopewell city, Virginia",10354,61,9362,321,992,320,2020
+"51680","Lynchburg city, Virginia",32533,317,28223,618,4310,539,2020
+"51683","Manassas city, Virginia",13823,69,13066,280,757,266,2020
+"51690","Martinsville city, Virginia",7062,79,5597,217,1465,201,2020
+"51700","Newport News city, Virginia",77851,360,70376,706,7475,651,2020
+"51720","Norton city, Virginia",2105,211,1877,190,228,111,2020
+"51730","Petersburg city, Virginia",16346,63,13231,298,3115,289,2020
+"51740","Portsmouth city, Virginia",40879,211,36650,406,4229,352,2020
+"51750","Radford city, Virginia",6522,103,5677,255,845,221,2020
+"51770","Roanoke city, Virginia",46991,156,41694,718,5297,711,2020
+"51775","Salem city, Virginia",10846,141,9876,280,970,256,2020
+"51790","Staunton city, Virginia",11847,162,10638,315,1209,262,2020
+"51800","Suffolk city, Virginia",37394,74,34603,357,2791,363,2020
+"51810","Virginia Beach city, Virginia",185735,395,172452,1029,13283,953,2020
+"51820","Waynesboro city, Virginia",10059,48,9169,316,890,307,2020
+"51830","Williamsburg city, Virginia",5271,172,4485,281,786,199,2020
+"51840","Winchester city, Virginia",11980,90,10669,302,1311,280,2020
+"51003","Albemarle County, Virginia",46235,575,42381,723,3854,481,2020
+"51009","Amherst County, Virginia",14237,90,12161,357,2076,347,2020
+"51015","Augusta County, Virginia",32733,252,30165,542,2568,466,2020
+"51021","Bland County, Virginia",3341,144,2326,221,1015,159,2020
+"51027","Buchanan County, Virginia",11558,81,8270,354,3288,346,2020
+"51033","Caroline County, Virginia",12322,529,10978,660,1344,335,2020
+"51041","Chesterfield County, Virginia",132606,183,127230,576,5376,567,2020
+"51047","Culpeper County, Virginia",18959,82,17474,349,1485,346,2020
+"51053","Dinwiddie County, Virginia",11800,85,10403,349,1397,338,2020
+"51061","Fauquier County, Virginia",27084,64,24617,387,2467,379,2020
+"51067","Franklin County, Virginia",29991,121,22730,606,7261,612,2020
+"51073","Gloucester County, Virginia",16713,71,14792,384,1921,386,2020
+"51079","Greene County, Virginia",8384,49,7491,231,893,229,2020
+"51085","Hanover County, Virginia",41879,136,39226,442,2653,423,2020
+"51091","Highland County, Virginia",1859,123,987,108,872,88,2020
+"51143","Pittsylvania County, Virginia",31623,129,26205,475,5418,433,2020
+"51153","Prince William County, Virginia",150283,229,144159,718,6124,653,2020
+"51159","Richmond County, Virginia",3967,89,2939,247,1028,233,2020
+"51165","Rockingham County, Virginia",35783,106,31306,406,4477,386,2020
+"51171","Shenandoah County, Virginia",21263,66,17541,433,3722,419,2020
+"51177","Spotsylvania County, Virginia",48522,75,45463,374,3059,355,2020
+"51183","Sussex County, Virginia",4801,94,3792,198,1009,183,2020
+"51191","Washington County, Virginia",25999,128,22104,448,3895,422,2020
+"51197","Wythe County, Virginia",14402,59,12393,436,2009,427,2020
+"51520","Bristol city, Virginia",8714,49,7482,268,1232,263,2020
+"51550","Chesapeake city, Virginia",91707,241,86524,728,5183,688,2020
+"51595","Emporia city, Virginia",2569,235,2076,177,493,187,2020
+"51620","Franklin city, Virginia",3843,29,3516,184,327,181,2020
+"51650","Hampton city, Virginia",60145,213,54847,669,5298,603,2020
+"51678","Lexington city, Virginia",2405,270,2066,253,339,140,2020
+"51685","Manassas Park city, Virginia",4874,19,4596,150,278,147,2020
+"51710","Norfolk city, Virginia",98142,591,89398,856,8744,528,2020
+"51735","Poquoson city, Virginia",4817,26,4632,105,185,102,2020
+"51760","Richmond city, Virginia",100930,541,91005,876,9925,672,2020
+"51001","Accomack County, Virginia",21661,160,14152,483,7509,458,2021
+"51003","Albemarle County, Virginia",46661,617,43066,825,3595,482,2021
+"51005","Alleghany County, Virginia",7948,62,6405,206,1543,204,2021
+"51007","Amelia County, Virginia",5675,25,5190,227,485,221,2021
+"51009","Amherst County, Virginia",14229,98,12538,346,1691,329,2021
+"51011","Appomattox County, Virginia",7261,69,6187,243,1074,224,2021
+"51013","Arlington County, Virginia",117546,257,109528,819,8018,795,2021
+"51015","Augusta County, Virginia",32502,255,29880,499,2622,442,2021
+"51017","Bath County, Virginia",3349,237,1823,181,1526,206,2021
+"51019","Bedford County, Virginia",37207,66,32269,464,4938,472,2021
+"51021","Bland County, Virginia",3204,150,2260,212,944,164,2021
+"51023","Botetourt County, Virginia",14867,56,13076,280,1791,273,2021
+"51025","Brunswick County, Virginia",7944,129,5905,314,2039,244,2021
+"51027","Buchanan County, Virginia",10475,90,7440,371,3035,341,2021
+"51029","Buckingham County, Virginia",7178,110,5724,244,1454,217,2021
+"51031","Campbell County, Virginia",25159,75,22243,388,2916,385,2021
+"51033","Caroline County, Virginia",12373,228,11000,389,1373,332,2021
+"51035","Carroll County, Virginia",16616,55,12127,376,4489,365,2021
+"51036","Charles City County, Virginia",3261,35,2932,62,329,57,2021
+"51037","Charlotte County, Virginia",6003,26,4606,196,1397,195,2021
+"51041","Chesterfield County, Virginia",136775,158,131350,664,5425,629,2021
+"51043","Clarke County, Virginia",6341,54,5692,194,649,180,2021
+"51045","Craig County, Virginia",2623,215,1941,186,682,211,2021
+"51047","Culpeper County, Virginia",19020,80,17692,396,1328,388,2021
+"51049","Cumberland County, Virginia",4638,18,3990,179,648,179,2021
+"51051","Dickenson County, Virginia",7382,53,5573,230,1809,234,2021
+"51053","Dinwiddie County, Virginia",11775,114,10268,359,1507,342,2021
+"51057","Essex County, Virginia",5744,37,4299,158,1445,150,2021
+"51059","Fairfax County, Virginia",425294,308,408673,1255,16621,1139,2021
+"51061","Fauquier County, Virginia",27966,59,25472,432,2494,427,2021
+"51063","Floyd County, Virginia",7933,41,6695,219,1238,215,2021
+"51065","Fluvanna County, Virginia",11061,89,9979,258,1082,253,2021
+"51067","Franklin County, Virginia",28339,127,22033,518,6306,535,2021
+"51069","Frederick County, Virginia",35335,109,32723,431,2612,419,2021
+"51071","Giles County, Virginia",8312,78,6824,307,1488,307,2021
+"51073","Gloucester County, Virginia",16952,55,14882,383,2070,397,2021
+"51075","Goochland County, Virginia",10321,130,9454,271,867,250,2021
+"51077","Grayson County, Virginia",8956,65,6112,257,2844,249,2021
+"51079","Greene County, Virginia",8420,38,7533,266,887,257,2021
+"51081","Greensville County, Virginia",4029,141,3183,237,846,191,2021
+"51083","Halifax County, Virginia",17387,76,13506,400,3881,385,2021
+"51085","Hanover County, Virginia",42692,160,40310,399,2382,365,2021
+"51087","Henrico County, Virginia",139826,152,132465,1011,7361,981,2021
+"51089","Henry County, Virginia",25545,84,20516,482,5029,487,2021
+"51091","Highland County, Virginia",1800,123,987,87,813,111,2021
+"51093","Isle of Wight County, Virginia",16304,53,15063,337,1241,331,2021
+"51095","James City County, Virginia",33771,103,29748,479,4023,473,2021
+"51097","King and Queen County, Virginia",3452,16,2803,132,649,132,2021
+"51099","King George County, Virginia",10248,50,9445,211,803,197,2021
+"51101","King William County, Virginia",7304,38,6667,176,637,170,2021
+"51103","Lancaster County, Virginia",7454,48,5197,284,2257,277,2021
+"51105","Lee County, Virginia",10947,99,8244,385,2703,379,2021
+"51107","Loudoun County, Virginia",139439,135,135690,464,3749,470,2021
+"51109","Louisa County, Virginia",17409,38,14192,370,3217,373,2021
+"51111","Lunenburg County, Virginia",5880,70,4304,193,1576,174,2021
+"51113","Madison County, Virginia",6036,23,5175,242,861,240,2021
+"51115","Mathews County, Virginia",5502,48,3558,300,1944,300,2021
+"51117","Mecklenburg County, Virginia",19003,137,12655,407,6348,386,2021
+"51119","Middlesex County, Virginia",7125,66,4579,248,2546,250,2021
+"51121","Montgomery County, Virginia",41085,272,35533,746,5552,763,2021
+"51125","Nelson County, Virginia",9902,43,6149,385,3753,382,2021
+"51127","New Kent County, Virginia",8919,116,8306,238,613,215,2021
+"51131","Northampton County, Virginia",7364,57,5292,235,2072,233,2021
+"51133","Northumberland County, Virginia",8986,31,5127,356,3859,356,2021
+"51135","Nottoway County, Virginia",6639,177,5309,287,1330,251,2021
+"51137","Orange County, Virginia",15529,93,13970,386,1559,382,2021
+"51139","Page County, Virginia",11750,65,9355,291,2395,291,2021
+"51141","Patrick County, Virginia",10014,75,7732,360,2282,340,2021
+"51143","Pittsylvania County, Virginia",29656,127,24663,418,4993,410,2021
+"51145","Powhatan County, Virginia",11415,95,10722,301,693,281,2021
+"51147","Prince Edward County, Virginia",9119,215,7113,410,2006,298,2021
+"51149","Prince George County, Virginia",13239,334,12492,403,747,228,2021
+"51153","Prince William County, Virginia",156845,327,150488,771,6357,672,2021
+"51155","Pulaski County, Virginia",17016,160,14534,393,2482,378,2021
+"51157","Rappahannock County, Virginia",3843,15,2773,174,1070,175,2021
+"51159","Richmond County, Virginia",3934,83,2811,221,1123,191,2021
+"51161","Roanoke County, Virginia",42007,149,39087,419,2920,411,2021
+"51163","Rockbridge County, Virginia",11261,70,9045,369,2216,362,2021
+"51165","Rockingham County, Virginia",35388,139,31189,414,4199,387,2021
+"51167","Russell County, Virginia",12857,47,10355,311,2502,311,2021
+"51169","Scott County, Virginia",11790,97,8612,284,3178,275,2021
+"51171","Shenandoah County, Virginia",21114,68,17487,324,3627,306,2021
+"51173","Smyth County, Virginia",15148,86,12607,318,2541,309,2021
+"51175","Southampton County, Virginia",7703,134,6661,270,1042,209,2021
+"51177","Spotsylvania County, Virginia",51085,80,47944,489,3141,487,2021
+"51179","Stafford County, Virginia",51947,191,49469,507,2478,493,2021
+"51181","Surry County, Virginia",3410,24,2720,131,690,130,2021
+"51183","Sussex County, Virginia",4645,101,3656,182,989,146,2021
+"51185","Tazewell County, Virginia",19946,100,15759,489,4187,472,2021
+"51187","Warren County, Virginia",16656,71,15082,319,1574,304,2021
+"51191","Washington County, Virginia",25490,129,21845,388,3645,377,2021
+"51193","Westmoreland County, Virginia",11080,47,7873,371,3207,375,2021
+"51195","Wise County, Virginia",16820,130,14025,397,2795,377,2021
+"51197","Wythe County, Virginia",14033,65,12125,356,1908,383,2021
+"51199","York County, Virginia",27633,170,25389,376,2244,319,2021
+"51510","Alexandria city, Virginia",80040,163,74224,679,5816,628,2021
+"51520","Bristol city, Virginia",8692,60,7347,271,1345,257,2021
+"51530","Buena Vista city, Virginia",2941,56,2581,194,360,181,2021
+"51540","Charlottesville city, Virginia",21285,128,19312,332,1973,306,2021
+"51550","Chesapeake city, Virginia",94035,259,89413,621,4622,654,2021
+"51570","Colonial Heights city, Virginia",8107,40,7465,198,642,196,2021
+"51580","Covington city, Virginia",3046,23,2547,149,499,152,2021
+"51590","Danville city, Virginia",22264,103,18590,385,3674,387,2021
+"51595","Emporia city, Virginia",2794,227,2240,217,554,200,2021
+"51600","Fairfax city, Virginia",9294,63,9090,145,204,121,2021
+"51610","Falls Church city, Virginia",6069,30,5630,159,439,158,2021
+"51620","Franklin city, Virginia",3878,28,3474,190,404,187,2021
+"51630","Fredericksburg city, Virginia",11961,289,11198,356,763,208,2021
+"51640","Galax city, Virginia",3255,207,2780,211,475,143,2021
+"51650","Hampton city, Virginia",62183,199,57116,664,5067,624,2021
+"51660","Harrisonburg city, Virginia",18569,252,17102,450,1467,331,2021
+"51670","Hopewell city, Virginia",10395,72,9269,303,1126,304,2021
+"51678","Lexington city, Virginia",2377,271,2005,275,372,153,2021
+"51680","Lynchburg city, Virginia",33637,367,28939,643,4698,567,2021
+"51683","Manassas city, Virginia",14234,47,13562,258,672,250,2021
+"51685","Manassas Park city, Virginia",5459,26,5155,182,304,181,2021
+"51690","Martinsville city, Virginia",7065,78,5656,243,1409,230,2021
+"51700","Newport News city, Virginia",81418,357,74922,693,6496,601,2021
+"51710","Norfolk city, Virginia",100947,973,92877,1200,8070,631,2021
+"51720","Norton city, Virginia",1801,184,1540,142,261,109,2021
+"51730","Petersburg city, Virginia",17853,73,14464,343,3389,338,2021
+"51735","Poquoson city, Virginia",4906,32,4617,116,289,115,2021
+"51740","Portsmouth city, Virginia",42934,224,38553,527,4381,425,2021
+"51750","Radford city, Virginia",6460,194,5545,262,915,186,2021
+"51760","Richmond city, Virginia",110224,551,98821,1000,11403,777,2021
+"51770","Roanoke city, Virginia",48537,113,42766,664,5771,645,2021
+"51775","Salem city, Virginia",11086,177,9971,297,1115,278,2021
+"51790","Staunton city, Virginia",12264,141,11125,283,1139,261,2021
+"51800","Suffolk city, Virginia",38021,120,35249,375,2772,377,2021
+"51810","Virginia Beach city, Virginia",189187,370,177046,963,12141,910,2021
+"51820","Waynesboro city, Virginia",10201,46,9419,310,782,305,2021
+"51830","Williamsburg city, Virginia",5686,217,4778,308,908,216,2021
+"51840","Winchester city, Virginia",12268,86,11018,314,1250,302,2021
+"51001","Accomack County, Virginia",21769,46,14252,527,7517,520,2022
+"51003","Albemarle County, Virginia",47496,106,44031,525,3465,494,2022
+"51005","Alleghany County, Virginia",7938,23,6309,203,1629,203,2022
+"51007","Amelia County, Virginia",5726,20,5258,173,468,170,2022
+"51009","Amherst County, Virginia",14244,45,12615,291,1629,288,2022
+"51011","Appomattox County, Virginia",7338,32,6535,198,803,195,2022
+"51013","Arlington County, Virginia",119247,92,110887,881,8360,873,2022
+"51015","Augusta County, Virginia",32675,76,30056,476,2619,469,2022
+"51017","Bath County, Virginia",3346,310,1905,234,1441,227,2022
+"51019","Bedford County, Virginia",37302,44,32510,519,4792,527,2022
+"51021","Bland County, Virginia",3200,25,2235,171,965,169,2022
+"51023","Botetourt County, Virginia",14932,33,12916,293,2016,297,2022
+"51025","Brunswick County, Virginia",7940,31,6165,263,1775,258,2022
+"51027","Buchanan County, Virginia",10402,21,7494,323,2908,324,2022
+"51029","Buckingham County, Virginia",7184,25,5898,199,1286,196,2022
+"51031","Campbell County, Virginia",25285,82,22409,421,2876,419,2022
+"51033","Caroline County, Virginia",12511,109,11387,322,1124,308,2022
+"51035","Carroll County, Virginia",16633,33,12141,365,4492,363,2022
+"51036","Charles City County, Virginia",3252,35,2905,92,347,77,2022
+"51037","Charlotte County, Virginia",5985,22,4540,202,1445,205,2022
+"51041","Chesterfield County, Virginia",139584,91,134144,636,5440,646,2022
+"51043","Clarke County, Virginia",6398,22,5617,206,781,206,2022
+"51045","Craig County, Virginia",2466,262,1810,227,656,173,2022
+"51047","Culpeper County, Virginia",19285,59,18188,311,1097,313,2022
+"51049","Cumberland County, Virginia",4658,17,4055,207,603,207,2022
+"51051","Dickenson County, Virginia",7367,21,5543,317,1824,320,2022
+"51053","Dinwiddie County, Virginia",11837,26,10432,334,1405,330,2022
+"51057","Essex County, Virginia",5768,25,4258,217,1510,215,2022
+"51059","Fairfax County, Virginia",426970,163,410844,1095,16126,1087,2022
+"51061","Fauquier County, Virginia",28218,51,26011,307,2207,295,2022
+"51063","Floyd County, Virginia",7947,26,6655,215,1292,224,2022
+"51065","Fluvanna County, Virginia",11183,45,10195,265,988,262,2022
+"51067","Franklin County, Virginia",28305,35,22022,500,6283,505,2022
+"51069","Frederick County, Virginia",35963,71,33534,466,2429,457,2022
+"51071","Giles County, Virginia",8309,31,6852,265,1457,262,2022
+"51073","Gloucester County, Virginia",17064,60,14857,448,2207,441,2022
+"51075","Goochland County, Virginia",10623,34,9788,245,835,247,2022
+"51077","Grayson County, Virginia",8948,31,6148,278,2800,275,2022
+"51079","Greene County, Virginia",8555,30,7662,222,893,225,2022
+"51081","Greensville County, Virginia",4013,28,3222,198,791,196,2022
+"51083","Halifax County, Virginia",17384,41,13519,346,3865,348,2022
+"51085","Hanover County, Virginia",43331,81,41383,343,1948,330,2022
+"51087","Henrico County, Virginia",141349,100,134094,831,7255,828,2022
+"51089","Henry County, Virginia",25475,34,20411,466,5064,461,2022
+"51091","Highland County, Virginia",1814,104,1014,92,800,96,2022
+"51093","Isle of Wight County, Virginia",16551,51,15196,299,1355,299,2022
+"51095","James City County, Virginia",34104,50,30690,497,3414,505,2022
+"51097","King and Queen County, Virginia",3464,18,2826,155,638,151,2022
+"51099","King George County, Virginia",10391,30,9737,216,654,219,2022
+"51101","King William County, Virginia",7470,43,6893,187,577,186,2022
+"51103","Lancaster County, Virginia",7452,53,5238,286,2214,277,2022
+"51105","Lee County, Virginia",10906,34,8324,332,2582,331,2022
+"51107","Loudoun County, Virginia",142270,127,138549,502,3721,504,2022
+"51109","Louisa County, Virginia",17707,27,14642,366,3065,368,2022
+"51111","Lunenburg County, Virginia",5886,20,4566,230,1320,227,2022
+"51113","Madison County, Virginia",6064,19,5324,193,740,192,2022
+"51115","Mathews County, Virginia",5478,33,3742,300,1736,296,2022
+"51117","Mecklenburg County, Virginia",19063,46,13037,410,6026,399,2022
+"51119","Middlesex County, Virginia",7127,17,4714,247,2413,245,2022
+"51121","Montgomery County, Virginia",41660,138,36062,710,5598,673,2022
+"51125","Nelson County, Virginia",9919,19,6132,328,3787,328,2022
+"51127","New Kent County, Virginia",9188,56,8675,267,513,255,2022
+"51131","Northampton County, Virginia",7412,41,5344,232,2068,229,2022
+"51133","Northumberland County, Virginia",8989,16,5174,329,3815,329,2022
+"51135","Nottoway County, Virginia",6658,34,5415,222,1243,222,2022
+"51137","Orange County, Virginia",15700,57,14309,329,1391,327,2022
+"51139","Page County, Virginia",11784,31,9351,327,2433,324,2022
+"51141","Patrick County, Virginia",10007,19,7779,323,2228,326,2022
+"51143","Pittsylvania County, Virginia",29526,47,24487,449,5039,438,2022
+"51145","Powhatan County, Virginia",11619,47,11077,242,542,233,2022
+"51147","Prince Edward County, Virginia",9153,145,7416,362,1737,305,2022
+"51149","Prince George County, Virginia",13344,89,12808,168,536,152,2022
+"51153","Prince William County, Virginia",158642,106,152616,829,6026,813,2022
+"51155","Pulaski County, Virginia",17031,36,14455,428,2576,424,2022
+"51157","Rappahannock County, Virginia",3850,29,2823,207,1027,210,2022
+"51159","Richmond County, Virginia",3944,18,2834,173,1110,176,2022
+"51161","Roanoke County, Virginia",42135,48,39156,408,2979,411,2022
+"51163","Rockbridge County, Virginia",11283,29,9368,330,1915,332,2022
+"51165","Rockingham County, Virginia",35692,60,31612,422,4080,411,2022
+"51167","Russell County, Virginia",12814,29,10438,319,2376,323,2022
+"51169","Scott County, Virginia",11793,44,8838,270,2955,274,2022
+"51171","Shenandoah County, Virginia",21195,34,17542,345,3653,349,2022
+"51173","Smyth County, Virginia",15125,57,12651,267,2474,262,2022
+"51175","Southampton County, Virginia",7737,27,6841,193,896,195,2022
+"51177","Spotsylvania County, Virginia",52516,47,49449,447,3067,452,2022
+"51179","Stafford County, Virginia",52961,82,50313,502,2648,497,2022
+"51181","Surry County, Virginia",3419,21,2745,172,674,171,2022
+"51183","Sussex County, Virginia",4665,45,3698,164,967,161,2022
+"51185","Tazewell County, Virginia",19866,29,15800,445,4066,442,2022
+"51187","Warren County, Virginia",16794,35,15235,346,1559,346,2022
+"51191","Washington County, Virginia",25509,58,22013,353,3496,339,2022
+"51193","Westmoreland County, Virginia",11176,22,7832,387,3344,383,2022
+"51195","Wise County, Virginia",16723,57,14052,396,2671,405,2022
+"51197","Wythe County, Virginia",14040,63,12424,312,1616,317,2022
+"51199","York County, Virginia",27905,70,25878,314,2027,305,2022
+"51510","Alexandria city, Virginia",80253,91,74818,607,5435,603,2022
+"51520","Bristol city, Virginia",8671,20,7299,256,1372,255,2022
+"51530","Buena Vista city, Virginia",2941,16,2655,160,286,158,2022
+"51540","Charlottesville city, Virginia",21425,90,19511,360,1914,352,2022
+"51550","Chesapeake city, Virginia",95076,70,91368,612,3708,606,2022
+"51570","Colonial Heights city, Virginia",8123,22,7612,186,511,187,2022
+"51580","Covington city, Virginia",3049,13,2503,145,546,148,2022
+"51590","Danville city, Virginia",22291,60,18755,395,3536,396,2022
+"51595","Emporia city, Virginia",2810,248,2245,229,565,195,2022
+"51600","Fairfax city, Virginia",9323,38,9129,111,194,101,2022
+"51610","Falls Church city, Virginia",6127,16,5740,151,387,145,2022
+"51620","Franklin city, Virginia",3892,19,3349,213,543,213,2022
+"51630","Fredericksburg city, Virginia",12118,38,11276,229,842,228,2022
+"51640","Galax city, Virginia",3169,232,2618,237,551,159,2022
+"51650","Hampton city, Virginia",62372,62,57470,608,4902,606,2022
+"51660","Harrisonburg city, Virginia",18599,59,17142,326,1457,318,2022
+"51670","Hopewell city, Virginia",10415,25,9348,288,1067,287,2022
+"51678","Lexington city, Virginia",2525,309,1991,251,534,190,2022
+"51680","Lynchburg city, Virginia",33821,120,28910,607,4911,600,2022
+"51683","Manassas city, Virginia",14345,61,13840,226,505,226,2022
+"51685","Manassas Park city, Virginia",5493,25,5221,153,272,152,2022
+"51690","Martinsville city, Virginia",7042,33,5628,255,1414,248,2022
+"51700","Newport News city, Virginia",81681,63,75465,577,6216,582,2022
+"51710","Norfolk city, Virginia",101710,305,93797,617,7913,528,2022
+"51720","Norton city, Virginia",1864,191,1592,160,272,105,2022
+"51730","Petersburg city, Virginia",17941,26,14703,432,3238,437,2022
+"51735","Poquoson city, Virginia",4927,19,4657,110,270,111,2022
+"51740","Portsmouth city, Virginia",43096,123,38962,544,4134,507,2022
+"51750","Radford city, Virginia",6450,36,5467,187,983,177,2022
+"51760","Richmond city, Virginia",111524,120,101201,769,10323,760,2022
+"51770","Roanoke city, Virginia",48726,50,42806,654,5920,649,2022
+"51775","Salem city, Virginia",11096,31,10045,244,1051,242,2022
+"51790","Staunton city, Virginia",12293,34,11064,319,1229,315,2022
+"51800","Suffolk city, Virginia",38847,115,36318,350,2529,334,2022
+"51810","Virginia Beach city, Virginia",189951,211,178915,829,11036,759,2022
+"51820","Waynesboro city, Virginia",10288,19,9431,300,857,302,2022
+"51830","Williamsburg city, Virginia",5732,50,4882,232,850,225,2022
+"51840","Winchester city, Virginia",12353,31,11217,261,1136,253,2022
+"51001","Accomack County, Virginia",21897,39,14302,503,7595,508,2023
+"51003","Albemarle County, Virginia",48360,88,45064,398,3296,387,2023
+"51005","Alleghany County, Virginia",7916,25,6292,239,1624,236,2023
+"51007","Amelia County, Virginia",5770,25,5285,181,485,178,2023
+"51009","Amherst County, Virginia",14301,33,12702,319,1599,321,2023
+"51011","Appomattox County, Virginia",7380,37,6563,205,817,199,2023
+"51013","Arlington County, Virginia",120746,83,111530,973,9216,962,2023
+"51015","Augusta County, Virginia",32890,55,30644,429,2246,426,2023
+"51017","Bath County, Virginia",3336,208,1781,144,1555,201,2023
+"51019","Bedford County, Virginia",37383,39,32698,526,4685,524,2023
+"51021","Bland County, Virginia",3205,18,2345,169,860,168,2023
+"51023","Botetourt County, Virginia",15010,46,13105,319,1905,318,2023
+"51025","Brunswick County, Virginia",7935,25,6390,258,1545,257,2023
+"51027","Buchanan County, Virginia",10340,32,7351,342,2989,342,2023
+"51029","Buckingham County, Virginia",7233,35,6062,192,1171,194,2023
+"51031","Campbell County, Virginia",25363,41,22080,469,3283,467,2023
+"51033","Caroline County, Virginia",12693,64,11680,291,1013,281,2023
+"51035","Carroll County, Virginia",16645,25,12493,486,4152,487,2023
+"51036","Charles City County, Virginia",3269,23,2947,74,322,67,2023
+"51037","Charlotte County, Virginia",5973,20,4621,214,1352,207,2023
+"51041","Chesterfield County, Virginia",142572,156,136996,606,5576,612,2023
+"51043","Clarke County, Virginia",6478,22,5651,240,827,242,2023
+"51045","Craig County, Virginia",2397,240,1752,220,645,191,2023
+"51047","Culpeper County, Virginia",19529,37,18584,320,945,316,2023
+"51049","Cumberland County, Virginia",4695,15,4175,180,520,183,2023
+"51051","Dickenson County, Virginia",7352,20,5717,234,1635,236,2023
+"51053","Dinwiddie County, Virginia",11896,48,10427,346,1469,337,2023
+"51057","Essex County, Virginia",5785,17,4396,207,1389,208,2023
+"51059","Fairfax County, Virginia",428352,241,412663,1185,15689,1143,2023
+"51061","Fauquier County, Virginia",28454,61,26266,373,2188,382,2023
+"51063","Floyd County, Virginia",7946,28,6649,257,1297,255,2023
+"51065","Fluvanna County, Virginia",11329,66,10251,255,1078,240,2023
+"51067","Franklin County, Virginia",28344,49,22484,541,5860,553,2023
+"51069","Frederick County, Virginia",36617,51,34338,355,2279,363,2023
+"51071","Giles County, Virginia",8316,21,6769,271,1547,267,2023
+"51073","Gloucester County, Virginia",17204,34,15111,448,2093,453,2023
+"51075","Goochland County, Virginia",10913,30,10013,235,900,238,2023
+"51077","Grayson County, Virginia",8961,28,6202,270,2759,274,2023
+"51079","Greene County, Virginia",8687,25,7912,281,775,277,2023
+"51081","Greensville County, Virginia",4012,31,3092,180,920,178,2023
+"51083","Halifax County, Virginia",17382,40,13673,373,3709,370,2023
+"51085","Hanover County, Virginia",43983,69,42012,403,1971,402,2023
+"51087","Henrico County, Virginia",142964,194,135599,854,7365,787,2023
+"51089","Henry County, Virginia",25445,56,20503,535,4942,537,2023
+"51091","Highland County, Virginia",1839,119,1003,106,836,105,2023
+"51093","Isle of Wight County, Virginia",16827,35,15426,283,1401,275,2023
+"51095","James City County, Virginia",34400,37,31351,503,3049,494,2023
+"51097","King and Queen County, Virginia",3485,15,2814,159,671,156,2023
+"51099","King George County, Virginia",10540,30,9877,188,663,190,2023
+"51101","King William County, Virginia",7605,28,7115,174,490,176,2023
+"51103","Lancaster County, Virginia",7483,25,5468,235,2015,239,2023
+"51105","Lee County, Virginia",10857,32,8446,348,2411,342,2023
+"51107","Loudoun County, Virginia",144804,140,140823,521,3981,531,2023
+"51109","Louisa County, Virginia",18047,44,15211,369,2836,368,2023
+"51111","Lunenburg County, Virginia",5903,27,4669,229,1234,231,2023
+"51113","Madison County, Virginia",6110,21,5392,178,718,180,2023
+"51115","Mathews County, Virginia",5486,13,3767,317,1719,318,2023
+"51117","Mecklenburg County, Virginia",19184,32,13395,476,5789,470,2023
+"51119","Middlesex County, Virginia",7140,25,4733,269,2407,265,2023
+"51121","Montgomery County, Virginia",42229,130,36731,646,5498,609,2023
+"51125","Nelson County, Virginia",9947,24,6470,318,3477,314,2023
+"51127","New Kent County, Virginia",9495,25,9034,245,461,250,2023
+"51131","Northampton County, Virginia",7456,23,5338,214,2118,212,2023
+"51133","Northumberland County, Virginia",9009,16,5436,340,3573,342,2023
+"51135","Nottoway County, Virginia",6683,47,5492,246,1191,237,2023
+"51137","Orange County, Virginia",15895,31,14667,350,1228,348,2023
+"51139","Page County, Virginia",11878,45,9509,357,2369,356,2023
+"51141","Patrick County, Virginia",10006,25,7797,335,2209,333,2023
+"51143","Pittsylvania County, Virginia",29468,48,24633,491,4835,501,2023
+"51145","Powhatan County, Virginia",11841,36,11151,236,690,236,2023
+"51147","Prince Edward County, Virginia",9171,130,7560,349,1611,328,2023
+"51149","Prince George County, Virginia",13444,131,12718,262,726,232,2023
+"51153","Prince William County, Virginia",160256,241,154609,663,5647,569,2023
+"51155","Pulaski County, Virginia",17039,49,14386,367,2653,367,2023
+"51157","Rappahannock County, Virginia",3848,14,2861,188,987,188,2023
+"51159","Richmond County, Virginia",3959,19,2931,201,1028,203,2023
+"51161","Roanoke County, Virginia",42251,56,39231,457,3020,457,2023
+"51163","Rockbridge County, Virginia",11315,23,9552,285,1763,285,2023
+"51165","Rockingham County, Virginia",36095,42,32048,419,4047,416,2023
+"51167","Russell County, Virginia",12772,23,10470,321,2302,321,2023
+"51169","Scott County, Virginia",11776,24,8951,295,2825,294,2023
+"51171","Shenandoah County, Virginia",21319,105,17782,373,3537,362,2023
+"51173","Smyth County, Virginia",15080,56,12530,338,2550,329,2023
+"51175","Southampton County, Virginia",7774,40,6887,205,887,203,2023
+"51177","Spotsylvania County, Virginia",54020,66,51289,430,2731,425,2023
+"51179","Stafford County, Virginia",53864,55,51309,417,2555,404,2023
+"51181","Surry County, Virginia",3438,18,2755,143,683,145,2023
+"51183","Sussex County, Virginia",4672,39,3705,188,967,180,2023
+"51185","Tazewell County, Virginia",19804,36,15951,411,3853,405,2023
+"51187","Warren County, Virginia",16936,51,15357,348,1579,353,2023
+"51191","Washington County, Virginia",25505,68,22118,342,3387,336,2023
+"51193","Westmoreland County, Virginia",11300,18,8029,420,3271,417,2023
+"51195","Wise County, Virginia",16659,46,14055,342,2604,343,2023
+"51197","Wythe County, Virginia",14016,42,12396,324,1620,329,2023
+"51199","York County, Virginia",28211,54,26445,300,1766,299,2023
+"51510","Alexandria city, Virginia",80570,86,75349,514,5221,495,2023
+"51520","Bristol city, Virginia",8654,24,7327,265,1327,263,2023
+"51530","Buena Vista city, Virginia",2944,14,2611,153,333,156,2023
+"51540","Charlottesville city, Virginia",21559,102,19699,341,1860,337,2023
+"51550","Chesapeake city, Virginia",95997,147,92361,651,3636,621,2023
+"51570","Colonial Heights city, Virginia",8126,22,7545,182,581,184,2023
+"51580","Covington city, Virginia",3038,24,2493,132,545,135,2023
+"51590","Danville city, Virginia",22309,35,18632,428,3677,425,2023
+"51595","Emporia city, Virginia",2824,281,2219,213,605,200,2023
+"51600","Fairfax city, Virginia",9317,22,9158,97,159,94,2023
+"51610","Falls Church city, Virginia",6360,18,6053,142,307,139,2023
+"51620","Franklin city, Virginia",3897,17,3388,196,509,195,2023
+"51630","Fredericksburg city, Virginia",12308,33,11443,253,865,244,2023
+"51640","Galax city, Virginia",3213,268,2729,235,484,150,2023
+"51650","Hampton city, Virginia",62503,55,57740,677,4763,664,2023
+"51660","Harrisonburg city, Virginia",18654,77,17331,330,1323,324,2023
+"51670","Hopewell city, Virginia",10434,21,9418,305,1016,303,2023
+"51678","Lexington city, Virginia",2644,265,2061,256,583,176,2023
+"51680","Lynchburg city, Virginia",34009,111,28687,657,5322,628,2023
+"51683","Manassas city, Virginia",14426,32,14041,216,385,213,2023
+"51685","Manassas Park city, Virginia",5525,20,5165,205,360,206,2023
+"51690","Martinsville city, Virginia",7031,34,5619,252,1412,243,2023
+"51700","Newport News city, Virginia",81850,112,75798,605,6052,603,2023
+"51710","Norfolk city, Virginia",102542,295,94457,715,8085,597,2023
+"51720","Norton city, Virginia",1748,162,1553,139,195,111,2023
+"51730","Petersburg city, Virginia",18026,30,14854,367,3172,373,2023
+"51735","Poquoson city, Virginia",4945,17,4657,128,288,125,2023
+"51740","Portsmouth city, Virginia",43233,74,39678,460,3555,449,2023
+"51750","Radford city, Virginia",6457,35,5500,211,957,212,2023
+"51760","Richmond city, Virginia",112848,100,102145,941,10703,936,2023
+"51770","Roanoke city, Virginia",48931,45,43429,713,5502,732,2023
+"51775","Salem city, Virginia",11096,31,10140,247,956,249,2023
+"51790","Staunton city, Virginia",12352,62,11356,235,996,238,2023
+"51800","Suffolk city, Virginia",39651,65,37133,380,2518,368,2023
+"51810","Virginia Beach city, Virginia",190734,141,179800,722,10934,681,2023
+"51820","Waynesboro city, Virginia",10395,46,9620,268,775,273,2023
+"51830","Williamsburg city, Virginia",5767,37,4973,255,794,251,2023
+"51840","Winchester city, Virginia",12468,20,11255,280,1213,281,2023
