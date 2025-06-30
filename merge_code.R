@@ -151,7 +151,7 @@ View(merged_data)
 
 
 View(merged_data)
-
+write_csv(merged_data, "clean_data/merged_data.csv")
 
 
 cleaned_model_data <- merged_data %>%
@@ -194,3 +194,6 @@ model_vacancy_2 <- lm(log(VacantUnits) ~ DiD, data = cleaned_model_data)
 stargazer(model_vacancy, model_vacancy_2, type = "text", out = "vacancy_model_output.txt",
           omit = c("County", "Year"), p.auto = TRUE)
 # View(model_results)
+
+
+
