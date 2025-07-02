@@ -1,0 +1,142 @@
+/* this is my design page */
+/* Ensure the body itself has no top margin or padding */
+body {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Target the main navbar container directly and remove all unnecessary spacing */
+.navbar {
+  min-height: 0 !important;
+  margin-bottom: 0 !important;
+  border: none !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Ensure the .container-fluid inside the navbar has no horizontal padding */
+.navbar .container-fluid {
+  padding-left: 0 !important;  
+  padding-right: 0 !important;
+}
+
+/* ... and so on for all your other styles ... */
+.navbar-header {
+  min-height: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.navbar-brand {
+  height: auto !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Remove blue navbar background */
+.navbar-default {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+/* Remove collapse spacing */
+.navbar-collapse {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+/* Layout nav items in a row and distribute them */
+.navbar-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  width: 100%;
+  margin: 0;
+  height: auto;
+}
+
+/* Each tab container */
+.navbar-nav > li {
+  margin: 0;
+  flex-grow: 1;
+  text-align: center;
+}
+
+/* Tab buttons styled like blue rectangles */
+.navbar-nav > li > a {
+  background-color: #001f87;
+  color: gold !important;
+  font-weight: bold;
+  padding: 10px 0;
+  margin: 0;
+  border-radius: 0px;
+  border: none;
+  display: block;
+  height: 100%;
+  text-align: center;
+}
+
+/* Hover effect for tabs */
+.navbar-nav > li > a:hover {
+  background-color: #002f9c !important;
+  color: white !important;
+}
+
+/* Active tab styling */
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:focus,
+.navbar-nav > .active > a:hover {
+  background-color: #000066 !important;
+  color: white !important;
+  border: none;
+  border-bottom: 3px solid white;
+  padding-bottom: 7px;
+}
+
+/* Title */
+h1 {
+  color: #001f87;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Subtitle */
+h3 {
+  color: gold;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Academic Text Styling for Overview Tab */
+#overview-content {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* --- CSS FOR FULL WIDTH IMAGE --- */
+.tab-content > .tab-pane,
+.tab-content .container-fluid,
+.col-sm-12 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.tab-content img {
+  display: block;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100%;
+  height: auto;
+}
