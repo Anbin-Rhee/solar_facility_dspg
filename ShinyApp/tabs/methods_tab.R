@@ -1,0 +1,1 @@
+methods_tab <- tabPanel("Methods", fluidPage(h3("Methods content coming soon...")))

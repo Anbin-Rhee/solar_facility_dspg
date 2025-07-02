@@ -1,0 +1,1 @@
+maps_tab <- tabPanel("Maps", fluidPage(h3("Maps content coming soon...")))
