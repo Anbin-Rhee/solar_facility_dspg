@@ -10,6 +10,7 @@ library(readxl)
 library(mapview)
 #---------------------Creating distance of parcels to roads and Map Visualization for it -----------------------------------
 roads <- st_read("C:\\Users\\cchen\\Downloads\\tl_2019_51_prisecroads\\tl_2019_51_prisecroads.shp")
+View(roads)
 roads_proj <- st_transform(roads, crs = st_crs(parcels_proj))
 # compute the distance
 dist_to_roads <- st_distance(parcels_proj, roads_proj)
@@ -64,7 +65,6 @@ print("Calculating distance to nearest lake/pond...")
 dist_to_lakes <- st_distance(parcels_proj, lakes_proj)
 
 
-# --- 5. Add Distances to the Parcel Data Frame ---
 print("Adding new distance columns to the parcel data...")
 
 # The output of st_distance is a matrix. We take the minimum distance for each row.
