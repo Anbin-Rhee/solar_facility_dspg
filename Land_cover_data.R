@@ -7,21 +7,23 @@ library(dplyr)
 library(exactextractr)
 library(tidyr)
 
-final_shapes <- st_read("C:\\Users\\cchen\\Downloads\\final_shapes\\final_shapes")
+final_shapes <- st_read("C:\\Users\\collinh05\\Downloads\\Parcel Shapefile\\final_shapes\\final_shapes.shp")
 
-cdl_raster <- rast("C:\\Users\\cchen\\Downloads\\polygonclip_20250708105129_1949911031//CDL_2024_51.tif") 
+# Corrected line:
+# Remove the ".vat.dbf" from the end of the file path
+cdl_raster <- rast("C:\\Users\\collinh05\\Downloads\\Land Cover Data\\CDL_2024_51\\CDL_2024_51.tif")
 
-parcel_sf <- st_transform(final_shapes, crs(cdl_raster))
+parcel_Land_cov <- st_transform(final_shapes, crs(cdl_raster))
 
 # Extract land cover value for each parcel (mode of pixels within each polygon)
 
-parcel_sf$land_cover <- terra::extract(cdl_raster, vect(parcel_sf), fun = modal, na.rm = TRUE)[,2]
+parcel_Land_cov$land_cover <- terra::extract(cdl_raster, vect(parcel_sf), fun = modal, na.rm = TRUE)[,2]
 
 # Check results
 
 # parcel_sf$land_cover
-head(parcel_sf)
-table(parcel_sf$land_cover)
+head(parcel_Land_cov)
+table(parcel_Land_cov$land_cover)
 
 #---------------------------------------------------------------data cleaning-----------------
 
@@ -33,7 +35,7 @@ View(cdl_raster)
 # It's good practice to ensure both layers are in the same projection.
 # We will transform the parcels to match the raster's CRS.
 print("Transforming parcel CRS to match raster CRS...")
-parcel_sf <- st_transform(final_shapes, crs = st_crs(cdl_raster))
+parcel_Land_cov <- st_transform(final_shapes, crs = st_crs(cdl_raster))
 print("CRS transformation complete.")
 
 
@@ -75,20 +77,23 @@ print("Extracting the majority reclassified land cover for each parcel...")
 
 # Now, extract the modal (most frequent) value from the NEW reclassified raster
 # The result will be the dominant broad category (1, 2, 3, 4, or 5) for each parcel.
-parcel_sf$land_cover_code <- terra::extract(cdl_reclassified, vect(parcel_sf), fun = modal, na.rm = TRUE)[,2]
+parcel_Land_cov$land_cover_code <- terra::extract(cdl_reclassified, vect(parcel_sf), fun = modal, na.rm = TRUE)[,2]
 
 # Add the category name as a new column for clarity
 category_levels <- levels(cdl_reclassified)[[1]] # Get the category labels
-parcel_sf <- parcel_sf %>%
+parcel_Land_cov <- parcel_Land_cov %>%
   left_join(category_levels, by = c("land_cover_code" = "value"))
 
 
 # --- 6. Check Results ---
 print("Analysis complete. Here are the first few results:")
-head(st_drop_geometry(parcel_sf))
+head(st_drop_geometry(parcel_Land_cov))
 
 print("Frequency table of the new broad land cover categories:")
-table(parcel_sf$category)
+table(parcel_Land_cov$category)
 
 
-
+# Create the interactive map visualization
+# This will color each parcel polygon based on its value in the 'category' column.
+# mapview automatically handles categorical data, assigning a unique color to each land cover type.
+mapview(parcel_Land_cov, zcol = "category", layer.name = "Dominant Land Cover")

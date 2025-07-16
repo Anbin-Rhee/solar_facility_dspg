@@ -8,8 +8,12 @@ library(tidyverse)
 library(tigris)
 library(readxl)
 library(mapview)
+
+# Load parcels (using the 'final_shapes' name from your previous code)
+final_shapes <- st_read("C:\\Users\\collinh05\\Downloads\\Parcel Shapefile\\final_shapes\\final_shapes.shp")
+
 #---------------------Creating distance of parcels to roads and Map Visualization for it -----------------------------------
-roads <- st_read("C:\\Users\\cchen\\Downloads\\tl_2019_51_prisecroads\\tl_2019_51_prisecroads.shp")
+roads <- st_read("C:\\Users\\collinh05\\Downloads\\tl_2019_51_prisecroads\\tl_2019_51_prisecroads.shp")
 roads_proj <- st_transform(roads, crs = st_crs(parcels_proj))
 # compute the distance
 dist_to_roads <- st_distance(parcels_proj, roads_proj)
@@ -23,78 +27,113 @@ parcels_with_distances <- parcels_proj %>%
 mapview(parcels_with_distances, zcol = "dist_to_road_m") +
   mapview(roads_proj, color = "black")
 
-#---------------------------------------------------------------------------------------------------------------------
-#Reading in the water data of Rivers, Estuaries, Lakes, Ponds, Reservoirs 
 
-# Provide the full path directly to the .shp file
-streams_rivers <- st_read("C:\\Users\\cchen\\Downloads\\All_Steams___Rivers\\All_Steams___Rivers.shp")
-# Now, this should work
-head(streams_rivers)
+#-------------------------------------------------------------------------------bodies of water final distance measurement and interactive map
+vaco <- counties(state = 'VA')
 
-# Do the same for the lakes and ponds data
-lakes_ponds <- st_read("C:\\Users\\cchen\\Downloads\\Lakes_Ponds_Reservoirs_Estuaries\\Lakes_Ponds_Reservoirs_Estuaries.shp")
+options(tigris_use_cache = TRUE)
 
-# And this should also work now
-head(lakes_ponds)
+water <- as.data.frame(NULL)
 
-# Load parcels (using the 'final_shapes' name from your previous code)
-final_shapes <- st_read("C:\\Users\\cchen\\Downloads\\final_shapes\\final_shapes")
+for (c in vaco$COUNTYFP) {
+  print(c)
+  tmp <- area_water(state = 'VA', county = c)
+  water <- rbind(water, tmp)
+}
+
+parcels <- st_read("C:\\Users\\collinh05\\Downloads\\Parcel Shapefile\\final_shapes\\final_shapes.shp")
+
+
+# Set tigris options to cache downloaded files
+options(tigris_use_cache = TRUE)
+
+
+
 
 # --- 3. Reproject Data for Accurate Distance Calculation ---
-# Distance calculations must be done in a projected coordinate system (CRS), not in latitude/longitude.
-# We will project all layers to a common CRS for Virginia, like UTM Zone 18N (EPSG: 32618).
+# To measure distance in meters, we must use a projected coordinate system (CRS).
+# We'll project both layers to a common CRS for Virginia: UTM Zone 18N (EPSG: 32618).
 
-print("Reprojecting all layers to UTM Zone 18N...")
-parcels_proj <- st_transform(final_shapes, crs = 32618)
-streams_proj <- st_transform(streams_rivers, crs = 32618)
-lakes_proj <- st_transform(lakes_ponds, crs = 32618)
+print("Reprojecting all layers to a common CRS (UTM Zone 18N)...")
+target_crs <- 32618 
+parcels_proj <- st_transform(parcels, crs = target_crs)
+water_proj <- st_transform(water, crs = target_crs)
+
+# It's also good practice to ensure geometries are valid
+parcels_proj <- st_make_valid(parcels_proj)
+water_proj <- st_make_valid(water_proj)
+
 print("Reprojection complete.")
 
 
-# --- 4. Calculate Distance to Nearest Feature ---
-# The st_distance() function calculates the shortest distance from each feature
-# in the first dataset to any feature in the second dataset.
-# NOTE: This can be slow on very large datasets. You might test with a sample first.
-# sample_parcels <- head(parcels_proj, 100)
+# --- 4. Calculate Distance to Nearest Water Body ---
+# This is the most efficient method for large datasets.
+# Step A: Find the *index* of the nearest water feature for each parcel.
+# Step B: Calculate the distance only between each parcel and its single nearest feature.
 
-print("Calculating distance to nearest stream/river...")
-dist_to_streams <- st_distance(parcels_proj, streams_proj)
+print("Calculating distance from each parcel to the nearest water body...")
 
-print("Calculating distance to nearest lake/pond...")
-dist_to_lakes <- st_distance(parcels_proj, lakes_proj)
+# Step A: Find the index of the nearest water polygon for each parcel
+nearest_water_index <- st_nearest_feature(parcels_proj, water_proj)
+
+# Step B: Calculate the actual distance using the index found above.
+# 'by_element = TRUE' ensures we get a 1-to-1 distance vector.
+distances <- st_distance(
+  parcels_proj, 
+  water_proj[nearest_water_index, ], 
+  by_element = TRUE
+)
+
+print("Distance calculation complete.")
 
 
 # --- 5. Add Distances to the Parcel Data Frame ---
-print("Adding new distance columns to the parcel data...")
+# The 'distances' object is a special 'units' class. We convert it to a number.
+# The result will be in meters, as defined by our projected CRS.
 
-# The output of st_distance is a matrix. We take the minimum distance for each row.
-# The units will be in meters because our CRS (UTM) is in meters.
-parcels_with_distances <- parcels_proj %>%
+parcels_with_distance_water <- parcels_proj %>%
   mutate(
-    dist_to_stream_m = as.numeric(apply(dist_to_streams, 1, min)),
-    dist_to_lake_m = as.numeric(apply(dist_to_lakes, 1, min))
+    dist_to_water_m = as.numeric(distances)
+  )
+METERS_TO_MILES <- 0.000621371
+
+# Use mutate to add a new column for distance in miles
+parcels_water_dist <- parcels_with_distance_water %>%
+  mutate(
+    dist_to_water_miles = dist_to_water_m * METERS_TO_MILES
   )
 
-
+# View the first few rows with both meter and mile columns
+# We use st_drop_geometry() to make the table easier to read
+head(st_drop_geometry(parcels_water_dist))
+view(parcels_water_dist)
 # --- 6. View the Final Results ---
-print("Analysis complete. Here are the first few parcels with their distances:")
+print("Analysis complete. Here are the first few parcels with their new distance column:")
 
-# View the first few rows of the data frame, hiding the geometry for readability
-head(st_drop_geometry(parcels_with_distances))
+# View the first few rows of the data frame. 
+# We use st_drop_geometry() here to make the table easier to read in the console.
+head(st_drop_geometry(parcels_with_distance_water))
 
-View(dist_to_lakes)
-# Interactive map of the bodies of water to the parcels 
-map_streams <- mapview(parcels_with_distances, zcol = "dist_to_stream_m")
-map_lakes <- mapview(parcels_with_distances, zcol = "dist_to_lake_m")
+# You can also view the full table
+View(parcels_with_distance_water)
 
-print(map_streams)
-print(map_lakes)
 
-combined_map <- map_streams + map_lakes
-print(combined_map)
+# --- 7. (Optional) Visualize the Results ---
+# An interactive map is a great way to check your work.
+# This requires the 'mapview' package: install.packages("mapview")
+if (require("mapview")) {
+  print("Generating interactive map...")
+  mapview(parcels_with_distance, zcol = "dist_to_water_m", layer.name = "Parcels Distance to Water (m)") +
+    mapview(water_proj, col.regions = "blue", color = "blue", layer.name = "Water Bodies")
+}
+
+
+
+
+
 #--------------------------------------------distance from parcel to urban city centers wither RUC codes----
 
-rucc_data <- read_excel("C:\\Users\\cchen\\Downloads\\Ruralurbancontinuumcodes2023 (1).xlsx")
+rucc_data <- read_excel("C:\\Users\\collinh05\\Downloads\\Land Amenities data\\Ruralurbancontinuumcodes2023 (1).xlsx")
 
 va_urban_centers <- rucc_data %>%
   
@@ -145,3 +184,8 @@ head(parcels_with_urban_dist)
 # You can also get a summary of the new distance column in miles
 summary(parcels_with_urban_dist$dist_to_urban_miles)
 
+#Create the interactive map
+# This visualizes the parcels, colored by the 'dist_to_urban_miles' column,
+# and overlays the urban county polygons in a semi-transparent yellow.
+mapview(parcels_with_urban_dist, zcol = "dist_to_urban_miles", layer.name = "Distance to Urban (Miles)") + 
+  mapview(urban_counties_proj, col.regions = "yellow", alpha.regions = 0.4, layer.name = "Urban Counties (RUCC 1-3)")
