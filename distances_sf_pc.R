@@ -412,9 +412,9 @@ parcels_with_distance_clean <- parcels_with_distance_clean %>%
   )
 
 # View your final data with the new column
-parcels_clean <- parcels_with_distance_clean %>%
-  select(-c(distance_col, distance_parcel_tline, dist_facility_to_line_mi))
-
+# parcels_clean <- parcels_with_distance_clean %>%
+#   select(-c(distance_col, distance_parcel_tline, dist_facility_to_line_mi))
+parcels_clean <- parcels_with_distance_clean
 View(parcels_clean)
 
 # Compare total rows vs. distinct rows
@@ -779,5 +779,13 @@ flatness_score_column <- virginia_parcels_flatness %>%
 # The result will be your original 'virginia_parcels' with the 'composite_flatness_score' column added.
 final_virginia_parcels <- virginia_parcels %>%
   left_join(flatness_score_column, by = "unique_row_id")
+
+View(final_virginia_parcels)
+
+library(sf)
+# Define the output folder and file name
+
+
+write.csv(final_virginia_parcels, "results/final_virginia_parcels.csv", row.names = FALSE)
 
 View(final_virginia_parcels)
