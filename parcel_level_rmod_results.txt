@@ -1,0 +1,20 @@
+Analysis of Model 1: Average Treatment Effect
+The first model employs a standard Difference-in-Differences (DiD) specification to estimate the average effect of a nearby solar facility on the per-acre price of land.
+
+Primary Finding: The coefficient for the did_variable is -0.0186 with a p-value of 0.84. This indicates that the estimated effect is not statistically significant at any conventional level. The model finds no evidence of an average change in land prices for parcels in the treatment group relative to the control group after the construction of a solar facility.
+
+Control Variables: The coefficients for Acres, dist_road_miles, and dist_water_miles are statistically significant and have the expected negative signs. This suggests that, consistent with economic theory, per-acre prices are lower for larger parcels and for parcels located farther from roads and water bodies.
+
+Analysis of Model 2: Continuous Difference-in-Differences
+The second model uses a continuous DiD specification to examine how the price effects of proximity to a solar facility and the electrical grid change in the post-treatment period.
+
+Primary Findings (Interaction Terms) 💡:
+
+The interaction log_sf_dist:is_post_period is not statistically significant (p = 0.51). This indicates there was no change in the price-distance gradient relative to the solar facility's location.
+
+The interaction is_post_period:log_grid_dist is the key result. The coefficient is -0.139 with a p-value of 0.054. This finding is marginally significant (p < 0.10). The negative coefficient suggests that the price premium for being close to the electrical grid increased after a solar facility was developed nearby. In other words, the market appears to place a higher value on grid accessibility in areas where solar development has occurred.
+
+Control Variables: The effects of the control variables remain stable and consistent with Model 1. Notably, composite_flatness_score becomes a significant predictor, indicating that flatter land is associated with higher prices, as expected.
+
+Summary and Conclusion
+While the analysis finds no evidence of a direct, average price effect from solar facility development (Model 1), the more nuanced specification (Model 2) reveals an indirect market signal. The construction of a solar facility appears to increase the capitalized value of proximity to existing electrical grid infrastructure. This may reflect market anticipation of the area's heightened suitability for future energy-related development.
