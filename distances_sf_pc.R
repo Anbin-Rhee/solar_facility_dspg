@@ -1,6 +1,7 @@
 #In this code I will work with final parcels shapefiles from Dr. Cary
 library (sf)
 library(dplyr)
+
 library(tidyverse)
 library(mapview)
 install.packages("janitor")
@@ -80,6 +81,7 @@ View(parcels_with_distance)
 
 #converting meters to miles for more clarity 
 meters_to_miles <- 0.000621371
+
 
 parcels_with_distance <- parcels_with_distance %>%
   mutate(
@@ -426,6 +428,7 @@ get_dupes(parcels_clean)
 
 parcels_clean <- parcels_clean %>%
   distinct()
+
 View(parcels_clean)
 
 
@@ -786,6 +789,6 @@ library(sf)
 # Define the output folder and file name
 
 
-write.csv(final_virginia_parcels, "results/final_virginia_parcels.csv", row.names = FALSE)
+write.csv(final_virginia_parcels, "results/final_va_parcels.csv")
 
-View(final_virginia_parcels)
+View(final_va_parcels)
