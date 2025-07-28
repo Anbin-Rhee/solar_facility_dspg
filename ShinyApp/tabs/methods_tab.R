@@ -1,15 +1,254 @@
 methods_tab <- tabPanel("Methods",
+                        value = "Methods",
                         fluidPage(
-                          tags$div(
-                            id = "methods-content",
+                          tags$h2("Methodology", style = "color: #001f87;"),
+                          p("This page details the statistical models and data used to analyze the impact of utility-scale solar facilities (USSFs) on agricultural land values in Virginia."),
+                          
+                          tabsetPanel(
+                            id = "methods_tabs",
                             
-                            tags$h2("Methodology", style = "color: #001f87;"),
+                            # ===================================================
+                            # FINAL County Level Analysis Tab
+                            # ===================================================
+                            tabPanel("County Level Analysis",
+                                     # Add withMathJax() to ensure all LaTeX renders correctly
+                                     withMathJax(),
+                                     div(class = "method-section",
+                                         h3(tags$strong("Econometric Model"), style = "margin-top: 0;"),
+                                         p("To estimate the causal effect of USSFs on the value of agricultural land, we employ a Two-Way Fixed Effects (TWFE) Difference-in-Differences (DiD) model. This approach isolates the impact of solar facility presence by controlling for unobserved, time-invariant county characteristics and statewide temporal trends.")
+                                     ),
+                                     div(class = "method-section",
+                                         h4(tags$strong("Model Specification")),
+                                         uiOutput("county_did_equation")
+                                     ),
+                                     div(class = "method-section",
+                                         h4(tags$strong("Variable Definitions")),
+                                         # This table is now updated for consistent formatting
+                                         tags$table(class = "table table-striped table-hover",
+                                                    tags$thead(
+                                                      tags$tr(
+                                                        tags$th("Variable Name"),
+                                                        tags$th("Description"),
+                                                        tags$th("Role in Analysis")
+                                                      )
+                                                    ),
+                                                    tags$tbody(
+                                                      tags$tr(
+                                                        tags$td(withMathJax("\\(\\log(\\text{Price})\\)")),
+                                                        tags$td("The natural log of the average price per acre of agricultural land sold."),
+                                                        tags$td("Dependent Variable")
+                                                      ),
+                                                      tags$tr(
+                                                        tags$td(withMathJax("\\(\\text{DiD}\\)")),
+                                                        tags$td("Indicator equal to 1 for a county in a year after its first USSF is commissioned."),
+                                                        tags$td("Key Independent Variable")
+                                                      ),
+                                                      tags$tr(
+                                                        tags$td(withMathJax("\\(\\text{Population}\\)")),
+                                                        tags$td("Total county population."),
+                                                        tags$td("Control")
+                                                      ),
+                                                      tags$tr(
+                                                        tags$td(withMathJax("\\(\\text{TotalHousing}\\)")),
+                                                        tags$td("Total number of housing units in the county."),
+                                                        tags$td("Control")
+                                                      ),
+                                                      tags$tr(
+                                                        tags$td(withMathJax("\\(\\text{OccupiedHousing}\\)")),
+                                                        tags$td("Number of occupied housing units in the county."),
+                                                        tags$td("Control")
+                                                      ),
+                                                      tags$tr(
+                                                        tags$td(withMathJax("\\(\\text{VacantHousing}\\)")),
+                                                        tags$td("Number of vacant housing units in the county."),
+                                                        tags$td("Control")
+                                                      ),
+                                                      tags$tr(
+                                                        tags$td(withMathJax("\\(\\text{AvgHouseAge}\\)")),
+                                                        tags$td("Average age of housing units in the county."),
+                                                        tags$td("Control")
+                                                      ),
+                                                      tags$tr(
+                                                        tags$td(withMathJax("\\(\\text{CornYield}\\)")),
+                                                        tags$td("County-level corn yield, as a proxy for agricultural land quality."),
+                                                        tags$td("Control")
+                                                      ),
+                                                      tags$tr(
+                                                        tags$td(withMathJax("\\(\\text{SoybeansYield}\\)")),
+                                                        tags$td("County-level soybeans yield, as a proxy for agricultural land quality."),
+                                                        tags$td("Control")
+                                                      ),
+                                                      tags$tr(
+                                                        tags$td(withMathJax("Fixed Effects \\(\\gamma_c, \\delta_t\\)")),
+                                                        tags$td("Categorical controls for each county (c) and each year (t) in the dataset."),
+                                                        tags$td("Fixed Effects")
+                                                      )
+                                                    )
+                                         )
+                                     ),
+                                     div(class = "method-section",
+                                         h4(tags$strong("Identification Strategy")),
+                                         p("The causal effect of interest is captured by the ", withMathJax("\\(\\beta_1\\)"), " coefficient on the DiD term. To ensure robust inference, standard errors are clustered at the county level.")
+                                     ),
+                                     
+                                     hr(),
+                                     h3(tags$strong("Data Generation for Control Variables"), style = "margin-top: 20px;"),
+                                     p("The control variables listed in the table were compiled from publicly available national datasets."),
+                                     div(class = "method-section",
+                                         h4(tags$strong("Socioeconomic Data")),
+                                         p("Data on county-level population and housing characteristics are sourced from the U.S. Census Bureau's American Community Survey (ACS) 5-Year Estimates. These variables control for demographic shifts and development pressures that influence land prices:"),
+                                         tags$ul(
+                                           tags$li(tags$strong("Population:"), " Controls for the scale of the local economy and housing demand."),
+                                           tags$li(tags$strong("Housing Units (Total, Occupied, Vacant):"), " Control for the state of the local housing market and development pressure."),
+                                           tags$li(tags$strong("Average House Age:"), " Indicates the character and age of development in a county.")
+                                         )
+                                     ),
+                                     div(class = "method-section",
+                                         h4(tags$strong("Agricultural Data")),
+                                         p("To account for differences in land quality, we use data on crop yields for major commodities, provided by the U.S. Department of Agriculture's National Agricultural Statistics Service (USDA NASS)."),
+                                         tags$ul(
+                                           tags$li(tags$strong("Crop Yields (Corn, Soybeans):"), " Serve as a direct proxy for the intrinsic quality and productivity of agricultural land within the county.")
+                                         )
+                                     ),
+                                     hr(),
+                                     
+                                     div(class = "method-section",
+                                         h4(tags$strong("Parallel Trends Assumption")),
+                                         p("A critical assumption of the DiD model is that treatment and control counties followed similar trends in land value prior to USSF development. The plot below visualizes this trend."),
+                                         plotOutput("county_parallel_trends_plot", height = "400px")
+                                     )
+                            ),
                             
-                            tags$p("In our analysis, we performed a geographic difference-in-differences model to estimate the effect of USSFs on land values with treatment defined at the county level. A difference-in-differences model is a form of linear regression that estimates a possible causal effect of a treatment or intervention by comparing the change in outcomes over time for a treated group to the change over the same period  for an untreated control group, and therefore accounts for pre-existing differences as well as more common time trends. As previously stated, we included multiple key variables (Fig 1) in our linear regression model to get an indication of how each of them affects land prices at the county level. To better interpret our results we constructed our difference-in-differences variable (DiD_ct in Fig 2) as an indicator variable that takes a value of 1 for observation in counties that already had a USSF by the year of the land parcel transaction, and 0 otherwise (i.e., for transactions occurring before USSF development, and for all transactions occurring in control counties that never have a USSF during our study period)."),
                             
-                            tags$p("We collected data pertaining to land price per acre (our dependent variable), which allowed us to evaluate the total dollar value of land sold per acre in Virginia. From this we were able to better analyze how land prices have changed over time in each county, and whether or not this is linked with the development of a USSF in that county. Our dependent variable in our model was LandPrice_per_acre (Fig 1), is the phenomena we hope to observe change over time due to the development of USSF’s. Next, we collected multiple independent variables starting with crop yield data specifically of corn and soybeans because they are the 2 most profitable crops in Virginia. Additionally crop yields act as an important indicator of soil quality, and high crop yields relate to higher soil quality (D’Hose, Cougnon, Vliegher, Vandacasteele, Viane, Cornelis, Bockstaele, Reheul, 2014). The higher the soil quality, the more valuable the farmland. Another variable in our model is population, which acts as a control for migration, and serves to help explain the viability of land per county based on how many people live there. The average age of houses, which allowed us to understand the mean age of houses per county, also helped explain the age of houses and whether or not the county was a place of higher development and therefore higher land value.  The inclusion of total housing units as well as occupied housing units helps us understand the amount of house building in that county, and if the land is more sought after for building and development and is therefore more valuable. Observing vacant housing units per county acted as an important factor which can drive land prices like occupied and total housing units, and it shows how sought after an area is to live, and demand in some cases can be correlated with higher land values."),
-                            
-                            tags$p("Finally, we included county and year level fixed effects. County level fixed effects allowed us to understand all of the variables affecting different counties that do no vary over time which could not be included in our model. Year level fixed effects allowed us to understand some of the underlying economic fluctuations which affect every part of the state such as changing inflation, policy, GDP, etc., that vary over time but not space. Due to time invariance, SolarFacility_c and TransactionYear_t are absorbed by these fixed effects and cannot be estimated separately. The setup of our DID_ct variable (Fig 1) is the primary way to capture the effect of interest in out two-way fixed effects setup. A crucial step towards correctly interpreting our model was to use clustered standard errors. Since some land sales are connected, this means that our linear model could create results that are more significant than what is realistic. Our solution to this problem was to include an adjusted coeftest with clustered standard errors, which will allow us to have more accurate p-values and a more robust measure of the statistical significance of our results.")
+                            tabPanel("Parcel Level Analysis",
+                                     # Use withMathJax() to ensure all LaTeX renders correctly within this panel
+                                     withMathJax(), 
+                                     div(class = "method-section",
+                                         h3(tags$strong("Econometric Model"), style = "margin-top: 0;"),
+                                         p("To more granularly estimate the impact of solar development, we employ a continuous Difference-in-Differences (DiD) model. This model leverages the exact distance from each parcel to the nearest solar facility and the electrical grid, allowing us to see how the impact on land value changes as distance changes. The model includes multiple fixed effects to control for unobserved heterogeneity."),
+                                         p("In the model specification below, the subscripts denote the level of observation: ", tags$b("i"), " for an individual parcel, ", tags$b("c"), " for the county, ", tags$b("s"), " for the relevant solar facility, and ", tags$b("t"), " for the transaction year.")
+                                     ),
+                                     div(class = "method-section",
+                                         h4(tags$strong("Model Specification")),
+                                         uiOutput("parcel_did_equation")
+                                     ),
+                                     div(class = "method-section",
+                                         h4(tags$strong("Variable Definitions")),
+                                         tags$table(class = "table table-striped table-hover",
+                                                    tags$thead(
+                                                      tags$tr(
+                                                        tags$th("Variable Name"),
+                                                        tags$th("Description"),
+                                                        tags$th("Role in Analysis")
+                                                      )
+                                                    ),
+                                                    tags$tbody(
+                                                      tags$tr(
+                                                        tags$td(withMathJax("\\(\\log(\\text{Price per Acre})\\)")),
+                                                        tags$td("The natural log of the sale price per acre for an individual parcel."),
+                                                        tags$td("Dependent Variable")
+                                                      ),
+                                                      tags$tr(
+                                                        tags$td(withMathJax("\\(\\gamma (\\log(\\text{SFDist}) \\times \\text{Post})\\)")),
+                                                        tags$td("The interaction between the logged distance to a solar facility and the post-construction period."),
+                                                        tags$td("Key Independent Variable")
+                                                      ),
+                                                      tags$tr(
+                                                        tags$td(withMathJax("\\(\\phi (\\log(\\text{GridDist}) \\times \\text{Post})\\)")),
+                                                        tags$td("The interaction between the logged distance to the electrical grid and the post-construction period."),
+                                                        tags$td("Key Independent Variable")
+                                                      ),
+                                                      tags$tr(
+                                                        tags$td(withMathJax("\\(\\log(\\text{SFDist})\\)")),
+                                                        tags$td("The natural log of the distance from the parcel to the nearest solar facility."),
+                                                        tags$td("Main Effect Control")
+                                                      ),
+                                                      tags$tr(
+                                                        tags$td(withMathJax("\\(\\log(\\text{GridDist})\\)")),
+                                                        tags$td("The natural log of the distance from the parcel to the nearest electrical grid infrastructure."),
+                                                        tags$td("Main Effect Control")
+                                                      ),
+                                                      tags$tr(
+                                                        tags$td(withMathJax("\\(\\text{Post}\\)")),
+                                                        tags$td("An indicator variable equal to 1 for the period after a nearby solar facility is built."),
+                                                        tags$td("Main Effect Control")
+                                                      ),
+                                                      tags$tr(
+                                                        tags$td(withMathJax("\\(\\text{Acres}\\)")),
+                                                        tags$td("The size of the individual parcel in acres."),
+                                                        tags$td("Control")
+                                                      ),
+                                                      tags$tr(
+                                                        tags$td(withMathJax("\\(\\text{FlatnessScore}\\)")),
+                                                        tags$td("A 0-100 score derived from slope and terrain metrics, where higher is flatter."),
+                                                        tags$td("Control")
+                                                      ),
+                                                      tags$tr(
+                                                        tags$td(withMathJax("\\(\\text{RoadDist}\\)")),
+                                                        tags$td("The distance in miles from the parcel to the nearest major road."),
+                                                        tags$td("Control")
+                                                      ),
+                                                      tags$tr(
+                                                        tags$td(withMathJax("\\(\\text{WaterDist}\\)")),
+                                                        tags$td("The distance in miles from the parcel to the nearest major water body."),
+                                                        tags$td("Control")
+                                                      ),
+                                                      tags$tr(
+                                                        tags$td(withMathJax("\\(\\text{UrbanDist}\\)")),
+                                                        tags$td("The distance in miles from the parcel to the nearest urban/suburban county."),
+                                                        tags$td("Control")
+                                                      ),
+                                                      tags$tr(
+                                                        tags$td(withMathJax("Fixed Effects \\(\\mu_i, \\lambda_c, \\tau_t\\)")),
+                                                        tags$td("Categorical controls for each individual parcel (i), the county/locality (c), and the year of sale (t). The parcel fixed effect accounts for all time-invariant characteristics like land cover and soil quality."),
+                                                        tags$td("Fixed Effects")
+                                                      )
+                                                    )
+                                         )
+                                     ),
+                                     div(class = "method-section",
+                                         h4(tags$strong("Identification Strategy")),
+                                         p("The causal effects of interest are captured by the coefficients ", withMathJax("\\(\\gamma\\) and \\(\\phi\\)"), ". A statistically significant ", withMathJax("\\(\\gamma\\)"), " suggests that the price effect of a solar facility's presence depends on a parcel's distance from that facility, after controlling for other factors.")
+                                     ),
+                                     hr(),
+                                     h3(tags$strong("Data Generation for Control Variables"), style = "margin-top: 20px;"),
+                                     p("The control variables listed in the table were generated through several geospatial processes."),
+                                     div(class = "method-section",
+                                         h4(tags$strong("1. Topographic Analysis")),
+                                         p("The 'FlatnessScore' is generated by analyzing a high-resolution Digital Elevation Model (DEM). From this model, we calculate several key terrain metrics for each parcel:"),
+                                         tags$ul(
+                                           tags$li(tags$strong("Mean Slope:"), " The average steepness across the parcel, measured in degrees."),
+                                           tags$li(tags$strong("Terrain Ruggedness Index (TRI):"), " A measure of localized elevation variation to identify 'bumpy' terrain."),
+                                           tags$li(tags$strong("Topographic Position Index (TPI):"), " Indicates if a parcel is on a hilltop, in a valley, or on a flat plain."),
+                                           tags$li(tags$strong("Elevation Standard Deviation:"), " Measures the overall variability in elevation within a single parcel.")
+                                         ),
+                                         p("These metrics are combined to produce a single score from 0 to 100, where a higher score indicates a flatter, more solar suitable parcel.")
+                                     ),
+                                     div(class = "method-section",
+                                         h4(tags$strong("2. Proximity Analysis")),
+                                         p("The various distance metrics are calculated by measuring the straight-line distance from each parcel's boundary to the nearest of the following features:"),
+                                         tags$ul(
+                                           tags$li(tags$strong("Roads:"), " Proximity to roads is crucial for construction access and maintenance."),
+                                           tags$li(tags$strong("Water:"), " Relevant for construction but also an environmental consideration."),
+                                           tags$li(tags$strong("Urban Centers:"), " Acts as a proxy for land value pressure and proximity to the electrical grid and workforce.")
+                                         )
+                                     ),
+                                     div(class = "method-section",
+                                         h4(tags$strong("3. Land Cover Classification")),
+                                         p("To account for land use, we use the USDA Cropland Data Layer (CDL) raster. The process involves:"),
+                                         tags$ol(
+                                           tags$li(tags$strong("Reclassification:"), " Simplifying the 100+ detailed CDL codes into broad categories (e.g., Agriculture, Forest)."),
+                                           tags$li(tags$strong("Zonal Statistics:"), " Identifying the single most common (modal) land cover category for each parcel."),
+                                           tags$li(tags$strong("Final Classification:"), " Assigning the modal category to the parcel for use in the model.")
+                                         )
+                                     ),
+                                     hr(),
+                                     div(class = "method-section",
+                                         h4(tags$strong("Parallel Trends Assumption")),
+                                         p("A key assumption is that, in the absence of solar facilities, the relationship between land price and distance to future facility sites should be stable over time. This can be visualized by plotting the pre-treatment trends."),
+                                         plotOutput("parcel_parallel_trends_plot", height = "400px")
+                                     )
+                            )
                           )
                         )
 )

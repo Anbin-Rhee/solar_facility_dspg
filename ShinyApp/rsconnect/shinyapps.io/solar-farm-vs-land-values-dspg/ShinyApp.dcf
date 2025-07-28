@@ -1,0 +1,12 @@
+name: ShinyApp
+title: ShinyApp
+username: solar-farm-vs-land-values-dspg
+account: solar-farm-vs-land-values-dspg
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 15130170
+bundleId: 10688813
+url: https://solar-farm-vs-land-values-dspg.shinyapps.io/ShinyApp/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

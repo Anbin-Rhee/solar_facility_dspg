@@ -140,3 +140,13 @@ h3 {
   max-width: 100%;
   height: auto;
 }
+
+/* In www/styles.css */
+
+.method-section {
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #ffffff; /* White background */
+  border: 1px solid #e3e3e3; /* Light gray border */
+  border-radius: 4px;
+}
