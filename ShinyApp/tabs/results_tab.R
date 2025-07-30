@@ -23,7 +23,9 @@ results_tab <- tabPanel("Results",
                                          p("The analysis reveals several key findings about the impact of solar facilities on county-level agricultural land prices:"),
                                          tags$ul(
                                            tags$li(
-                                             tags$strong("No Statistically Significant Effect: "), "The primary finding from both the simple and full models is that the 'DiD' coefficient is statistically insignificant. In the full model (Table 1b), the coefficient is -0.027, but we cannot confidently conclude this effect is different from zero due to its high p-value. This suggests there is no statistical evidence of a widespread, county-level impact on land prices."
+                                             tags$strong("No Statistically Significant Effect: "), 
+                                             "The primary finding from both the simple and full models is that the 'DiD' coefficient is statistically insignificant. In the full model (Table 1b), the coefficient is -0.027, but we cannot confidently conclude this effect is different from zero due to its high p-value. ",
+                                             tags$b("This suggests there is no statistical evidence of a widespread, county-level impact on land prices.")
                                            ),
                                            tags$li(
                                              tags$strong("Robust and Stable Results: "), "The main finding is highly robust. The 'DiD' coefficient remains small and insignificant even after adding numerous demographic and agricultural control variables. Furthermore, the Adjusted R-squared decreases slightly in the full model, indicating that these controls add little explanatory power and do not alter the core conclusion."

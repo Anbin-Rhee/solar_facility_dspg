@@ -110,13 +110,6 @@ methods_tab <- tabPanel("Methods",
                                            tags$li(tags$strong("Crop Yields (Corn, Soybeans):"), " Serve as a direct proxy for the intrinsic quality and productivity of agricultural land within the county.")
                                          )
                                      ),
-                                     hr(),
-                                     
-                                     div(class = "method-section",
-                                         h4(tags$strong("Parallel Trends Assumption")),
-                                         p("A critical assumption of the DiD model is that treatment and control counties followed similar trends in land value prior to USSF development. The plot below visualizes this trend."),
-                                         plotOutput("county_parallel_trends_plot", height = "400px")
-                                     )
                             ),
                             
                             
@@ -199,10 +192,14 @@ methods_tab <- tabPanel("Methods",
                                                         tags$td("Control")
                                                       ),
                                                       tags$tr(
-                                                        tags$td(withMathJax("Fixed Effects \\(\\mu_i, \\lambda_c, \\tau_t\\)")),
-                                                        tags$td("Categorical controls for each individual parcel (i), the county/locality (c), and the year of sale (t). The parcel fixed effect accounts for all time-invariant characteristics like land cover and soil quality."),
+                                                        tags$td(withMathJax("Fixed Effects: \\(\\mu_i\\) (Land Cover), \\(\\lambda_c\\) (County), \\(\\tau_t\\) (Year)")),
+                                                        tags$td("Categorical controls included in the model:\n
+           • \\(\\mu_i\\): Land cover fixed effect — controls for parcel-level land cover classification (e.g., cropland, pasture).\n
+           • \\(\\lambda_c\\): County fixed effect — accounts for unobserved differences across counties (e.g., zoning policies).\n
+           • \\(\\tau_t\\): Year fixed effect — captures time-specific effects (e.g., inflation, market shocks)."),
                                                         tags$td("Fixed Effects")
                                                       )
+                                                      
                                                     )
                                          )
                                      ),
@@ -241,12 +238,6 @@ methods_tab <- tabPanel("Methods",
                                            tags$li(tags$strong("Zonal Statistics:"), " Identifying the single most common (modal) land cover category for each parcel."),
                                            tags$li(tags$strong("Final Classification:"), " Assigning the modal category to the parcel for use in the model.")
                                          )
-                                     ),
-                                     hr(),
-                                     div(class = "method-section",
-                                         h4(tags$strong("Parallel Trends Assumption")),
-                                         p("A key assumption is that, in the absence of solar facilities, the relationship between land price and distance to future facility sites should be stable over time. This can be visualized by plotting the pre-treatment trends."),
-                                         plotOutput("parcel_parallel_trends_plot", height = "400px")
                                      )
                             )
                           )

@@ -3,7 +3,7 @@ library(fixest)
 library(tidyverse)
 
 # Read in data
-data <- read_csv("data/merged_data.csv")
+data <- read_csv("data/county_level_merged_data.csv")
 
 # Prepare and clean data
 datax <- data %>% 
