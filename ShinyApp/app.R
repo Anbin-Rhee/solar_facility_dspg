@@ -248,23 +248,21 @@ server <- function(input, output, session) {
   output$county_did_equation <- renderUI({
     withMathJax(
       p('$$
-      \\begin{aligned}
-      \\log(Price_{ct}) = \\beta_0 
-      & + \\beta_1 DiD_{ct} 
-      + \\beta_2 Population_{ct} 
-      + \\beta_3 TotalHousing_{ct} \\\\
-      & + \\beta_4 OccupiedHousing_{ct}
-      + \\beta_5 VacantHousing_{ct}
-      + \\beta_6 AvgHouseAge_{ct} \\\\
-      & + \\beta_7 CornYield_{ct}
-      + \\beta_8 SoybeansYield_{ct}
-      + \\gamma_c 
-      + \\delta_t 
-      + \\epsilon_{ct}
-      \\end{aligned}
-      $$')
+    \\begin{aligned}
+    \\log(\\text{Price per acre}_{ct}) = \\beta_0 
+    &+ \\beta_1 \\text{DiD}_{ct} 
+    + \\beta_2 \\log(\\text{Population}_{ct}) 
+    + \\beta_3 \\log(\\text{TotalHousing}_{ct}) \\\\
+    &+ \\beta_4 \\log(\\text{Vacant}_{ct})
+    + \\beta_5 \\log(\\text{AvgHouseAge}_{ct})
+    + \\beta_6 \\log(\\text{Corn}_{ct})
+    + \\beta_7 \\log(\\text{Soybeans}_{ct}) \\\\
+    &+ \\gamma_c + \\delta_t + \\epsilon_{ct}
+    \\end{aligned}
+    $$')
     )
   })
+  
   
   output$parcel_did_equation <- renderUI({
     withMathJax(

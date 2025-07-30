@@ -23,7 +23,6 @@ methods_tab <- tabPanel("Methods",
                                      ),
                                      div(class = "method-section",
                                          h4(tags$strong("Variable Definitions")),
-                                         # This table is now updated for consistent formatting
                                          tags$table(class = "table table-striped table-hover",
                                                     tags$thead(
                                                       tags$tr(
@@ -39,48 +38,43 @@ methods_tab <- tabPanel("Methods",
                                                         tags$td("Dependent Variable")
                                                       ),
                                                       tags$tr(
-                                                        tags$td(withMathJax("\\(\\text{DiD}\\)")),
-                                                        tags$td("Indicator equal to 1 for a county in a year after its first USSF is commissioned."),
+                                                        tags$td(withMathJax("\\(\\text{DiD}_{ct}\\)")),
+                                                        tags$td("Indicator equal to 1 for a county in a year after its first utility-scale solar facility is commissioned."),
                                                         tags$td("Key Independent Variable")
                                                       ),
                                                       tags$tr(
-                                                        tags$td(withMathJax("\\(\\text{Population}\\)")),
-                                                        tags$td("Total county population."),
+                                                        tags$td(withMathJax("\\(\\log(\\text{Population}_{ct})\\)")),
+                                                        tags$td("Total county population (logged)."),
                                                         tags$td("Control")
                                                       ),
                                                       tags$tr(
-                                                        tags$td(withMathJax("\\(\\text{TotalHousing}\\)")),
-                                                        tags$td("Total number of housing units in the county."),
+                                                        tags$td(withMathJax("\\(\\log(\\text{TotalHousing}_{ct})\\)")),
+                                                        tags$td("Total number of housing units in the county (logged)."),
                                                         tags$td("Control")
                                                       ),
                                                       tags$tr(
-                                                        tags$td(withMathJax("\\(\\text{OccupiedHousing}\\)")),
-                                                        tags$td("Number of occupied housing units in the county."),
+                                                        tags$td(withMathJax("\\(\\log(\\text{Vacant}_{ct})\\)")),
+                                                        tags$td("Number of vacant housing units in the county (logged)."),
                                                         tags$td("Control")
                                                       ),
                                                       tags$tr(
-                                                        tags$td(withMathJax("\\(\\text{VacantHousing}\\)")),
-                                                        tags$td("Number of vacant housing units in the county."),
+                                                        tags$td(withMathJax("\\(\\log(\\text{AvgHouseAge}_{ct})\\)")),
+                                                        tags$td("Average age of housing units in the county (logged)."),
                                                         tags$td("Control")
                                                       ),
                                                       tags$tr(
-                                                        tags$td(withMathJax("\\(\\text{AvgHouseAge}\\)")),
-                                                        tags$td("Average age of housing units in the county."),
+                                                        tags$td(withMathJax("\\(\\log(\\text{Corn}_{ct})\\)")),
+                                                        tags$td("County-level corn yield (logged), used as a proxy for agricultural land quality."),
                                                         tags$td("Control")
                                                       ),
                                                       tags$tr(
-                                                        tags$td(withMathJax("\\(\\text{CornYield}\\)")),
-                                                        tags$td("County-level corn yield, as a proxy for agricultural land quality."),
-                                                        tags$td("Control")
-                                                      ),
-                                                      tags$tr(
-                                                        tags$td(withMathJax("\\(\\text{SoybeansYield}\\)")),
-                                                        tags$td("County-level soybeans yield, as a proxy for agricultural land quality."),
+                                                        tags$td(withMathJax("\\(\\log(\\text{Soybeans}_{ct})\\)")),
+                                                        tags$td("County-level soybeans yield (logged), used as a proxy for agricultural land quality."),
                                                         tags$td("Control")
                                                       ),
                                                       tags$tr(
                                                         tags$td(withMathJax("Fixed Effects \\(\\gamma_c, \\delta_t\\)")),
-                                                        tags$td("Categorical controls for each county (c) and each year (t) in the dataset."),
+                                                        tags$td("Categorical controls for each county (\\(\\gamma_c\\)) and each year (\\(\\delta_t\\)) in the dataset."),
                                                         tags$td("Fixed Effects")
                                                       )
                                                     )
