@@ -5,7 +5,7 @@ account: solar-farm-vs-land-values-dspg
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 15130170
-bundleId: 10697657
+bundleId: 10699866
 url: https://solar-farm-vs-land-values-dspg.shinyapps.io/ShinyApp/
 version: 1
 asMultiple: FALSE

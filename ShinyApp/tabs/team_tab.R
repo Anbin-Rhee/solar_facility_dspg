@@ -53,7 +53,7 @@ team_tab <- tabPanel(
     tags$div(style = "display: flex; align-items: flex-start; margin-bottom: 40px;",
              tags$div(
                style = "flex: 0 0 250px; text-align: center; padding-right: 20px;",
-               tags$img(src = "Anbin_Rhee.jpeg", style = "border-radius: 10px; max-width: 250px;")
+               tags$img(src = "anbin_headshot.JPG", style = "border-radius: 10px; max-width: 250px;")
              ),
              tags$div(
                style = "flex: 1;",
