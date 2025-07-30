@@ -1,10 +1,10 @@
 library(dplyr)
 library(tidyverse)
-install.packages("fixest")
+#install.packages("fixest")
 library(fixest)
 
 
-final_va_mod_parcels <- readRDS("clean_data/final_parcel_data.rds")
+final_va_mod_parcels <- readRDS("C:\\Users\\altyyevaa\\Documents\\solar_facility_dspg\\clean_data\\final_parcel_data.rds")
 View(final_va_mod_parcels)
 
 

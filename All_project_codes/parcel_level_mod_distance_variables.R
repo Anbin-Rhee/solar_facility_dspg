@@ -371,6 +371,81 @@ dist <- st_distance(parcels_with_distance_clean, p, by_element = TRUE)
 parcels_with_distance_clean$dist_parcel_to_line <- as.numeric(dist) * 0.000621371
 View(parcels_with_distance_clean)
 
+#--------------------------------------------------------------------------
+#VISUALIZING THE TRANSMISSION LINES
+# Add this code to the end of your script
+library(ggplot2)
+
+# First, make sure you have a filtered data frame of just the VA transmission lines
+# This code should already be in your script from a previous step
+va_boundary <- tigris::states(cb = TRUE) %>% filter(NAME == "Virginia")
+va_boundary_proj <- st_transform(va_boundary, crs = st_crs(parcels_with_distance_clean))
+lines_va <- st_filter(transmission_lines_proj, va_boundary_proj)
+
+
+# Now, create the plot
+
+# Make sure you have the necessary libraries
+library(leaflet)
+
+# 1. Create a color palette function for the parcels
+# This will map the 'dist_parcel_to_line' values to the "YlGnBu" color scheme.
+pal <- colorNumeric(
+  palette = "YlGnBu",
+  domain = parcels_with_distance_clean$dist_parcel_to_line,
+  reverse = TRUE # Makes lower values (closer distances) lighter in color
+)
+
+# 2. Create the interactive map object
+interactive_map <- leaflet() %>%
+  # Add a clean base map layer
+  addProviderTiles(providers$CartoDB.Positron, group = "Base Map") %>%
+  
+  # Add the transmission lines layer
+  addPolylines(
+    data = lines_va,
+    color = "green",
+    weight = 2,
+    opacity = 0.9,
+    # Basic popup for the lines
+    popup = ~paste("Transmission Line"),
+    group = "Transmission Lines"
+  ) %>%
+  
+  # Add the parcels layer
+  addPolygons(
+    data = parcels_with_distance_clean,
+    # Set the fill color using the palette function we created
+    fillColor = ~pal(dist_parcel_to_line),
+    fillOpacity = 0.7,
+    # Remove parcel borders for better performance and a cleaner look
+    stroke = FALSE, 
+    # Create informative popups that appear on click
+    popup = ~paste0(
+      "<b>Parcel ID:</b> ", PARCELID, "<br>",
+      "<b>Distance to Line:</b> ", round(dist_parcel_to_line, 3), " miles<br>",
+      "<b>Price Per Acre:</b> $", prettyNum(round(per_acre, 0), big.mark = ",")
+    ),
+    group = "Parcels"
+  ) %>%
+  
+  # Add a legend to explain the parcel colors
+  addLegend(
+    pal = pal,
+    values = parcels_with_distance_clean$dist_parcel_to_line,
+    title = "Distance (miles)",
+    position = "bottomright"
+  ) %>%
+  
+  # Add a layer control box to toggle layers on and off
+  addLayersControl(
+    overlayGroups = c("Parcels", "Transmission Lines"),
+    options = layersControlOptions(collapsed = FALSE)
+  )
+
+# 3. Display the map
+interactive_map
+
 
 
 # Computing the Distance between Solar Facilities and Transmission --------
