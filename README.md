@@ -7,6 +7,8 @@ This repository contains data, scripts, and a Shiny app developed for the **2025
 ## 📁 Repository Structure
 
 solar_facility_dspg/
+
+
 ├── All_project_codes/     - All data cleaning, merging, and regression scripts  
 ├── clean_data/            - Cleaned datasets (CSV, shapefiles, RDS) for analysis  
 ├── raw_data/              - Raw, unprocessed datasets from public/state sources  
